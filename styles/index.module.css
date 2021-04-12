@@ -1,0 +1,73 @@
+.icons {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.notfound {
+    width: 100%;
+    place-items: center;
+    text-align: center;
+}
+.notfound svg {
+    --size: 14rem;
+    width: var(--size);
+    height: var(--size);
+}
+.notfound h1 {
+    font-size: 5rem;
+    opacity: 0.4;
+    font-weight: 700;
+}
+.notfound h3 {
+    font-size: 3rem;
+}
+.notfound span {
+    display: inline;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.notfound span a {
+    display: inline;
+    font-weight: 600;
+}
+
+.loadmore {
+    width: 100%;
+    padding: 2rem 0;
+    display: grid;
+    place-items: center;
+}
+.loadmore button {
+    all: unset;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0.7em 4em;
+    gap: 0.5em;
+    border-radius: 0.4rem;
+    border: 0.2rem solid rgb(255, 215, 0);
+    font-size: 1.6rem;
+    background: linear-gradient(61deg, rgba(255, 222, 0, 1) 18%, rgba(255, 226, 0, 1) 100%);
+    transition: all var(--time);
+}
+.loadmore button svg {
+    --size: 2rem;
+    min-width: var(--size);
+    height: var(--size);
+}
+.loadmore button:active {
+    filter: drop-shadow(0 1px 5px rgba(255, 215, 0, 0.8));
+}
+
+@media only screen and (max-width: 800px) {
+    .icons {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .loadmore button {
+        font-size: 1rem;
+    }
+}

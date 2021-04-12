@@ -1,0 +1,160 @@
+.navbar {
+    width: 100%;
+    padding: 1.4rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar svg {
+    --size: 3rem;
+    width: var(--size);
+    height: var(--size);
+    fill: var(--text);
+}
+.navbar span {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    opacity: 0.94;
+    text-shadow: 0 0 2px #1e3b8a42;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.links a {
+    display: flex;
+    align-items: center;
+    transition: opacity var(--time);
+}
+.links a:hover {
+    opacity: 0.7;
+}
+.links a span {
+    font-size: 1rem;
+}
+.links a svg {
+    --size: 1.6rem;
+    width: var(--size);
+    height: var(--size);
+    color: var(--text);
+}
+.links a:first-of-type svg {
+    fill: none;
+}
+.links a:last-of-type svg {
+    --size: 1.3rem;
+}
+
+.header {
+    width: 100%;
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.header h1 {
+    font-size: 2.8rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+.header h1 span:last-of-type {
+    font-size: 2.4rem;
+    opacity: 0.6;
+}
+.header::before {
+    content: '';
+    width: 360px;
+    height: 360px;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 10%;
+    background-color: rgba(255, 255, 255, 0.377);
+    mask-image: url(/supacon.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transform: rotateZ(30deg);
+    z-index: -1;
+}
+
+.stats {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.stats span {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.stats span svg {
+    --size: 1.6rem;
+    min-width: var(--size);
+    height: var(--size);
+    max-width: var(--size);
+    color: #1e3b8a9a;
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar span {
+        font-size: 1.6rem;
+    }
+
+    .navbar svg {
+        --size: 2.2rem;
+    }
+
+    .links {
+        gap: 1rem;
+    }
+    .links a:hover {
+        opacity: initial;
+    }
+    .links a:active {
+        opacity: 0.7;
+    }
+    .links a span {
+        display: none;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .stats span {
+        font-size: 0.8rem;
+    }
+    .stats span svg {
+        --size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .header {
+        padding: 2rem;
+        align-items: center;
+        text-align: center;
+    }
+    .header h1 {
+        font-size: 2rem;
+    }
+    .header h1 span:last-of-type {
+        font-size: 1.6rem;
+    }
+    .header::before {
+        left: 10%;
+        width: 200px;
+        height: 200px;
+    }
+}

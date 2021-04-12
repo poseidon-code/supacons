@@ -1,0 +1,28 @@
+.search {
+    width: 100%;
+    padding: 1.5rem 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.search svg {
+    --size: 2rem;
+    width: var(--size);
+    height: var(--size);
+}
+
+.search input {
+    margin-left: 1.4rem;
+    color: var(--text);
+    height: 100%;
+    font-size: 1.2rem;
+    width: 100%;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+.search ::placeholder {
+    color: var(--text);
+    opacity: 0.5;
+}

@@ -1,16 +1,62 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+    font-size: 16px;
+    --text: #1e3a8a;
+    --time: 200ms;
 }
 
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* ::-webkit-scrollbar {
+    display: none;
+} */
+
+body {
+    width: 100%;
+    position: relative;
+    font-weight: 600;
+}
+
+a {
+    all: unset;
+    display: block;
+    cursor: pointer;
+    color: inherit;
+}
+
+.container {
+    width: 100%;
+    color: var(--text);
+}
+
+.wrapper {
+    width: 92%;
+    margin: 0 auto;
+}
+
+.break {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(255, 215, 0);
+}
+
+.rule {
+    width: 2px;
+    height: 2rem;
+    background-color: rgb(255, 215, 0);
+}
+
+.badge {
+    padding: 1px 6px;
+    pointer-events: none;
+    border-radius: 3px;
+    background-color: #1e3b8a63;
+    font-weight: 700;
 }

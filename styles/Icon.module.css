@@ -1,0 +1,77 @@
+.icon {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 0.12rem solid #1e3b8a3b;
+    flex-grow: 2;
+    width: 250px;
+}
+
+.svg {
+    padding: 1rem;
+    display: grid;
+    place-items: center;
+    opacity: 0.85;
+}
+.svg svg {
+    --size: 4rem;
+    width: var(--size);
+    height: var(--size);
+    color: #162961;
+}
+.svg svg g path:first-of-type {
+    color: #1629615b;
+}
+
+.copy {
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.copy button {
+    all: unset;
+    gap: 0.5rem;
+    width: 100%;
+    display: flex;
+    padding: 0.6rem 1rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 0.4rem;
+    background-color: #1e3b8a11;
+    transition: all var(--time);
+}
+.copy button:hover {
+    background-color: #1e3b8a1a;
+}
+.copy button:active {
+    background-color: #1e3b8a2c;
+}
+.copy button svg {
+    --size: 1.4rem;
+    width: var(--size);
+    height: var(--size);
+}
+.name {
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 800px) {
+    .copy {
+        padding: 1rem;
+        padding-bottom: 0;
+        gap: 0.5rem;
+        flex-direction: column;
+    }
+    .copy button:hover {
+        background-color: #1e3b8a11;
+    }
+    .copy button:active {
+        background-color: #1e3b8a2c;
+    }
+}
