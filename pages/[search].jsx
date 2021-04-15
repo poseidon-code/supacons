@@ -24,6 +24,7 @@ const SearchedIcon = (props) => {
                         <NotFound />
                         <h1>No Icon Found !</h1>
                         <h3>Try searching again with new query.</h3>
+                        <br />
                         <span>
                             Try searching on&nbsp;
                             <a href='http://fontawesome.com' target='_blank' rel='noopener noreferrer'>

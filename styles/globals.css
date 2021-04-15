@@ -71,3 +71,9 @@ a {
     border: 0.2rem solid var(--bg-alt);
     padding: 0.4rem 1rem;
 }
+
+@media only screen and (max-width: 800px) {
+    .copy-toaster {
+        font-size: 0.9rem;
+    }
+}
