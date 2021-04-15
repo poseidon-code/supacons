@@ -3,6 +3,8 @@
 :root {
     font-size: 16px;
     --text: #1e3a8a;
+    --bg: linear-gradient(61deg, rgba(255, 222, 0, 1) 18%, rgba(255, 226, 0, 1) 100%);
+    --bg-alt: rgb(255, 215, 0);
     --time: 200ms;
 }
 
@@ -13,10 +15,6 @@
     font-family: 'Lexend', sans-serif;
     -webkit-tap-highlight-color: transparent;
 }
-
-/* ::-webkit-scrollbar {
-    display: none;
-} */
 
 body {
     width: 100%;
@@ -44,13 +42,13 @@ a {
 .break {
     width: 100%;
     height: 2px;
-    background-color: rgb(255, 215, 0);
+    background-color: var(--bg-alt);
 }
 
 .rule {
     width: 2px;
     height: 2rem;
-    background-color: rgb(255, 215, 0);
+    background-color: var(--bg-alt);
 }
 
 .badge {
@@ -68,8 +66,8 @@ a {
     font-size: 1.2rem;
     font-weight: 700;
     transform: translateX(-50%);
-    background: linear-gradient(61deg, rgba(255, 222, 0, 1) 18%, rgba(255, 226, 0, 1) 100%);
-    border-radius: 0.2rem;
-    border: 0.2rem solid rgb(255, 215, 0);
+    background: var(--bg);
+    border-radius: 0.4rem;
+    border: 0.2rem solid var(--bg-alt);
     padding: 0.4rem 1rem;
 }

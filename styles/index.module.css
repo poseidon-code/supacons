@@ -49,9 +49,9 @@
     padding: 0.7em 4em;
     gap: 0.5em;
     border-radius: 0.4rem;
-    border: 0.2rem solid rgb(255, 215, 0);
+    border: 0.2rem solid var(--bg-alt);
     font-size: 1.6rem;
-    background: linear-gradient(61deg, rgba(255, 222, 0, 1) 18%, rgba(255, 226, 0, 1) 100%);
+    background: var(--bg);
     transition: all var(--time);
 }
 .loadmore button svg {

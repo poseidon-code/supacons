@@ -3,7 +3,7 @@ import { Brand, Github, Facebook, Linkedin } from './Icons';
 
 const Footer = () => {
     return (
-        <div className='container' style={{ background: 'linear-gradient(61deg, rgba(255,222,0,1) 18%, rgba(255,226,0,1) 100%)' }}>
+        <div className='container' style={{ background: 'var(--bg)' }}>
             <div className='break' />
             <div className='wrapper'>
                 <footer className={styles.footer}>
