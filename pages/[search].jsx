@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import ICONS from '../public/icons.json';
 import Icon from '../components/Icon';
 
@@ -5,6 +7,15 @@ import styles from '../styles/index.module.css';
 import { NotFound } from '../components/Icons';
 
 const SearchedIcon = (props) => {
+    const [IsCopied, setIsCopied] = useState(false);
+
+    const copied = async () => {
+        setIsCopied(true);
+        setTimeout(() => {
+            setIsCopied(false);
+        }, 1000);
+    };
+
     return (
         <section className='container' style={{ margin: '3rem 0' }}>
             <div className='wrapper'>
@@ -24,11 +35,12 @@ const SearchedIcon = (props) => {
                 ) : (
                     <div className={styles.icons}>
                         {props.icons.map((icon, i) => (
-                            <Icon key={i} name={icon.name} type={icon.type} svg={icon.svg} />
+                            <Icon key={i} copied={copied} name={icon.name} type={icon.type} svg={icon.svg} />
                         ))}
                     </div>
                 )}
             </div>
+            {IsCopied && <span className='copy-toaster'>Icon Copied !</span>}
         </section>
     );
 };
