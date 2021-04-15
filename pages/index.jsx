@@ -11,6 +11,14 @@ const Home = (props) => {
 
     const [count, setCount] = useState(200);
     const [load, setLoad] = useState(true);
+    const [IsCopied, setIsCopied] = useState(false);
+
+    const copied = async () => {
+        setIsCopied(true);
+        setTimeout(() => {
+            setIsCopied(false);
+        }, 1000);
+    };
 
     const handleLoadMore = () => {
         setCount((p) => p + 200);
@@ -25,7 +33,7 @@ const Home = (props) => {
             <div className='wrapper'>
                 <div className={styles.icons}>
                     {icons.slice(0, count).map((icon, i) => (
-                        <Icon key={i} name={icon.name} type={icon.type} svg={icon.svg} />
+                        <Icon key={i} copied={copied} name={icon.name} type={icon.type} svg={icon.svg} />
                     ))}
                 </div>
                 {load && (
@@ -37,6 +45,7 @@ const Home = (props) => {
                     </div>
                 )}
             </div>
+            {IsCopied && <span className='copy-toaster'>Icon Copied !</span>}
         </section>
     );
 };

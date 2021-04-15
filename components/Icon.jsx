@@ -15,10 +15,12 @@ const Icon = (props) => {
 
     const copySVG = () => {
         copy(props.svg);
+        props.copied();
     };
 
     const copyJSX = () => {
         copy(props.svg.replaceAll('class=', 'className='));
+        props.copied();
     };
 
     return (
