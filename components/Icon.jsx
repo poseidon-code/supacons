@@ -1,7 +1,8 @@
 import parse from 'html-react-parser';
 import Clipboard from 'clipboard';
+import { saveAs } from 'file-saver';
 
-import { Copy } from '../components/Icons';
+import { Copy, Downlaod } from '../components/Icons';
 import styles from '../styles/Icon.module.css';
 
 const Icon = (props) => {
@@ -21,6 +22,11 @@ const Icon = (props) => {
     const copyJSX = () => {
         copy(props.svg.replaceAll('class=', 'className='));
         props.copied();
+    };
+
+    const downloadSVG = () => {
+        let blob = new Blob([props.svg], { type: 'text/plain;charset=utf-8' });
+        saveAs(blob, `${props.name}.svg`);
     };
 
     return (
@@ -47,7 +53,10 @@ const Icon = (props) => {
                     JSX
                 </button>
             </div>
-            <span className={styles.name}>{props.name}</span>
+            <span className={styles.name} onClick={downloadSVG}>
+                <Downlaod />
+                {props.name}
+            </span>
         </div>
     );
 };

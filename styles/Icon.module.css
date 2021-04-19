@@ -55,10 +55,24 @@
     height: var(--size);
 }
 .name {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
     text-align: center;
     margin-top: 1rem;
     font-weight: 500;
+    cursor: pointer;
+}
+.name svg {
+    --size: 1.6rem;
+    width: var(--size);
+    height: var(--size);
+    opacity: 0.4;
+    transition: all var(--time);
+}
+.name:hover svg {
+    opacity: 1;
 }
 
 @media only screen and (max-width: 800px) {
@@ -73,5 +87,12 @@
     }
     .copy button:active {
         background-color: #1e3b8a2c;
+    }
+
+    .name:hover svg {
+        opacity: 0.4;
+    }
+    .name:active svg {
+        opacity: 1;
     }
 }
