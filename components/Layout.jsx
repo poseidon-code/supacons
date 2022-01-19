@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Search from './Search';
 
-const Layout = (props) => {
+const Layout = props => {
     return (
         <main>
             <Head>

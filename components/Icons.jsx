@@ -58,7 +58,12 @@ export const Code = () => (
 );
 
 export const Github = () => (
-    <svg enableBackground='new 0 0 24 24' height='512' viewBox='0 0 24 24' width='512' xmlns='http://www.w3.org/2000/svg'>
+    <svg
+        enableBackground='new 0 0 24 24'
+        height='512'
+        viewBox='0 0 24 24'
+        width='512'
+        xmlns='http://www.w3.org/2000/svg'>
         <path d='m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z' />
     </svg>
 );
@@ -81,13 +86,25 @@ export const Count = () => (
 );
 
 export const Facebook = () => (
-    <svg id='Bold' enableBackground='new 0 0 24 24' height='512' viewBox='0 0 24 24' width='512' xmlns='http://www.w3.org/2000/svg'>
+    <svg
+        id='Bold'
+        enableBackground='new 0 0 24 24'
+        height='512'
+        viewBox='0 0 24 24'
+        width='512'
+        xmlns='http://www.w3.org/2000/svg'>
         <path d='m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z' />
     </svg>
 );
 
 export const Linkedin = () => (
-    <svg id='Bold' enableBackground='new 0 0 24 24' height='512' viewBox='0 0 24 24' width='512' xmlns='http://www.w3.org/2000/svg'>
+    <svg
+        id='Bold'
+        enableBackground='new 0 0 24 24'
+        height='512'
+        viewBox='0 0 24 24'
+        width='512'
+        xmlns='http://www.w3.org/2000/svg'>
         <path d='m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z' />
         <path d='m.396 7.977h4.976v16.023h-4.976z' />
         <path d='m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z' />
@@ -96,7 +113,12 @@ export const Linkedin = () => (
 
 export const MagnifyingGlass = () => (
     <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
-        <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
+        <path
+            strokeLinecap='round'
+            strokeLinejoin='round'
+            strokeWidth={2}
+            d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'
+        />
     </svg>
 );
 

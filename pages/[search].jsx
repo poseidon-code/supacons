@@ -6,7 +6,7 @@ import Icon from '../components/Icon';
 import styles from '../styles/index.module.css';
 import { NotFound } from '../components/Icons';
 
-const SearchedIcon = (props) => {
+const SearchedIcon = props => {
     const [IsCopied, setIsCopied] = useState(false);
 
     const copied = async () => {
@@ -48,13 +48,13 @@ const SearchedIcon = (props) => {
 
 export default SearchedIcon;
 
-export const getServerSideProps = async (context) => {
+export const getServerSideProps = async context => {
     const { query } = context;
 
     const Icons = JSON.parse(JSON.stringify(ICONS));
 
     const filteredIcons = Icons.filter(
-        (icon) => icon.name.toLowerCase().replace('-', '').indexOf(query.search.toLowerCase().replace('-', '')) !== -1
+        icon => icon.name.toLowerCase().replace('-', '').indexOf(query.search.toLowerCase().replace('-', '')) !== -1
     );
 
     filteredIcons.sort((a, b) => {

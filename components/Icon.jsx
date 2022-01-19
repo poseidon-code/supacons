@@ -5,8 +5,8 @@ import { saveAs } from 'file-saver';
 import { Copy, Downlaod } from '../components/Icons';
 import styles from '../styles/Icon.module.css';
 
-const Icon = (props) => {
-    const copy = (icon) => {
+const Icon = props => {
+    const copy = icon => {
         new Clipboard('#copy', {
             text: () => {
                 return icon;

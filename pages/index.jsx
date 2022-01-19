@@ -6,7 +6,7 @@ import ICONS from '../public/icons.json';
 import Icon from '../components/Icon';
 import { More } from '../components/Icons';
 
-const Home = (props) => {
+const Home = props => {
     const { icons } = props;
 
     const [count, setCount] = useState(200);
@@ -21,7 +21,7 @@ const Home = (props) => {
     };
 
     const handleLoadMore = () => {
-        setCount((p) => p + 200);
+        setCount(p => p + 200);
     };
 
     useEffect(() => {

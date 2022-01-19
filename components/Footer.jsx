@@ -22,7 +22,10 @@ const Footer = () => {
                         <a href='https://www.github.com/poseidon-code' rel='noopener noreferrer' target='_blank'>
                             <Github />
                         </a>
-                        <a href='https://www.linkedin.com/in/pritam-halder-8306741b3' rel='noopener noreferrer' target='_blank'>
+                        <a
+                            href='https://www.linkedin.com/in/pritam-halder-8306741b3'
+                            rel='noopener noreferrer'
+                            target='_blank'>
                             <Linkedin />
                         </a>
                     </div>
