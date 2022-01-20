@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from '../styles/index.module.css';
 
 import ICONS from '../public/icons.json';
@@ -12,12 +12,14 @@ const Home = props => {
     const [count, setCount] = useState(200);
     const [load, setLoad] = useState(true);
     const [IsCopied, setIsCopied] = useState(false);
+    const toast = useRef();
 
     const copied = async () => {
+        clearTimeout(toast.current);
         setIsCopied(true);
-        setTimeout(() => {
+        toast.current = setTimeout(() => {
             setIsCopied(false);
-        }, 1000);
+        }, 3000);
     };
 
     const handleLoadMore = () => {
