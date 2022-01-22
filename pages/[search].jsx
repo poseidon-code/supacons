@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 
 import ICONS from '../public/icons.json';
 import Icon from '../components/Icon';
@@ -8,12 +8,14 @@ import { NotFound } from '../components/Icons';
 
 const SearchedIcon = props => {
     const [IsCopied, setIsCopied] = useState(false);
+    const toast = useRef();
 
     const copied = async () => {
+        clearTimeout(toast.current);
         setIsCopied(true);
-        setTimeout(() => {
+        toast.current = setTimeout(() => {
             setIsCopied(false);
-        }, 1000);
+        }, 3000);
     };
 
     return (
