@@ -1,0 +1,23 @@
+@use './icons';
+@use './functions';
+@use './variables';
+
+@font-face {
+    font-family: 'Supacons';
+    src: url('../fonts/supacons-regular-400.woff2') format('woff2');
+    font-weight: 400;
+}
+
+.fa-regular {
+    &::before {
+        font: variables.$fontRegular;
+        display: inline-block;
+        text-rendering: auto;
+    }
+
+    @each $name, $glyph in icons.$generic {
+        &.fa-#{$name}::before {
+            content: functions.primary($glyph);
+        }
+    }
+}

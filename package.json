@@ -1,0 +1,21 @@
+{
+    "name": "supacons",
+    "version": "6.1.1",
+    "description": "Vanilla SVG Icons ripped from, popular Font Awesome Icon pack! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/poseidon-code/supacons"
+    },
+    "homepage": "https://supacons.netlify.app",
+    "author": "poseidon-code",
+    "license": "MIT",
+    "scripts": {
+        "start": "sass --watch sass:css",
+        "compile": "sass sass:css",
+        "build": "sass --no-source-map --style compressed css:dist",
+        "clean": "rm -rf css/* dist/*"
+    },
+    "devDependencies": {
+        "sass": "^1.51.0"
+    }
+}

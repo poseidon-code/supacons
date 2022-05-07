@@ -1,0 +1,7 @@
+@function primary($glyph) {
+    @return unquote('"') + unquote(str-insert($glyph, '\\', 1)) + unquote('"');
+}
+
+@function secondary($glyph) {
+    @return unquote('"') + unquote(str-insert($glyph, '\\', 1)) + unquote(str-insert($glyph, '\\', 1)) + unquote('"');
+}

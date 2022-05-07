@@ -1,0 +1,37 @@
+@use './icons';
+@use './functions';
+@use './variables';
+
+@font-face {
+    font-family: 'Supacons Duotone';
+    src: url('../fonts/supacons-duotone-900.woff2') format('woff2');
+    font-weight: 900;
+}
+
+.fa-duotone {
+    position: relative;
+
+    &::before,
+    &::after {
+        font: variables.$fontDuotone;
+        display: inline-block;
+        text-rendering: auto;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    @each $name, $glyph in icons.$generic {
+        &.fa-#{$name} {
+            &::before {
+                content: functions.primary($glyph);
+            }
+            &::after {
+                content: functions.secondary($glyph);
+                opacity: 0.4;
+            }
+        }
+    }
+}

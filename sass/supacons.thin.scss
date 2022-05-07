@@ -1,0 +1,23 @@
+@use './icons';
+@use './functions';
+@use './variables';
+
+@font-face {
+    font-family: 'Supacons';
+    src: url('../fonts/supacons-thin-100.woff2') format('woff2');
+    font-weight: 100;
+}
+
+.fa-thin {
+    &::before {
+        font: variables.$fontThin;
+        display: inline-block;
+        text-rendering: auto;
+    }
+
+    @each $name, $glyph in icons.$generic {
+        &.fa-#{$name}::before {
+            content: functions.primary($glyph);
+        }
+    }
+}
