@@ -1,32 +1,35 @@
-# Supacons 6 Core
+# Supacons Core
 
-Supacons 6 Core is the backbone of Supacons icons. Previously the icons were available as SVGs since
-at that time those SVGs were openly available _(needed to dug deep to find them)_ on the Font Awesome's website but,
-with the release of Font Awesome 6, they have switched to using webfonts as their primary means to showcase their
-icons on their website which made it impossible _(for now)_ to extract/scrape their site for those SVGs.
+Supacons Core is the backbone of Supacons icons. Previously the icons were available as SVGs since at that time those
+SVGs were openly available _(needed to dug deep to find them)_ on the Font Awesome's website but, with the release of
+Font Awesome 6, they have switched to using webfonts as their primary means to showcase their icons on their website
+which made it impossible _(for now)_ to extract/scrape their site for those SVGs.
 
-### Our Approach
+### Approach
 
-**Previously**, we dug deep into their website tree to scrape out those SVGs which they used to
-showcase their icons _(we used Selenium automation with Python for scrapping)_ on their website.
+**Previously**, we dug deep into their website tree to scrape out those SVGs which they used to showcase their icons
+_(we used Selenium automation with Python for scrapping)_ on their website.
 
-**Currently**, since they have switched to a font based showcase system for their website,
-we are downloading all the font files available on the website (anyone can download these, anytime)
-and create a CSS stylesheet as per their guidelines/documentation on [using icon fonts on the web using CSS pseudo-elements](https://fontawesome.com/docs/web/add-icons/pseudo-elements).
-We used Selenium automation with Python to scrape out those icon names and their unicode equivalent
-and used SASS to generate those 16,000+ CSS classes for those icons.
+**Currently**, since they have switched to a font based showcase system for their website, we are downloading all the
+font files available on the website _(anyone can download these, anytime)_ and create a CSS stylesheet as per their
+guidelines/documentation on
+[font icons on the web using CSS pseudo-elements](https://fontawesome.com/docs/web/add-icons/pseudo-elements). We used
+Selenium automation with Python to scrape out those icon names and their unicode equivalent and used SASS to generate
+those 16,000+ CSS classes for those icons.
 
-> **NOTE:** The scrapping & automation scripts made of Python with Selenium for Supacons 5 _(Font Awesome 5)_ & Supacons 6 _(Font Awesome 6)_ are private repositories at the moment, and may be made public in possible future.
+> **NOTE**\
+> The scrapping & automation scripts made of Python with Selenium for Supacons 5 _(Font Awesome 5)_ & Supacons 6 _(Font Awesome 6)_
+> are private repositories at the moment, and may be made public in possible future.
 
-| Fields                        | Status                 |
-| ----------------------------- | ---------------------- |
-| Font Awesome Version          | 6                      |
-| Font Awesome Release Version  | 6.1.1                  |
-| Supacons Version              | 5 _**(w.i.p. for 6)**_ |
-| Supacons Core Version         | 6                      |
-| Supacons Core Release Version | 6.1.1                  |
-| Scrapper Version              | 6                      |
-| Last Scrapped Date            | 07-05-2022             |
+| Fields                        | Status          |
+| ----------------------------- | --------------- |
+| Font Awesome Version          | 6               |
+| Font Awesome Release Version  | 6.1.1           |
+| Supacons Version              | 5 _**(6 WIP)**_ |
+| Supacons Core Version         | 6               |
+| Supacons Core Release Version | 6.1.1           |
+| Scrapper Version              | 6               |
+| Last Scrapped Date            | 07-05-2022      |
 
 | Fields                         | Icon Status |
 | ------------------------------ | ----------- |
@@ -34,6 +37,8 @@ and used SASS to generate those 16,000+ CSS classes for those icons.
 | Total Brand Icons              | 463         |
 | Total Icons                    | 3,587       |
 | Total Icons (all combinations) | 16,083      |
+
+---
 
 ## Table of Contents
 
@@ -52,7 +57,9 @@ and used SASS to generate those 16,000+ CSS classes for those icons.
 
 ## Usage
 
-Include the stylesheets in your website using HTML `<link rel="stylesheet">` tags. All stylesheets are compressed for minimal footprint _(provided that you use the minified versions in `dist/` folder)_. Checkout [Icons](#icons) section to select your preferred icon.
+Include the stylesheets in your website using HTML `<link rel="stylesheet">` tags. All stylesheets are compressed for
+minimal footprint _(provided that you use the minified versions in `dist/` folder)_. Checkout [Icons](#icons) section to
+select your preferred icon.
 
 ```html
 <html>
@@ -64,7 +71,9 @@ Include the stylesheets in your website using HTML `<link rel="stylesheet">` tag
 </html>
 ```
 
-Use the icons as you use a standard Font Awesome icon. The syntax of using Supacons icons is 100% similar to using Font Awesome icons. _(i.e you can actually go to [`Font Awesome 6`](https://fontawesome.com/search), pick your icon, **COPY** the `<i class="fa-solid fa-abacus"></i>` tag (for instance) and **PASTE** it in your HTML code)_
+Use the icons as you use a standard Font Awesome icon. The syntax of using Supacons icons is 100% similar to using Font
+Awesome icons. _(i.e.; you can actually go to [`Font Awesome 6`](https://fontawesome.com/search), pick your icon,
+**COPY** the `<i class="fa-solid fa-abacus"></i>` tag (for instance) and **PASTE** it in your HTML code)_
 
 ```html
 <html>
@@ -79,7 +88,8 @@ Use the icons as you use a standard Font Awesome icon. The syntax of using Supac
 
 ## Styling
 
-All the icons **(except Duotone icons)** can be styled by selecting the `<i>` tag **OR** selecting the icon classes **OR** you can specifically select the `:before` pseudo element, using your own stylesheets.
+All the icons **_(EXCEPT Duotone icons)_** can be styled by selecting the `<i>` tag **OR** selecting the icon classes
+**OR** you can specifically select the `:before` pseudo element, using your own stylesheets.
 
 ```css
 /* to set globally for all icons */
@@ -96,7 +106,9 @@ i::before {
 }
 ```
 
-To style duotone icons, you need to select both the `:before` & `:after` pseudo elements of the icon. As per the Font Awesome guidelines, there is a `opacity: 0.4` property on `:after` pseudo element which you might want to override, specific to your likeness.
+To style duotone icons, you need to select both the `:before` & `:after` pseudo elements of the icon. As per the Font
+Awesome guidelines, there is a `opacity: 0.4` property on `:after` pseudo element which you might want to override,
+specific to your likeness.
 
 ```css
 /* to set globally for all icons */
@@ -129,7 +141,8 @@ i::after {
 
 ### All
 
-Contains all the 3,587 different types of icons _(includes; solid, regular, light, thin, duotone & brands icons)_ of Font Awesome 6 Pro, altogether making a total of 16,083 icons.
+Contains all the 3,587 different types of icons _(includes; solid, regular, light, thin, duotone & brands icons)_ of
+Font Awesome 6 Pro, altogether making a total of 16,083 icons.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.all.css`
 
@@ -197,34 +210,35 @@ Contains all the 3,124 duotone icons of Font Awesome 6 Pro _(includes Pro icons)
 <link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.duotone.css" />
 ```
 
+---
+
 ## Todos
 
 -   [ ] Create Supacons 6 frontend
 -   [ ] Add some tests for Sass
--   [ ] Implement autoprefixer & postcss
--   [ ] Implement best practices for Sass
+-   [ ] Implement autoprefixer & postcss and check/fix for compilation errors
+-   [ ] Implement best practices for Sass with better modular design
 -   [ ] Implement best practices for compilation & building of Sass
+-   [ ] Maybe make a npm package for React same as that of Font Awesome
+-   [ ] **...dead already** _(maybe someone can check this box when I die 🙃)_
 
-## License
+---
+
+## [License](./LICENSE)
 
 MIT License
 
-&copy; poseidon-code 2022
+Copyright (c) 2022 poseidon-code
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit
+persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
