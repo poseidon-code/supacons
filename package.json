@@ -4,7 +4,7 @@
     "description": "Vanilla SVG Icons ripped from, popular Font Awesome Icon pack! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).",
     "repository": {
         "type": "git",
-        "url": "https://github.com/poseidon-code/supacons"
+        "url": "https://github.com/poseidon-code/supacons/tree/core"
     },
     "homepage": "https://supacons.netlify.app",
     "author": "poseidon-code",
