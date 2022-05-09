@@ -1,7 +1,14 @@
 {
     "name": "supacons",
-    "version": "0.1.0",
-    "private": true,
+    "version": "6",
+    "description": "Font Icons ripped from popular Font Awesome 6 icon pack including all Pro icons !",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/poseidon-code/supacons/tree/6.x"
+    },
+    "homepage": "https://supacons.netlify.app",
+    "author": "poseidon-code",
+    "license": "MIT",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
