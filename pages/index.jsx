@@ -1,17 +1,16 @@
 import { useEffect, useRef, useState } from 'react';
 import styles from '../styles/index.module.css';
 
-import ICONS from '../public/icons.json';
-
-import Icon from '../components/Icon';
+// import Icon from '../components/Icon';
 import { More } from '../components/Icons';
 
 const Home = props => {
-    const { icons } = props;
+    // const { icons } = props;
+    const { genericIcons, brandIcons, types } = props;
 
     const [count, setCount] = useState(200);
     const [load, setLoad] = useState(true);
-    const [IsCopied, setIsCopied] = useState(false);
+    const [isCopied, setIsCopied] = useState(false);
     const toast = useRef();
 
     const copied = async () => {
@@ -33,11 +32,20 @@ const Home = props => {
     return (
         <section className='container' style={{ margin: '3rem 0' }}>
             <div className='wrapper'>
-                <div className={styles.icons}>
+                {/* <div className={styles.icons}>
                     {icons.slice(0, count).map((icon, i) => (
                         <Icon key={i} copied={copied} name={icon.name} type={icon.type} svg={icon.svg} />
                     ))}
-                </div>
+                </div> */}
+                {Object.keys(genericIcons).map(name => {
+                    return types.map(type => (
+                        <i key={genericIcons[name] + type} className={`fa-${type} fa-${name}`}></i>
+                    ));
+                })}
+                {Object.keys(brandIcons).map(name => (
+                    <i key={brandIcons[name] + 'brands'} className={`fa-brands fa-${name}`}></i>
+                ))}
+
                 {load && (
                     <div className={styles.loadmore}>
                         <button onClick={handleLoadMore}>
@@ -47,7 +55,7 @@ const Home = props => {
                     </div>
                 )}
             </div>
-            {IsCopied && <span className='copy-toaster'>Icon Copied !</span>}
+            {isCopied && <span className='copy-toaster'>Icon Copied !</span>}
         </section>
     );
 };
@@ -55,17 +63,18 @@ const Home = props => {
 export default Home;
 
 export const getStaticProps = async () => {
-    const Icons = JSON.parse(JSON.stringify(ICONS));
+    const generic_icons = (await import('../public/generic_icons.json')).default;
+    const brand_icons = (await import('../public/brand_icons.json')).default;
 
-    Icons.sort((a, b) => {
-        if (a.name < b.name) return -1;
-        if (a.name > b.name) return 1;
-        return 0;
-    });
+    const genericIcons = JSON.parse(JSON.stringify(generic_icons));
+    const brandIcons = JSON.parse(JSON.stringify(brand_icons));
+    const types = ['solid', 'regular', 'light', 'thin', 'duotone', 'brands'];
 
     return {
         props: {
-            icons: Icons,
+            genericIcons,
+            brandIcons,
+            types,
         },
     };
 };

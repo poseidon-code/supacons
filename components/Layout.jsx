@@ -35,6 +35,7 @@ const Layout = props => {
                     content='Vanilla SVG Icons ripped from, popular FontAwesome Icon pack ! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).'
                 />
                 <meta property='twitter:image' content='/card.jpg' />
+                <link rel='stylesheet' href='https://poseidon-code.github.io/supacons/dist/supacons.all.css' />
             </Head>
             <Navbar />
             <Search />
