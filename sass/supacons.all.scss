@@ -65,6 +65,7 @@
         // special setting for duotone icons
         .fa-duotone {
             position: relative;
+            padding-left: 1em;
 
             &::before,
             &::after {
@@ -72,6 +73,7 @@
                 display: inline-block;
                 text-rendering: auto;
                 position: absolute;
+                width: 1em;
                 left: 0;
                 top: 50%;
                 transform: translateY(-50%);
