@@ -37552,12 +37552,14 @@ Total Icons                 : 3587
 
 .fa-duotone {
   position: relative;
+  padding-left: 1em;
 }
 .fa-duotone::before, .fa-duotone::after {
   font: 900 1em "Supacons Duotone";
   display: inline-block;
   text-rendering: auto;
   position: absolute;
+  width: 1em;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
