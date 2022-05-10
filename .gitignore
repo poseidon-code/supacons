@@ -2,3 +2,4 @@ node_modules/
 *.css.map
 *.html
 .directory
+.next/
