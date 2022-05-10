@@ -1,7 +1,7 @@
 {
-    "name": "supacons",
+    "name": "supacons-core",
     "version": "6.1.1",
-    "description": "Vanilla SVG Icons ripped from, popular Font Awesome Icon pack! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).",
+    "description": "Supacons Core is the backbone of Supacons icons. Font icons ripped from popular Font Awesome 6 icon pack including all Pro icons !",
     "repository": {
         "type": "git",
         "url": "https://github.com/poseidon-code/supacons/tree/core"
@@ -10,7 +10,7 @@
     "author": "poseidon-code",
     "license": "MIT",
     "scripts": {
-        "start": "sass --watch sass:css",
+        "start": "sass --no-source-map --watch sass:css",
         "compile": "sass sass:css",
         "build": "sass --no-source-map --style compressed css:dist",
         "clean": "rm -rf css/* dist/*"
