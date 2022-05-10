@@ -15,22 +15,24 @@ Total Icons                 : 3587
 }
 .fa-duotone {
   position: relative;
+  padding-left: 1.25em;
 }
 .fa-duotone::before, .fa-duotone::after {
   font: 900 1em "Supacons Duotone";
   display: inline-block;
   text-rendering: auto;
   position: absolute;
+  width: 1.25em;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
 .fa-duotone.fa-0::before {
-  content: "\48";
+  content: "\30";
 }
 .fa-duotone.fa-0::after {
-  content: "\48\48";
+  content: "\30\30";
   opacity: 0.4;
 }
 .fa-duotone.fa-00::before {
@@ -41,24 +43,24 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-1::before {
-  content: "\49";
+  content: "\31";
 }
 .fa-duotone.fa-1::after {
-  content: "\49\49";
+  content: "\31\31";
   opacity: 0.4;
 }
 .fa-duotone.fa-2::before {
-  content: "\50";
+  content: "\32";
 }
 .fa-duotone.fa-2::after {
-  content: "\50\50";
+  content: "\32\32";
   opacity: 0.4;
 }
 .fa-duotone.fa-3::before {
-  content: "\51";
+  content: "\33";
 }
 .fa-duotone.fa-3::after {
-  content: "\51\51";
+  content: "\33\33";
   opacity: 0.4;
 }
 .fa-duotone.fa-360-degrees::before {
@@ -69,52 +71,52 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-4::before {
-  content: "\52";
+  content: "\34";
 }
 .fa-duotone.fa-4::after {
-  content: "\52\52";
+  content: "\34\34";
   opacity: 0.4;
 }
 .fa-duotone.fa-5::before {
-  content: "\53";
+  content: "\35";
 }
 .fa-duotone.fa-5::after {
-  content: "\53\53";
+  content: "\35\35";
   opacity: 0.4;
 }
 .fa-duotone.fa-6::before {
-  content: "\54";
+  content: "\36";
 }
 .fa-duotone.fa-6::after {
-  content: "\54\54";
+  content: "\36\36";
   opacity: 0.4;
 }
 .fa-duotone.fa-7::before {
-  content: "\55";
+  content: "\37";
 }
 .fa-duotone.fa-7::after {
-  content: "\55\55";
+  content: "\37\37";
   opacity: 0.4;
 }
 .fa-duotone.fa-8::before {
-  content: "\56";
+  content: "\38";
 }
 .fa-duotone.fa-8::after {
-  content: "\56\56";
+  content: "\38\38";
   opacity: 0.4;
 }
 .fa-duotone.fa-9::before {
-  content: "\57";
+  content: "\39";
 }
 .fa-duotone.fa-9::after {
-  content: "\57\57";
+  content: "\39\39";
   opacity: 0.4;
 }
 .fa-duotone.fa-a::before {
-  content: "\65";
+  content: "\41";
 }
 .fa-duotone.fa-a::after {
-  content: "\65\65";
+  content: "\41\41";
   opacity: 0.4;
 }
 .fa-duotone.fa-abacus::before {
@@ -125,10 +127,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-accent-grave::before {
-  content: "\96";
+  content: "\60";
 }
 .fa-duotone.fa-accent-grave::after {
-  content: "\96\96";
+  content: "\60\60";
   opacity: 0.4;
 }
 .fa-duotone.fa-acorn::before {
@@ -307,10 +309,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-ampersand::before {
-  content: "\38";
+  content: "\26";
 }
 .fa-duotone.fa-ampersand::after {
-  content: "\38\38";
+  content: "\26\26";
   opacity: 0.4;
 }
 .fa-duotone.fa-anchor::before {
@@ -447,10 +449,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-apostrophe::before {
-  content: "\92";
+  content: "\27";
 }
 .fa-duotone.fa-apostrophe::after {
-  content: "\92\92";
+  content: "\27\27";
   opacity: 0.4;
 }
 .fa-duotone.fa-apple-core::before {
@@ -1196,17 +1198,17 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-asterisk::before {
-  content: "\42";
+  content: "\2a";
 }
 .fa-duotone.fa-asterisk::after {
-  content: "\42\42";
+  content: "\2a\2a";
   opacity: 0.4;
 }
 .fa-duotone.fa-at::before {
-  content: "\64";
+  content: "\40";
 }
 .fa-duotone.fa-at::after {
-  content: "\64\64";
+  content: "\40\40";
   opacity: 0.4;
 }
 .fa-duotone.fa-atom::before {
@@ -1280,10 +1282,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-b::before {
-  content: "\66";
+  content: "\42";
 }
 .fa-duotone.fa-b::after {
-  content: "\66\66";
+  content: "\42\42";
   opacity: 0.4;
 }
 .fa-duotone.fa-baby::before {
@@ -2582,45 +2584,45 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-bracket-curly::before {
-  content: "\123";
+  content: "\7b";
 }
 .fa-duotone.fa-bracket-curly::after {
-  content: "\123\123";
+  content: "\7b\7b";
   opacity: 0.4;
 }
 .fa-duotone.fa-bracket-curly-right::before {
-  content: "\125";
+  content: "\7d";
 }
 .fa-duotone.fa-bracket-curly-right::after {
-  content: "\125\125";
+  content: "\7d\7d";
   opacity: 0.4;
 }
 .fa-duotone.fa-bracket-round::before {
-  content: "\40";
+  content: "\28";
 }
 .fa-duotone.fa-bracket-round::after {
-  content: "\40\40";
+  content: "\28\28";
   opacity: 0.4;
 }
 .fa-duotone.fa-bracket-round-right::before {
-  content: "\41";
+  content: "\29";
 }
 .fa-duotone.fa-bracket-round-right::after {
-  content: "\41\41";
+  content: "\29\29";
   opacity: 0.4;
 }
 .fa-duotone.fa-bracket-square::before {
-  content: "\91";
+  content: "\5b";
 }
 .fa-duotone.fa-bracket-square::after {
-  content: "\91\91";
+  content: "\5b\5b";
   opacity: 0.4;
 }
 .fa-duotone.fa-bracket-square-right::before {
-  content: "\93";
+  content: "\5d";
 }
 .fa-duotone.fa-bracket-square-right::after {
-  content: "\93\93";
+  content: "\5d\5d";
   opacity: 0.4;
 }
 .fa-duotone.fa-brackets-curly::before {
@@ -3100,10 +3102,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-c::before {
-  content: "\67";
+  content: "\43";
 }
 .fa-duotone.fa-c::after {
-  content: "\67\67";
+  content: "\43\43";
   opacity: 0.4;
 }
 .fa-duotone.fa-cabin::before {
@@ -5879,10 +5881,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-colon::before {
-  content: "\58";
+  content: "\3a";
 }
 .fa-duotone.fa-colon::after {
-  content: "\58\58";
+  content: "\3a\3a";
   opacity: 0.4;
 }
 .fa-duotone.fa-colon-sign::before {
@@ -5907,10 +5909,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-comma::before {
-  content: "\44";
+  content: "\2c";
 }
 .fa-duotone.fa-comma::after {
-  content: "\44\44";
+  content: "\2c\2c";
   opacity: 0.4;
 }
 .fa-duotone.fa-command::before {
@@ -6502,10 +6504,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-d::before {
-  content: "\68";
+  content: "\44";
 }
 .fa-duotone.fa-d::after {
-  content: "\68\68";
+  content: "\44\44";
   opacity: 0.4;
 }
 .fa-duotone.fa-dagger::before {
@@ -6943,10 +6945,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-dollar-sign::before {
-  content: "\36";
+  content: "\24";
 }
 .fa-duotone.fa-dollar-sign::after {
-  content: "\36\36";
+  content: "\24\24";
   opacity: 0.4;
 }
 .fa-duotone.fa-dolly::before {
@@ -7237,10 +7239,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-e::before {
-  content: "\69";
+  content: "\45";
 }
 .fa-duotone.fa-e::after {
-  content: "\69\69";
+  content: "\45\45";
   opacity: 0.4;
 }
 .fa-duotone.fa-ear::before {
@@ -7461,10 +7463,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-equals::before {
-  content: "\61";
+  content: "\3d";
 }
 .fa-duotone.fa-equals::after {
-  content: "\61\61";
+  content: "\3d\3d";
   opacity: 0.4;
 }
 .fa-duotone.fa-eraser::before {
@@ -7496,10 +7498,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-exclamation::before {
-  content: "\33";
+  content: "\21";
 }
 .fa-duotone.fa-exclamation::after {
-  content: "\33\33";
+  content: "\21\21";
   opacity: 0.4;
 }
 .fa-duotone.fa-expand::before {
@@ -7580,10 +7582,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-f::before {
-  content: "\70";
+  content: "\46";
 }
 .fa-duotone.fa-f::after {
-  content: "\70\70";
+  content: "\46\46";
   opacity: 0.4;
 }
 .fa-duotone.fa-face-angry::before {
@@ -9477,10 +9479,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-g::before {
-  content: "\71";
+  content: "\47";
 }
 .fa-duotone.fa-g::after {
-  content: "\71\71";
+  content: "\47\47";
   opacity: 0.4;
 }
 .fa-duotone.fa-galaxy::before {
@@ -9890,10 +9892,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-greater-than::before {
-  content: "\62";
+  content: "\3e";
 }
 .fa-duotone.fa-greater-than::after {
-  content: "\62\62";
+  content: "\3e\3e";
   opacity: 0.4;
 }
 .fa-duotone.fa-greater-than-equal::before {
@@ -10051,10 +10053,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-h::before {
-  content: "\72";
+  content: "\48";
 }
 .fa-duotone.fa-h::after {
-  content: "\72\72";
+  content: "\48\48";
   opacity: 0.4;
 }
 .fa-duotone.fa-h1::before {
@@ -10520,10 +10522,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-hashtag::before {
-  content: "\35";
+  content: "\23";
 }
 .fa-duotone.fa-hashtag::after {
-  content: "\35\35";
+  content: "\23\23";
   opacity: 0.4;
 }
 .fa-duotone.fa-hashtag-lock::before {
@@ -11360,17 +11362,17 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-hyphen::before {
-  content: "\45";
+  content: "\2d";
 }
 .fa-duotone.fa-hyphen::after {
-  content: "\45\45";
+  content: "\2d\2d";
   opacity: 0.4;
 }
 .fa-duotone.fa-i::before {
-  content: "\73";
+  content: "\49";
 }
 .fa-duotone.fa-i::after {
-  content: "\73\73";
+  content: "\49\49";
   opacity: 0.4;
 }
 .fa-duotone.fa-i-cursor::before {
@@ -11633,10 +11635,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-j::before {
-  content: "\74";
+  content: "\4a";
 }
 .fa-duotone.fa-j::after {
-  content: "\74\74";
+  content: "\4a\4a";
   opacity: 0.4;
 }
 .fa-duotone.fa-jack-o-lantern::before {
@@ -11710,10 +11712,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-k::before {
-  content: "\75";
+  content: "\4b";
 }
 .fa-duotone.fa-k::after {
-  content: "\75\75";
+  content: "\4b\4b";
   opacity: 0.4;
 }
 .fa-duotone.fa-kaaba::before {
@@ -11871,10 +11873,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-l::before {
-  content: "\76";
+  content: "\4c";
 }
 .fa-duotone.fa-l::after {
-  content: "\76\76";
+  content: "\4c\4c";
   opacity: 0.4;
 }
 .fa-duotone.fa-lacrosse-stick::before {
@@ -12137,10 +12139,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-less-than::before {
-  content: "\60";
+  content: "\3c";
 }
 .fa-duotone.fa-less-than::after {
-  content: "\60\60";
+  content: "\3c\3c";
   opacity: 0.4;
 }
 .fa-duotone.fa-less-than-equal::before {
@@ -12606,10 +12608,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-m::before {
-  content: "\77";
+  content: "\4d";
 }
 .fa-duotone.fa-m::after {
-  content: "\77\77";
+  content: "\4d\4d";
   opacity: 0.4;
 }
 .fa-duotone.fa-mace::before {
@@ -13684,10 +13686,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-n::before {
-  content: "\78";
+  content: "\4e";
 }
 .fa-duotone.fa-n::after {
-  content: "\78\78";
+  content: "\4e\4e";
   opacity: 0.4;
 }
 .fa-duotone.fa-naira-sign::before {
@@ -13845,10 +13847,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-o::before {
-  content: "\79";
+  content: "\4f";
 }
 .fa-duotone.fa-o::after {
-  content: "\79\79";
+  content: "\4f\4f";
   opacity: 0.4;
 }
 .fa-duotone.fa-object-exclude::before {
@@ -14104,10 +14106,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-p::before {
-  content: "\80";
+  content: "\50";
 }
 .fa-duotone.fa-p::after {
-  content: "\80\80";
+  content: "\50\50";
   opacity: 0.4;
 }
 .fa-duotone.fa-page::before {
@@ -14622,17 +14624,17 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-percent::before {
-  content: "\37";
+  content: "\25";
 }
 .fa-duotone.fa-percent::after {
-  content: "\37\37";
+  content: "\25\25";
   opacity: 0.4;
 }
 .fa-duotone.fa-period::before {
-  content: "\46";
+  content: "\2e";
 }
 .fa-duotone.fa-period::after {
-  content: "\46\46";
+  content: "\2e\2e";
   opacity: 0.4;
 }
 .fa-duotone.fa-person::before {
@@ -15273,10 +15275,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-pipe::before {
-  content: "\124";
+  content: "\7c";
 }
 .fa-duotone.fa-pipe::after {
-  content: "\124\124";
+  content: "\7c\7c";
   opacity: 0.4;
 }
 .fa-duotone.fa-pipe-circle-check::before {
@@ -15525,10 +15527,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-plus::before {
-  content: "\43";
+  content: "\2b";
 }
 .fa-duotone.fa-plus::after {
-  content: "\43\43";
+  content: "\2b\2b";
   opacity: 0.4;
 }
 .fa-duotone.fa-plus-large::before {
@@ -15763,10 +15765,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-q::before {
-  content: "\81";
+  content: "\51";
 }
 .fa-duotone.fa-q::after {
-  content: "\81\81";
+  content: "\51\51";
   opacity: 0.4;
 }
 .fa-duotone.fa-qrcode::before {
@@ -15777,10 +15779,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-question::before {
-  content: "\63";
+  content: "\3f";
 }
 .fa-duotone.fa-question::after {
-  content: "\63\63";
+  content: "\3f\3f";
   opacity: 0.4;
 }
 .fa-duotone.fa-quote-left::before {
@@ -15805,10 +15807,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-r::before {
-  content: "\82";
+  content: "\52";
 }
 .fa-duotone.fa-r::after {
-  content: "\82\82";
+  content: "\52\52";
   opacity: 0.4;
 }
 .fa-duotone.fa-rabbit::before {
@@ -16428,10 +16430,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-s::before {
-  content: "\83";
+  content: "\53";
 }
 .fa-duotone.fa-s::after {
-  content: "\83\83";
+  content: "\53\53";
   opacity: 0.4;
 }
 .fa-duotone.fa-sack::before {
@@ -16771,10 +16773,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-semicolon::before {
-  content: "\59";
+  content: "\3b";
 }
 .fa-duotone.fa-semicolon::after {
-  content: "\59\59";
+  content: "\3b\3b";
   opacity: 0.4;
 }
 .fa-duotone.fa-send-back::before {
@@ -17401,10 +17403,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-slash-forward::before {
-  content: "\47";
+  content: "\2f";
 }
 .fa-duotone.fa-slash-forward::after {
-  content: "\47\47";
+  content: "\2f\2f";
   opacity: 0.4;
 }
 .fa-duotone.fa-sleigh::before {
@@ -18962,10 +18964,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-t::before {
-  content: "\84";
+  content: "\54";
 }
 .fa-duotone.fa-t::after {
-  content: "\84\84";
+  content: "\54\54";
   opacity: 0.4;
 }
 .fa-duotone.fa-table::before {
@@ -19487,10 +19489,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-tilde::before {
-  content: "\126";
+  content: "\7e";
 }
 .fa-duotone.fa-tilde::after {
-  content: "\126\126";
+  content: "\7e\7e";
   opacity: 0.4;
 }
 .fa-duotone.fa-timeline::before {
@@ -20397,10 +20399,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-u::before {
-  content: "\85";
+  content: "\55";
 }
 .fa-duotone.fa-u::after {
-  content: "\85\85";
+  content: "\55\55";
   opacity: 0.4;
 }
 .fa-duotone.fa-ufo::before {
@@ -21069,10 +21071,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-v::before {
-  content: "\86";
+  content: "\56";
 }
 .fa-duotone.fa-v::after {
-  content: "\86\86";
+  content: "\56\56";
   opacity: 0.4;
 }
 .fa-duotone.fa-vacuum::before {
@@ -21356,10 +21358,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-w::before {
-  content: "\87";
+  content: "\57";
 }
 .fa-duotone.fa-w::after {
-  content: "\87\87";
+  content: "\57\57";
   opacity: 0.4;
 }
 .fa-duotone.fa-waffle::before {
@@ -21825,10 +21827,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-x::before {
-  content: "\88";
+  content: "\58";
 }
 .fa-duotone.fa-x::after {
-  content: "\88\88";
+  content: "\58\58";
   opacity: 0.4;
 }
 .fa-duotone.fa-x-ray::before {
@@ -21867,10 +21869,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-y::before {
-  content: "\89";
+  content: "\59";
 }
 .fa-duotone.fa-y::after {
-  content: "\89\89";
+  content: "\59\59";
   opacity: 0.4;
 }
 .fa-duotone.fa-yen-sign::before {
@@ -21888,10 +21890,10 @@ Total Icons                 : 3587
   opacity: 0.4;
 }
 .fa-duotone.fa-z::before {
-  content: "\90";
+  content: "\5a";
 }
 .fa-duotone.fa-z::after {
-  content: "\90\90";
+  content: "\5a\5a";
   opacity: 0.4;
 }
 

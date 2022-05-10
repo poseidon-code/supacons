@@ -19,49 +19,49 @@ Total Icons                 : 3587
   text-rendering: auto;
 }
 .fa-thin.fa-0::before {
-  content: "\48";
+  content: "\30";
 }
 .fa-thin.fa-00::before {
   content: "\e467";
 }
 .fa-thin.fa-1::before {
-  content: "\49";
+  content: "\31";
 }
 .fa-thin.fa-2::before {
-  content: "\50";
+  content: "\32";
 }
 .fa-thin.fa-3::before {
-  content: "\51";
+  content: "\33";
 }
 .fa-thin.fa-360-degrees::before {
   content: "\e2dc";
 }
 .fa-thin.fa-4::before {
-  content: "\52";
+  content: "\34";
 }
 .fa-thin.fa-5::before {
-  content: "\53";
+  content: "\35";
 }
 .fa-thin.fa-6::before {
-  content: "\54";
+  content: "\36";
 }
 .fa-thin.fa-7::before {
-  content: "\55";
+  content: "\37";
 }
 .fa-thin.fa-8::before {
-  content: "\56";
+  content: "\38";
 }
 .fa-thin.fa-9::before {
-  content: "\57";
+  content: "\39";
 }
 .fa-thin.fa-a::before {
-  content: "\65";
+  content: "\41";
 }
 .fa-thin.fa-abacus::before {
   content: "\f640";
 }
 .fa-thin.fa-accent-grave::before {
-  content: "\96";
+  content: "\60";
 }
 .fa-thin.fa-acorn::before {
   content: "\f6ae";
@@ -139,7 +139,7 @@ Total Icons                 : 3587
   content: "\f8a1";
 }
 .fa-thin.fa-ampersand::before {
-  content: "\38";
+  content: "\26";
 }
 .fa-thin.fa-anchor::before {
   content: "\f13d";
@@ -199,7 +199,7 @@ Total Icons                 : 3587
   content: "\e2df";
 }
 .fa-thin.fa-apostrophe::before {
-  content: "\92";
+  content: "\27";
 }
 .fa-thin.fa-apple-core::before {
   content: "\e08f";
@@ -520,10 +520,10 @@ Total Icons                 : 3587
   content: "\e4c2";
 }
 .fa-thin.fa-asterisk::before {
-  content: "\42";
+  content: "\2a";
 }
 .fa-thin.fa-at::before {
-  content: "\64";
+  content: "\40";
 }
 .fa-thin.fa-atom::before {
   content: "\f5d2";
@@ -556,7 +556,7 @@ Total Icons                 : 3587
   content: "\f6b3";
 }
 .fa-thin.fa-b::before {
-  content: "\66";
+  content: "\42";
 }
 .fa-thin.fa-baby::before {
   content: "\f77c";
@@ -1114,22 +1114,22 @@ Total Icons                 : 3587
   content: "\f438";
 }
 .fa-thin.fa-bracket-curly::before {
-  content: "\123";
+  content: "\7b";
 }
 .fa-thin.fa-bracket-curly-right::before {
-  content: "\125";
+  content: "\7d";
 }
 .fa-thin.fa-bracket-round::before {
-  content: "\40";
+  content: "\28";
 }
 .fa-thin.fa-bracket-round-right::before {
-  content: "\41";
+  content: "\29";
 }
 .fa-thin.fa-bracket-square::before {
-  content: "\91";
+  content: "\5b";
 }
 .fa-thin.fa-bracket-square-right::before {
-  content: "\93";
+  content: "\5d";
 }
 .fa-thin.fa-brackets-curly::before {
   content: "\f7ea";
@@ -1336,7 +1336,7 @@ Total Icons                 : 3587
   content: "\e3e4";
 }
 .fa-thin.fa-c::before {
-  content: "\67";
+  content: "\43";
 }
 .fa-thin.fa-cabin::before {
   content: "\e46d";
@@ -2527,7 +2527,7 @@ Total Icons                 : 3587
   content: "\f51e";
 }
 .fa-thin.fa-colon::before {
-  content: "\58";
+  content: "\3a";
 }
 .fa-thin.fa-colon-sign::before {
   content: "\e140";
@@ -2539,7 +2539,7 @@ Total Icons                 : 3587
   content: "\e003";
 }
 .fa-thin.fa-comma::before {
-  content: "\44";
+  content: "\2c";
 }
 .fa-thin.fa-command::before {
   content: "\e142";
@@ -2794,7 +2794,7 @@ Total Icons                 : 3587
   content: "\e403";
 }
 .fa-thin.fa-d::before {
-  content: "\68";
+  content: "\44";
 }
 .fa-thin.fa-dagger::before {
   content: "\f6cb";
@@ -2983,7 +2983,7 @@ Total Icons                 : 3587
   content: "\f6d4";
 }
 .fa-thin.fa-dollar-sign::before {
-  content: "\36";
+  content: "\24";
 }
 .fa-thin.fa-dolly::before {
   content: "\f472";
@@ -3109,7 +3109,7 @@ Total Icons                 : 3587
   content: "\f6d9";
 }
 .fa-thin.fa-e::before {
-  content: "\69";
+  content: "\45";
 }
 .fa-thin.fa-ear::before {
   content: "\f5f0";
@@ -3205,7 +3205,7 @@ Total Icons                 : 3587
   content: "\f674";
 }
 .fa-thin.fa-equals::before {
-  content: "\61";
+  content: "\3d";
 }
 .fa-thin.fa-eraser::before {
   content: "\f12d";
@@ -3220,7 +3220,7 @@ Total Icons                 : 3587
   content: "\f153";
 }
 .fa-thin.fa-exclamation::before {
-  content: "\33";
+  content: "\21";
 }
 .fa-thin.fa-expand::before {
   content: "\f065";
@@ -3256,7 +3256,7 @@ Total Icons                 : 3587
   content: "\e367";
 }
 .fa-thin.fa-f::before {
-  content: "\70";
+  content: "\46";
 }
 .fa-thin.fa-face-angry::before {
   content: "\f556";
@@ -4069,7 +4069,7 @@ Total Icons                 : 3587
   content: "\f1e3";
 }
 .fa-thin.fa-g::before {
-  content: "\71";
+  content: "\47";
 }
 .fa-thin.fa-galaxy::before {
   content: "\e008";
@@ -4246,7 +4246,7 @@ Total Icons                 : 3587
   content: "\e194";
 }
 .fa-thin.fa-greater-than::before {
-  content: "\62";
+  content: "\3e";
 }
 .fa-thin.fa-greater-than-equal::before {
   content: "\f532";
@@ -4315,7 +4315,7 @@ Total Icons                 : 3587
   content: "\e19d";
 }
 .fa-thin.fa-h::before {
-  content: "\72";
+  content: "\48";
 }
 .fa-thin.fa-h1::before {
   content: "\f313";
@@ -4516,7 +4516,7 @@ Total Icons                 : 3587
   content: "\f0a0";
 }
 .fa-thin.fa-hashtag::before {
-  content: "\35";
+  content: "\23";
 }
 .fa-thin.fa-hashtag-lock::before {
   content: "\e415";
@@ -4876,10 +4876,10 @@ Total Icons                 : 3587
   content: "\f751";
 }
 .fa-thin.fa-hyphen::before {
-  content: "\45";
+  content: "\2d";
 }
 .fa-thin.fa-i::before {
-  content: "\73";
+  content: "\49";
 }
 .fa-thin.fa-i-cursor::before {
   content: "\f246";
@@ -4993,7 +4993,7 @@ Total Icons                 : 3587
   content: "\f033";
 }
 .fa-thin.fa-j::before {
-  content: "\74";
+  content: "\4a";
 }
 .fa-thin.fa-jack-o-lantern::before {
   content: "\f30e";
@@ -5026,7 +5026,7 @@ Total Icons                 : 3587
   content: "\e519";
 }
 .fa-thin.fa-k::before {
-  content: "\75";
+  content: "\4b";
 }
 .fa-thin.fa-kaaba::before {
   content: "\f66b";
@@ -5095,7 +5095,7 @@ Total Icons                 : 3587
   content: "\f6f5";
 }
 .fa-thin.fa-l::before {
-  content: "\76";
+  content: "\4c";
 }
 .fa-thin.fa-lacrosse-stick::before {
   content: "\e3b5";
@@ -5209,7 +5209,7 @@ Total Icons                 : 3587
   content: "\f094";
 }
 .fa-thin.fa-less-than::before {
-  content: "\60";
+  content: "\3c";
 }
 .fa-thin.fa-less-than-equal::before {
   content: "\f537";
@@ -5410,7 +5410,7 @@ Total Icons                 : 3587
   content: "\e067";
 }
 .fa-thin.fa-m::before {
-  content: "\77";
+  content: "\4d";
 }
 .fa-thin.fa-mace::before {
   content: "\f6f8";
@@ -5872,7 +5872,7 @@ Total Icons                 : 3587
   content: "\f8d1";
 }
 .fa-thin.fa-n::before {
-  content: "\78";
+  content: "\4e";
 }
 .fa-thin.fa-naira-sign::before {
   content: "\e1f6";
@@ -5941,7 +5941,7 @@ Total Icons                 : 3587
   content: "\f481";
 }
 .fa-thin.fa-o::before {
-  content: "\79";
+  content: "\4f";
 }
 .fa-thin.fa-object-exclude::before {
   content: "\e49c";
@@ -6052,7 +6052,7 @@ Total Icons                 : 3587
   content: "\f876";
 }
 .fa-thin.fa-p::before {
-  content: "\80";
+  content: "\50";
 }
 .fa-thin.fa-page::before {
   content: "\e428";
@@ -6274,10 +6274,10 @@ Total Icons                 : 3587
   content: "\f816";
 }
 .fa-thin.fa-percent::before {
-  content: "\37";
+  content: "\25";
 }
 .fa-thin.fa-period::before {
-  content: "\46";
+  content: "\2e";
 }
 .fa-thin.fa-person::before {
   content: "\f183";
@@ -6553,7 +6553,7 @@ Total Icons                 : 3587
   content: "\e31f";
 }
 .fa-thin.fa-pipe::before {
-  content: "\124";
+  content: "\7c";
 }
 .fa-thin.fa-pipe-circle-check::before {
   content: "\e436";
@@ -6661,7 +6661,7 @@ Total Icons                 : 3587
   content: "\e560";
 }
 .fa-thin.fa-plus::before {
-  content: "\43";
+  content: "\2b";
 }
 .fa-thin.fa-plus-large::before {
   content: "\e59e";
@@ -6763,13 +6763,13 @@ Total Icons                 : 3587
   content: "\e231";
 }
 .fa-thin.fa-q::before {
-  content: "\81";
+  content: "\51";
 }
 .fa-thin.fa-qrcode::before {
   content: "\f029";
 }
 .fa-thin.fa-question::before {
-  content: "\63";
+  content: "\3f";
 }
 .fa-thin.fa-quote-left::before {
   content: "\f10d";
@@ -6781,7 +6781,7 @@ Total Icons                 : 3587
   content: "\e234";
 }
 .fa-thin.fa-r::before {
-  content: "\82";
+  content: "\52";
 }
 .fa-thin.fa-rabbit::before {
   content: "\f708";
@@ -7048,7 +7048,7 @@ Total Icons                 : 3587
   content: "\f7be";
 }
 .fa-thin.fa-s::before {
-  content: "\83";
+  content: "\53";
 }
 .fa-thin.fa-sack::before {
   content: "\f81c";
@@ -7195,7 +7195,7 @@ Total Icons                 : 3587
   content: "\f4d8";
 }
 .fa-thin.fa-semicolon::before {
-  content: "\59";
+  content: "\3b";
 }
 .fa-thin.fa-send-back::before {
   content: "\f87e";
@@ -7465,7 +7465,7 @@ Total Icons                 : 3587
   content: "\5c";
 }
 .fa-thin.fa-slash-forward::before {
-  content: "\47";
+  content: "\2f";
 }
 .fa-thin.fa-sleigh::before {
   content: "\f7cc";
@@ -8134,7 +8134,7 @@ Total Icons                 : 3587
   content: "\f48e";
 }
 .fa-thin.fa-t::before {
-  content: "\84";
+  content: "\54";
 }
 .fa-thin.fa-table::before {
   content: "\f0ce";
@@ -8359,7 +8359,7 @@ Total Icons                 : 3587
   content: "\e29b";
 }
 .fa-thin.fa-tilde::before {
-  content: "\126";
+  content: "\7e";
 }
 .fa-thin.fa-timeline::before {
   content: "\e29c";
@@ -8749,7 +8749,7 @@ Total Icons                 : 3587
   content: "\f8e7";
 }
 .fa-thin.fa-u::before {
-  content: "\85";
+  content: "\55";
 }
 .fa-thin.fa-ufo::before {
   content: "\e047";
@@ -9037,7 +9037,7 @@ Total Icons                 : 3587
   content: "\e2c4";
 }
 .fa-thin.fa-v::before {
-  content: "\86";
+  content: "\56";
 }
 .fa-thin.fa-vacuum::before {
   content: "\e04d";
@@ -9160,7 +9160,7 @@ Total Icons                 : 3587
   content: "\f729";
 }
 .fa-thin.fa-w::before {
-  content: "\87";
+  content: "\57";
 }
 .fa-thin.fa-waffle::before {
   content: "\e466";
@@ -9361,7 +9361,7 @@ Total Icons                 : 3587
   content: "\e2d1";
 }
 .fa-thin.fa-x::before {
-  content: "\88";
+  content: "\58";
 }
 .fa-thin.fa-x-ray::before {
   content: "\f497";
@@ -9379,7 +9379,7 @@ Total Icons                 : 3587
   content: "\e59a";
 }
 .fa-thin.fa-y::before {
-  content: "\89";
+  content: "\59";
 }
 .fa-thin.fa-yen-sign::before {
   content: "\f157";
@@ -9388,7 +9388,7 @@ Total Icons                 : 3587
   content: "\f6ad";
 }
 .fa-thin.fa-z::before {
-  content: "\90";
+  content: "\5a";
 }
 
 /*# sourceMappingURL=supacons.thin.css.map */
