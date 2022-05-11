@@ -2,8 +2,8 @@
     padding: 0.5rem;
     border-radius: 0.5rem;
     border: 0.12rem solid #1e3b8a3b;
-    flex-grow: 2;
-    width: 200px;
+    flex-grow: 1;
+    width: 150px;
     cursor: pointer;
 }
 
