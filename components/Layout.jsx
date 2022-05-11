@@ -8,31 +8,34 @@ const Layout = props => {
     return (
         <main>
             <Head>
-                <title>Supacons | SVG Icons</title>
-                <meta name='title' content='Supacons | SVG Icons' />
+                <title>Supacons 6 | Font Icons</title>
+                <meta name='title' content='Supacons 6 | Font Icons' />
                 <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
                 <meta
                     name='description'
-                    content='Vanilla SVG Icons ripped from, popular FontAwesome Icon pack! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).'
+                    content='Font icons ripped from popular Font Awesome 6 icon pack including all Pro icons !'
                 />
                 <meta name='author' content='poseidon-code' />
-                <meta name='keywords' content='icons, svg, free, fontawesome, heroicons, supacons' />
+                <meta
+                    name='keywords'
+                    content='font icons, web icons, icons, svg, free, font awesome, heroicons, supacons, font awesome 6 free, supacons 6'
+                />
 
                 <meta property='og:type' content='website' />
                 <meta property='og:url' content='https://supacons.netlify.app/' />
-                <meta property='og:title' content='Supacons | SVG Icons' />
+                <meta property='og:title' content='Supacons 6 | Font Icons' />
                 <meta
                     property='og:description'
-                    content='Vanilla SVG Icons ripped from, popular FontAwesome Icon pack ! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).'
+                    content='Font icons ripped from popular Font Awesome 6 icon pack including all Pro icons !'
                 />
                 <meta property='og:image' content='/card.jpg' />
 
                 <meta property='twitter:card' content='summary_large_image' />
                 <meta property='twitter:url' content='https://supacons.netlify.app/' />
-                <meta property='twitter:title' content='Supacons | SVG Icons' />
+                <meta property='twitter:title' content='Supacons 6 | Font Icons' />
                 <meta
                     property='twitter:description'
-                    content='Vanilla SVG Icons ripped from, popular FontAwesome Icon pack ! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).'
+                    content='Font icons ripped from popular Font Awesome 6 icon pack including all Pro icons !'
                 />
                 <meta property='twitter:image' content='/card.jpg' />
                 <link rel='stylesheet' href='https://poseidon-code.github.io/supacons/dist/supacons.all.css' />

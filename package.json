@@ -1,7 +1,7 @@
 {
     "name": "supacons",
     "version": "6",
-    "description": "Font Icons ripped from popular Font Awesome 6 icon pack including all Pro icons !",
+    "description": "Font icons ripped from popular Font Awesome 6 icon pack including all Pro icons !",
     "repository": {
         "type": "git",
         "url": "https://github.com/poseidon-code/supacons/tree/6.x"
