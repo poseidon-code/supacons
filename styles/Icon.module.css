@@ -1,98 +1,27 @@
 .icon {
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 0.5rem;
     border: 0.12rem solid #1e3b8a3b;
     flex-grow: 2;
-    width: 250px;
+    width: 200px;
+    cursor: pointer;
 }
 
-.svg {
+.font_icon {
     padding: 1rem;
-    display: grid;
-    place-items: center;
+    display: flow-root;
+    text-align: center;
     opacity: 0.85;
 }
-.svg svg {
-    --size: 4rem;
-    width: var(--size);
-    height: var(--size);
+.font_icon i {
+    font-size: 2rem;
     color: #162961;
 }
-.svg svg g path:first-of-type {
-    color: #1629615b;
-}
 
-.copy {
-    padding-top: 1rem;
-    width: 100%;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: space-between;
-}
-.copy button {
-    all: unset;
-    gap: 0.5rem;
-    width: 100%;
-    display: flex;
-    padding: 0.6rem 1rem;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    border-radius: 0.4rem;
-    background-color: #1e3b8a11;
-    transition: all var(--time);
-}
-.copy button:hover {
-    background-color: #1e3b8a1a;
-}
-.copy button:active {
-    background-color: #1e3b8a2c;
-}
-.copy button svg {
-    --size: 1.4rem;
-    width: var(--size);
-    height: var(--size);
-}
 .name {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
     text-align: center;
     margin-top: 1rem;
     font-weight: 500;
-    cursor: pointer;
-}
-.name svg {
-    --size: 1.6rem;
-    width: var(--size);
-    height: var(--size);
-    opacity: 0.4;
-    transition: all var(--time);
-}
-.name:hover svg {
-    opacity: 1;
-}
-
-@media only screen and (max-width: 800px) {
-    .copy {
-        padding: 1rem;
-        padding-bottom: 0;
-        gap: 0.5rem;
-        flex-direction: column;
-    }
-    .copy button:hover {
-        background-color: #1e3b8a11;
-    }
-    .copy button:active {
-        background-color: #1e3b8a2c;
-    }
-
-    .name:hover svg {
-        opacity: 0.4;
-    }
-    .name:active svg {
-        opacity: 1;
-    }
 }

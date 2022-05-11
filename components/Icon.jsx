@@ -1,11 +1,8 @@
-import parse from 'html-react-parser';
 import Clipboard from 'clipboard';
-import { saveAs } from 'file-saver';
 
-import { Copy, Downlaod } from '../components/Icons';
 import styles from '../styles/Icon.module.css';
 
-const Icon = props => {
+const Icon = ({ name, type, copied }) => {
     const copy = icon => {
         new Clipboard('#copy', {
             text: () => {
@@ -14,49 +11,30 @@ const Icon = props => {
         });
     };
 
-    const copySVG = () => {
-        copy(props.svg);
-        props.copied();
-    };
-
-    const copyJSX = () => {
-        copy(props.svg.replaceAll('class=', 'className='));
-        props.copied();
-    };
-
-    const downloadSVG = () => {
-        let blob = new Blob([props.svg], { type: 'text/plain;charset=utf-8' });
-        saveAs(blob, `${props.name}.svg`);
+    const copyIconTag = () => {
+        copy(`<i class='fa-${type} fa-${name}></i>`);
+        copied();
     };
 
     return (
-        <div className={styles.icon}>
-            {props.type === 'brands' ? (
+        <div className={styles.icon} id='copy' onClick={copyIconTag}>
+            {type === 'brands' ? (
                 <span className='badge'>B</span>
-            ) : props.type === 'duotone' ? (
+            ) : type === 'duotone' ? (
                 <span className='badge'>D</span>
-            ) : props.type === 'solid' ? (
+            ) : type === 'solid' ? (
                 <span className='badge'>S</span>
-            ) : props.type === 'regular' ? (
+            ) : type === 'regular' ? (
                 <span className='badge'>R</span>
-            ) : props.type === 'light' ? (
+            ) : type === 'light' ? (
                 <span className='badge'>L</span>
+            ) : type === 'thin' ? (
+                <span className='badge'>T</span>
             ) : null}
-            <div className={styles.svg}>{parse(props.svg)}</div>
-            <div className={styles.copy}>
-                <button id='copy' onClick={copySVG}>
-                    <Copy />
-                    SVG
-                </button>
-                <button id='copy' onClick={copyJSX}>
-                    <Copy />
-                    JSX
-                </button>
+            <div className={styles.font_icon}>
+                <i className={`fa-${type} fa-${name}`}></i>
             </div>
-            <span className={styles.name} onClick={downloadSVG}>
-                <Downlaod />
-                {props.name}
-            </span>
+            <span className={styles.name}>{name}</span>
         </div>
     );
 };
