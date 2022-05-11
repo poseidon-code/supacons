@@ -1,14 +1,11 @@
 import { useEffect, useRef, useState } from 'react';
 import styles from '../styles/index.module.css';
 
-// import Icon from '../components/Icon';
+import Icon from '../components/Icon';
 import { More } from '../components/Icons';
 
-const Home = props => {
-    // const { icons } = props;
-    const { genericIcons, brandIcons, types } = props;
-
-    const [count, setCount] = useState(200);
+const Home = ({ icons, total_icons }) => {
+    const [count, setCount] = useState(400);
     const [load, setLoad] = useState(true);
     const [isCopied, setIsCopied] = useState(false);
     const toast = useRef();
@@ -22,30 +19,21 @@ const Home = props => {
     };
 
     const handleLoadMore = () => {
-        setCount(p => p + 200);
+        setCount(p => p + 400);
     };
 
     useEffect(() => {
-        if (count > 7865) setLoad(false);
+        if (count > total_icons) setLoad(false);
     }, [count]);
 
     return (
         <section className='container' style={{ margin: '3rem 0' }}>
             <div className='wrapper'>
-                {/* <div className={styles.icons}>
+                <div className={styles.icons}>
                     {icons.slice(0, count).map((icon, i) => (
-                        <Icon key={i} copied={copied} name={icon.name} type={icon.type} svg={icon.svg} />
+                        <Icon key={i} copied={copied} name={icon.name} type={icon.type} />
                     ))}
-                </div> */}
-                {Object.keys(genericIcons).map(name => {
-                    return types.map(type => (
-                        <i key={genericIcons[name] + type} className={`fa-${type} fa-${name}`}></i>
-                    ));
-                })}
-                {Object.keys(brandIcons).map(name => (
-                    <i key={brandIcons[name] + 'brands'} className={`fa-brands fa-${name}`}></i>
-                ))}
-
+                </div>
                 {load && (
                     <div className={styles.loadmore}>
                         <button onClick={handleLoadMore}>
@@ -55,7 +43,7 @@ const Home = props => {
                     </div>
                 )}
             </div>
-            {isCopied && <span className='copy-toaster'>Icon Copied !</span>}
+            {isCopied && <span className='copy-toaster'>Icon Tag Copied !</span>}
         </section>
     );
 };
@@ -70,11 +58,37 @@ export const getStaticProps = async () => {
     const brandIcons = JSON.parse(JSON.stringify(brand_icons));
     const types = ['solid', 'regular', 'light', 'thin', 'duotone', 'brands'];
 
+    let icons = [];
+    types.forEach(type => {
+        if (type === 'brands') {
+            Object.keys(brandIcons).forEach(key => {
+                icons.push({
+                    name: key,
+                    type: type,
+                });
+            });
+        } else {
+            Object.keys(genericIcons).forEach(key => {
+                icons.push({
+                    name: key,
+                    type: type,
+                });
+            });
+        }
+    });
+
+    icons.sort((a, b) => {
+        if (a.name < b.name) return -1;
+        if (a.name > b.name) return 1;
+        return 0;
+    });
+
+    const total_icons = icons.length;
+
     return {
         props: {
-            genericIcons,
-            brandIcons,
-            types,
+            icons,
+            total_icons,
         },
     };
 };
