@@ -11,13 +11,14 @@
     height: var(--size);
     fill: var(--text);
 }
-.navbar span {
+.navbar a {
     font-size: 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
     opacity: 0.94;
     text-shadow: 0 0 2px #1e3b8a42;
+    user-select: none;
 }
 
 .links {
@@ -35,6 +36,9 @@
 }
 .links a span {
     font-size: 1rem;
+}
+.links a:last-of-type span {
+    margin-left: 0.5rem;
 }
 .links a svg {
     --size: 1.6rem;
@@ -106,11 +110,19 @@
     color: #1e3b8a9a;
 }
 
+@media only screen and (max-width: 400px) {
+    .navbar a span {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 800px) {
-    .navbar span {
+    .navbar {
+        padding: 0.6rem 0;
+    }
+    .navbar a {
         font-size: 1.6rem;
     }
-
     .navbar svg {
         --size: 2.2rem;
     }

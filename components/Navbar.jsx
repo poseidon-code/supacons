@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/Navbar.module.css';
 import { Brand, Code, Count, Github, License } from './Icons';
 
@@ -6,16 +7,18 @@ const Navbar = () => {
         <div className='container' style={{ background: 'var(--bg)' }}>
             <div className='wrapper'>
                 <nav className={styles.navbar}>
-                    <span>
-                        <Brand />
-                        supacons
-                    </span>
+                    <Link href='/'>
+                        <a>
+                            <Brand /> <span>Supacons 5</span>
+                        </a>
+                    </Link>
                     <div className={styles.links}>
                         <a href='https://github.com/poseidon-code/supacons' target='_blank' rel='noopener noreferrer'>
                             <Code />
                         </a>
                         <a href='https://github.com/poseidon-code' target='_blank' rel='noopener noreferrer'>
-                            <Github /> <span> &nbsp;/poseidon-code</span>
+                            <Github />
+                            <span>/poseidon-code</span>
                         </a>
                     </div>
                 </nav>
@@ -25,7 +28,7 @@ const Navbar = () => {
                 <header className={styles.header}>
                     <h1>
                         <span>Vanilla SVG Icons ripped from,</span>
-                        <span>popular FontAwesome Icon pack!</span>
+                        <span>popular Font Awesome 5 Icon pack!</span>
                     </h1>
                     <div className={styles.stats}>
                         <span>
