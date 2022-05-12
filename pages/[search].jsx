@@ -1,6 +1,5 @@
 import { useRef, useState } from 'react';
 
-import ICONS from '../public/icons.json';
 import Icon from '../components/Icon';
 
 import styles from '../styles/index.module.css';
@@ -52,6 +51,7 @@ export default SearchedIcon;
 
 export const getServerSideProps = async context => {
     const { query } = context;
+    const ICONS = (await import('../public/icons.json')).default;
 
     const Icons = JSON.parse(JSON.stringify(ICONS));
 

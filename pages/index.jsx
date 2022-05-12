@@ -1,8 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import styles from '../styles/index.module.css';
 
-import ICONS from '../public/icons.json';
-
 import Icon from '../components/Icon';
 import { More } from '../components/Icons';
 
@@ -55,6 +53,8 @@ const Home = props => {
 export default Home;
 
 export const getStaticProps = async () => {
+    const ICONS = (await import('../public/icons.json')).default;
+
     const Icons = JSON.parse(JSON.stringify(ICONS));
 
     Icons.sort((a, b) => {
