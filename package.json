@@ -1,6 +1,6 @@
 {
     "name": "supacons",
-    "version": "5",
+    "version": "5.15.4",
     "description": "Vanilla SVG Icons ripped from popular Font Awesome 5 Icon pack ! Get Icons in base SVG codes or modified React JSX codes (for use as a React Component).",
     "repository": {
         "type": "git",
