@@ -11,13 +11,14 @@
     height: var(--size);
     fill: var(--text);
 }
-.navbar span {
+.navbar a {
     font-size: 2rem;
     display: flex;
     align-items: center;
     gap: 1rem;
     opacity: 0.94;
     text-shadow: 0 0 2px #1e3b8a42;
+    user-select: none;
 }
 
 .links {
@@ -35,6 +36,7 @@
 }
 .links a span {
     font-size: 1rem;
+    margin-left: -0.5rem;
 }
 .links a svg {
     --size: 1.6rem;
@@ -58,7 +60,7 @@
     position: relative;
     overflow: hidden;
     z-index: 1;
-    pointer-events: none;
+    user-select: none;
 }
 
 .header h1 {
@@ -67,9 +69,14 @@
     flex-direction: column;
     font-weight: 700;
 }
-.header h1 span:last-of-type {
-    font-size: 2.4rem;
-    opacity: 0.6;
+.header h1 span:nth-of-type(2) {
+    font-size: 3rem;
+    opacity: 0.7;
+}
+.header h1 span:nth-of-type(3) {
+    font-size: 1.6rem;
+    margin-top: 0.5rem;
+    font-weight: 500;
 }
 .header::before {
     content: '';
@@ -80,7 +87,7 @@
     bottom: 0;
     right: 10%;
     background-color: rgba(255, 255, 255, 0.377);
-    mask-image: url(/supacon.svg);
+    mask-image: url('/supacon.svg');
     background-size: 100%;
     background-repeat: no-repeat;
     transform: rotateZ(30deg);
@@ -103,14 +110,23 @@
     min-width: var(--size);
     height: var(--size);
     max-width: var(--size);
-    color: #1e3b8a9a;
+    color: var(--text);
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 400px) {
+    .navbar a span {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 800px) {
-    .navbar span {
+    .navbar {
+        padding: 0.6rem 0;
+    }
+    .navbar a {
         font-size: 1.6rem;
     }
-
     .navbar svg {
         --size: 2.2rem;
     }
@@ -147,10 +163,13 @@
         text-align: center;
     }
     .header h1 {
+        font-size: 1.6rem;
+    }
+    .header h1 span:nth-of-type(2) {
         font-size: 2rem;
     }
     .header h1 span:last-of-type {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     .header::before {
         left: 10%;

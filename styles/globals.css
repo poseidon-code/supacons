@@ -3,8 +3,8 @@
 :root {
     font-size: 16px;
     --text: #1e3a8a;
-    --bg: linear-gradient(61deg, rgba(255, 222, 0, 1) 18%, rgba(255, 226, 0, 1) 100%);
-    --bg-alt: rgb(255, 215, 0);
+    --bg: linear-gradient(60deg, #ffde00 20%, #ffe200 100%);
+    --bg-alt: #ffd700;
     --time: 200ms;
 }
 
