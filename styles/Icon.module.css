@@ -3,7 +3,7 @@
     border-radius: 0.5rem;
     border: 0.12rem solid #1e3b8a3b;
     flex-grow: 1;
-    width: 150px;
+    width: clamp(150px, 10vw, 200px);
     cursor: pointer;
 }
 
