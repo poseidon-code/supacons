@@ -20,8 +20,12 @@
     opacity: 0.94;
     text-shadow: 0 0 2px #1e3b8a42;
 }
-
-.footer span a {
+.footer span .brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer span a:nth-of-type(2) {
     text-shadow: none;
     font-size: 0.8rem;
     font-weight: 500;
@@ -49,7 +53,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-    .footer span p {
+    .footer span .brand p {
         display: none;
     }
 }

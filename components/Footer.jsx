@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from '../styles/Footer.module.css';
 import { Brand, Github, Facebook, Linkedin } from './Icons';
 
@@ -8,22 +9,37 @@ const Footer = () => {
             <div className='wrapper'>
                 <footer className={styles.footer}>
                     <span>
-                        <Brand />
-                        <p>supacons</p>
+                        <Link href='/'>
+                            <a
+                                className={styles.brand}
+                                title='Font Icons ripped from popular Font Awesome 6 icon pack including all Pro icons !'>
+                                <Brand />
+                                <p>supacons</p>
+                            </a>
+                        </Link>
                         <div className='rule' />
                         <a href='https://github.com/poseidon-code' target='_blank' rel='noopener noreferrer'>
-                            by @poseidon-code
+                            @poseidon-code
                         </a>
                     </span>
                     <div className={styles.social}>
-                        <a href='https://www.facebook.com/pritamhalder0506' rel='noopener noreferrer' target='_blank'>
+                        <a
+                            title='Facebook'
+                            href='https://www.facebook.com/pritamhalder0506'
+                            rel='noopener noreferrer'
+                            target='_blank'>
                             <Facebook />
                         </a>
-                        <a href='https://www.github.com/poseidon-code' rel='noopener noreferrer' target='_blank'>
+                        <a
+                            title='Github'
+                            href='https://www.github.com/poseidon-code'
+                            rel='noopener noreferrer'
+                            target='_blank'>
                             <Github />
                         </a>
                         <a
-                            href='https://www.linkedin.com/in/pritam-halder-8306741b3'
+                            title='LinkedIn'
+                            href='https://www.linkedin.com/in/pritamhalder0506'
                             rel='noopener noreferrer'
                             target='_blank'>
                             <Linkedin />
@@ -33,9 +49,9 @@ const Footer = () => {
             </div>
             <div className='break' />
             <span className={styles.credits}>
-                Icons designed by &nbsp;
+                Icons designed by&nbsp;
                 <a href='https://fontawesome.com/' target='_blank' rel='noopener noreferrer'>
-                    FontAwesome
+                    Font Awesome
                 </a>
             </span>
         </div>
