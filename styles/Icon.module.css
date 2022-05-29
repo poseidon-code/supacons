@@ -5,6 +5,16 @@
     flex-grow: 1;
     width: clamp(150px, 10vw, 200px);
     cursor: pointer;
+    background-position: center;
+    transition: background 0.8s;
+}
+.icon:hover {
+    background: #eef2fc radial-gradient(circle, transparent 1%, #eef2fc 1%) center/15000%;
+}
+.icon:active {
+    background-color: #ccdaff;
+    background-size: 100%;
+    transition: background 0s;
 }
 
 .font_icon {

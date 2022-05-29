@@ -5,9 +5,7 @@ import styles from '../styles/Icon.module.css';
 const Icon = ({ name, type, copied }) => {
     const copy = icon => {
         new Clipboard('#copy', {
-            text: () => {
-                return icon;
-            },
+            text: () => icon,
         });
     };
 
@@ -17,7 +15,11 @@ const Icon = ({ name, type, copied }) => {
     };
 
     return (
-        <div className={styles.icon} id='copy' onClick={copyIconTag}>
+        <div
+            className={styles.icon}
+            id='copy'
+            onClick={copyIconTag}
+            title={`<i className='fa-${type} fa-${name}'></i>`}>
             {type === 'brands' ? (
                 <span className='badge'>B</span>
             ) : type === 'duotone' ? (
