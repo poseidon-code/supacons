@@ -6,7 +6,7 @@ import Search from './Search';
 
 const Layout = props => {
     return (
-        <main>
+        <>
             <Head>
                 <title>Supacons 6 | Font Icons</title>
                 <meta name='title' content='Supacons 6 | Font Icons' />
@@ -42,9 +42,9 @@ const Layout = props => {
             </Head>
             <Navbar />
             <Search />
-            <section>{props.children}</section>
+            <main>{props.children}</main>
             <Footer />
-        </main>
+        </>
     );
 };
 
