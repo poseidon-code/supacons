@@ -54,6 +54,7 @@
 .header {
     width: 100%;
     padding: 4rem 0;
+    height: 40vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,8 +81,8 @@
 }
 .header::before {
     content: '';
-    width: 360px;
-    height: 360px;
+    width: 400px;
+    height: 400px;
     position: absolute;
     display: block;
     bottom: 0;
