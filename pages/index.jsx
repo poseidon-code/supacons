@@ -51,38 +51,8 @@ const Home = ({ icons, total_icons }) => {
 export default Home;
 
 export const getStaticProps = async () => {
-    const generic_icons = (await import('../public/generic_icons.json')).default;
-    const brand_icons = (await import('../public/brand_icons.json')).default;
-
-    const genericIcons = JSON.parse(JSON.stringify(generic_icons));
-    const brandIcons = JSON.parse(JSON.stringify(brand_icons));
-    const types = ['solid', 'regular', 'light', 'thin', 'duotone', 'brands'];
-
-    let icons = [];
-    types.forEach(type => {
-        if (type === 'brands') {
-            Object.keys(brandIcons).forEach(key => {
-                icons.push({
-                    name: key,
-                    type: type,
-                });
-            });
-        } else {
-            Object.keys(genericIcons).forEach(key => {
-                icons.push({
-                    name: key,
-                    type: type,
-                });
-            });
-        }
-    });
-
-    icons.sort((a, b) => {
-        if (a.name < b.name) return -1;
-        if (a.name > b.name) return 1;
-        return 0;
-    });
-
+    const getIcons = (await import('../getIcons')).default;
+    const icons = await getIcons();
     const total_icons = icons.length;
 
     return {
