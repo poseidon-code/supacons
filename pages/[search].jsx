@@ -1,13 +1,11 @@
 import { useRef, useState } from 'react';
-
-import ICONS from '../public/icons.json';
-import Icon from '../components/Icon';
-
 import styles from '../styles/index.module.css';
+
+import Icon from '../components/Icon';
 import { NotFound } from '../components/Icons';
 
 const SearchedIcon = props => {
-    const [IsCopied, setIsCopied] = useState(false);
+    const [isCopied, setIsCopied] = useState(false);
     const toast = useRef();
 
     const copied = async () => {
@@ -30,9 +28,9 @@ const SearchedIcon = props => {
                         <span>
                             Try searching on&nbsp;
                             <a href='http://fontawesome.com' target='_blank' rel='noopener noreferrer'>
-                                FontAwesome
+                                Font Awesome
                             </a>
-                            &nbsp;site & use the icon name to search here on Supacons.
+                            &nbsp;& copy the icon tag, as it is 100% compatible with Supacons.
                         </span>
                     </div>
                 ) : (
@@ -43,7 +41,7 @@ const SearchedIcon = props => {
                     </div>
                 )}
             </div>
-            {IsCopied && <span className='copy-toaster'>Icon Copied !</span>}
+            {isCopied && <span className='copy-toaster'>Icon Tag Copied !</span>}
         </section>
     );
 };
@@ -52,10 +50,10 @@ export default SearchedIcon;
 
 export const getServerSideProps = async context => {
     const { query } = context;
+    const getIcons = (await import('../getIcons')).default;
+    const icons = await getIcons();
 
-    const Icons = JSON.parse(JSON.stringify(ICONS));
-
-    const filteredIcons = Icons.filter(
+    const filteredIcons = icons.filter(
         icon => icon.name.toLowerCase().replace('-', '').indexOf(query.search.toLowerCase().replace('-', '')) !== -1
     );
 
