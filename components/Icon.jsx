@@ -20,19 +20,21 @@ const Icon = ({ name, type, copied }) => {
             id='copy'
             onClick={copyIconTag}
             title={`<i className='fa-${type} fa-${name}'></i>`}>
-            {type === 'brands' ? (
-                <span className='badge'>B</span>
-            ) : type === 'duotone' ? (
-                <span className='badge'>D</span>
-            ) : type === 'solid' ? (
-                <span className='badge'>S</span>
-            ) : type === 'regular' ? (
-                <span className='badge'>R</span>
-            ) : type === 'light' ? (
-                <span className='badge'>L</span>
-            ) : type === 'thin' ? (
-                <span className='badge'>T</span>
-            ) : null}
+            <span className='badge'>
+                {type === 'brands'
+                    ? 'B'
+                    : type === 'duotone'
+                    ? 'D'
+                    : type === 'solid'
+                    ? 'S'
+                    : type === 'regular'
+                    ? 'R'
+                    : type === 'light'
+                    ? 'L'
+                    : type === 'thin'
+                    ? 'T'
+                    : null}
+            </span>
             <div className={styles.font_icon}>
                 <i className={`fa-${type} fa-${name}`}></i>
             </div>
