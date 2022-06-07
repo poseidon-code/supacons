@@ -1,8 +1,8 @@
 {
-    "prettier.jsxBracketSameLine": true,
-    "prettier.jsxSingleQuote": true,
-    "prettier.printWidth": 120,
-    "prettier.singleQuote": true,
-    "prettier.tabWidth": 4,
-    "prettier.arrowParens": "avoid"
+    "jsxBracketSameLine": true,
+    "jsxSingleQuote": true,
+    "printWidth": 120,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "arrowParens": "avoid"
 }
