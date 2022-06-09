@@ -21,15 +21,16 @@ those 16,000+ CSS classes for those icons.
 > The scrapping & automation scripts made of Python with Selenium for Supacons 5 _(Font Awesome 5)_ & Supacons 6 _(Font Awesome 6)_
 > are private repositories at the moment, and may be made public in possible future.
 
-| Fields                        | Status          |
-| ----------------------------- | --------------- |
-| Font Awesome Version          | 6               |
-| Font Awesome Release Version  | 6.1.1           |
-| Supacons Version              | 5 _**(6 WIP)**_ |
-| Supacons Core Version         | 6               |
-| Supacons Core Release Version | 6.1.1           |
-| Scrapper Version              | 6               |
-| Last Scrapped Date            | 07-05-2022      |
+| Fields                        | Status     |
+| ----------------------------- | ---------- |
+| Font Awesome Version          | 6          |
+| Font Awesome Release Version  | 6.1.1      |
+| Supacons Version              | 6          |
+| Supacons Release Version      | 6.1.1      |
+| Supacons Core Version         | 6          |
+| Supacons Core Release Version | 6.1.1      |
+| Scrapper Version              | 6          |
+| Last Scrapped Date            | 07-05-2022 |
 
 | Fields                         | Icon Status |
 | ------------------------------ | ----------- |
