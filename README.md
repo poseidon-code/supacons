@@ -4,12 +4,19 @@
 
 [`https://supacons.netlify.app`](https://supacons.netlify.app)
 
+Font Icons ripped from popular Font Awesome 6 icon pack including all Pro icons !
+
 ### &bull;
 
-Vanilla SVG Icons ripped from popular FontAwesome Icon pack ! Get Icons in base SVG codes or modified React JSX codes
-(for use as a React Component) or download SVGs directly as `.svg` file.
-
 </div>
+
+The icons were switched from a SVG based icons to a font based icons system _([Why font based icon?](https://github.com/poseidon-code/supacons/tree/core))_. These icons can be included in your projects just by using the following HTML `<link>` tag :
+
+```html
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.all.css" />
+```
+
+Check [`core`](https://github.com/poseidon-code/supacons/tree/core) branch for more usage guidelines and info about customizing icons.
 
 ---
 
