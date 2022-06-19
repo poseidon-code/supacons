@@ -1,17 +1,8 @@
-import Clipboard from 'clipboard';
-
 import styles from '../styles/Icon.module.css';
 
-const Icon = ({ name, type, copied }) => {
-    const copy = icon => {
-        new Clipboard('#copy', {
-            text: () => icon,
-        });
-    };
-
+const Icon = ({ name, type, clipboard: { copier } }) => {
     const copyIconTag = () => {
-        copy(`<i class='fa-${type} fa-${name}></i>`);
-        copied();
+        copier(`<i class='fa-${type} fa-${name}></i>`);
     };
 
     return (
