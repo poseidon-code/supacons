@@ -1,22 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from '../styles/index.module.css';
 
 import Icon from '../components/Icon';
 import { More } from '../components/Icons';
 
-const Home = ({ icons, total_icons }) => {
+const Home = ({ icons, total_icons, clipboard }) => {
     const [count, setCount] = useState(400);
     const [load, setLoad] = useState(true);
-    const [isCopied, setIsCopied] = useState(false);
-    const toast = useRef();
-
-    const copied = async () => {
-        clearTimeout(toast.current);
-        setIsCopied(true);
-        toast.current = setTimeout(() => {
-            setIsCopied(false);
-        }, 3000);
-    };
 
     const handleLoadMore = () => {
         setCount(p => p + 400);
@@ -31,7 +21,7 @@ const Home = ({ icons, total_icons }) => {
             <div className='wrapper'>
                 <div className={styles.icons}>
                     {icons.slice(0, count).map((icon, i) => (
-                        <Icon key={i} copied={copied} name={icon.name} type={icon.type} />
+                        <Icon key={i} clipboard={clipboard} name={icon.name} type={icon.type} />
                     ))}
                 </div>
                 {load && (
@@ -43,7 +33,7 @@ const Home = ({ icons, total_icons }) => {
                     </div>
                 )}
             </div>
-            {isCopied && <span className='copy-toaster'>Icon Tag Copied !</span>}
+            {clipboard.isCopied && <span className='copy-toaster'>Icon Tag Copied !</span>}
         </section>
     );
 };
