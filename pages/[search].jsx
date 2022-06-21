@@ -1,25 +1,13 @@
-import { useRef, useState } from 'react';
 import styles from '../styles/index.module.css';
 
 import Icon from '../components/Icon';
 import { NotFound } from '../components/Icons';
 
-const SearchedIcon = props => {
-    const [isCopied, setIsCopied] = useState(false);
-    const toast = useRef();
-
-    const copied = async () => {
-        clearTimeout(toast.current);
-        setIsCopied(true);
-        toast.current = setTimeout(() => {
-            setIsCopied(false);
-        }, 3000);
-    };
-
+const SearchedIcon = ({ clipboard, icons }) => {
     return (
         <section className='container' style={{ margin: '3rem 0' }}>
             <div className='wrapper'>
-                {props.icons.length === 0 ? (
+                {icons.length === 0 ? (
                     <div className={styles.notfound}>
                         <NotFound />
                         <h1>No Icon Found !</h1>
@@ -35,13 +23,13 @@ const SearchedIcon = props => {
                     </div>
                 ) : (
                     <div className={styles.icons}>
-                        {props.icons.map((icon, i) => (
-                            <Icon key={i} copied={copied} name={icon.name} type={icon.type} svg={icon.svg} />
+                        {icons.map((icon, i) => (
+                            <Icon key={i} clipboard={clipboard} name={icon.name} type={icon.type} svg={icon.svg} />
                         ))}
                     </div>
                 )}
             </div>
-            {isCopied && <span className='copy-toaster'>Icon Tag Copied !</span>}
+            {clipboard.isCopied && <span className='copy-toaster'>Icon Tag Copied !</span>}
         </section>
     );
 };
