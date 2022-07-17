@@ -63,13 +63,7 @@ minimal footprint _(provided that you use the minified versions in `dist/` folde
 select your preferred icon.
 
 ```html
-<html>
-    <head>
-        <link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.all.css" />
-        ...
-    </head>
-    ...
-</html>
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.all.css" />
 ```
 
 Use the icons as you use a standard Font Awesome icon. The syntax of using Supacons icons is 100% similar to using Font
@@ -215,13 +209,12 @@ Contains all the 3,124 duotone icons of Font Awesome 6 Pro _(includes Pro icons)
 
 ## Todos
 
--   [ ] Create Supacons 6 frontend
+-   [x] Create Supacons 6 frontend
 -   [ ] Add some tests for Sass
 -   [ ] Implement autoprefixer & postcss and check/fix for compilation errors
 -   [ ] Implement best practices for Sass with better modular design
 -   [ ] Implement best practices for compilation & building of Sass
 -   [ ] Maybe make a npm package for React same as that of Font Awesome
--   [ ] **...dead already** _(maybe someone can check this box when I die 🙃)_
 
 ---
 
