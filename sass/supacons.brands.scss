@@ -14,10 +14,10 @@
         display: inline-block;
         text-rendering: auto;
     }
+}
 
-    @each $name, $glyph in icons.$brands {
-        &.fa-#{$name}::before {
-            content: functions.primary($glyph);
-        }
+@each $name, $glyph in icons.$brands {
+    .fa-#{$name}::before {
+        content: functions.primary($glyph);
     }
 }
