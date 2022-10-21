@@ -3,14 +3,14 @@
 @use './variables';
 
 @font-face {
-    font-family: 'Supacons Thin';
-    src: url('../fonts/supacons-thin-100.woff2') format('woff2');
-    font-weight: 100;
+    font-family: 'Supacons Sharp Solid';
+    src: url('../fonts/supacons-sharp-solid-900.woff2') format('woff2');
+    font-weight: 900;
 }
 
-.fa-thin {
+.fa-sharp.fa-solid {
     &::before {
-        font: variables.$fontThin;
+        font: variables.$fontsSharpSolid;
         display: inline-block;
         text-rendering: auto;
     }
