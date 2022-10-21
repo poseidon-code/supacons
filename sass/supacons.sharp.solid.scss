@@ -10,7 +10,7 @@
 
 .fa-sharp.fa-solid {
     &::before {
-        font: variables.$fontsSharpSolid;
+        font: variables.$fontSharpSolid;
         display: inline-block;
         text-rendering: auto;
     }
