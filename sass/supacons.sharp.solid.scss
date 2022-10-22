@@ -8,12 +8,10 @@
     font-weight: 900;
 }
 
-.fa-sharp.fa-solid {
-    &::before {
-        font: variables.$fontSharpSolid;
-        display: inline-block;
-        text-rendering: auto;
-    }
+.fa-sharp.fa-solid::before {
+    font: map-get(variables.$fontsSharp, 'solid');
+    display: inline-block;
+    text-rendering: auto;
 }
 
 @each $name, $glyph in icons.$generic {

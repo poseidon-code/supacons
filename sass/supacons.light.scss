@@ -3,17 +3,15 @@
 @use './variables';
 
 @font-face {
-    font-family: 'Supacons Light';
+    font-family: 'Supacons Classic Light';
     src: url('../fonts/supacons-light-300.woff2') format('woff2');
     font-weight: 300;
 }
 
-.fa-light {
-    &::before {
-        font: variables.$fontLight;
-        display: inline-block;
-        text-rendering: auto;
-    }
+.fa-light::before {
+    font: map-get(variables.$fontsClassic, 'light');
+    display: inline-block;
+    text-rendering: auto;
 }
 
 @each $name, $glyph in icons.$generic {

@@ -3,17 +3,15 @@
 @use './variables';
 
 @font-face {
-    font-family: 'Supacons Solid';
+    font-family: 'Supacons Classic Solid';
     src: url('../fonts/supacons-solid-900.woff2') format('woff2');
     font-weight: 900;
 }
 
-.fa-solid {
-    &::before {
-        font: variables.$fontSolid;
-        display: inline-block;
-        text-rendering: auto;
-    }
+.fa-solid::before {
+    font: map-get(variables.$fontsClassic, 'solid');
+    display: inline-block;
+    text-rendering: auto;
 }
 
 @each $name, $glyph in icons.$generic {

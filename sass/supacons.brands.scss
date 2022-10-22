@@ -8,12 +8,10 @@
     font-weight: 400;
 }
 
-.fa-brands {
-    &::before {
-        font: variables.$fontBrands;
-        display: inline-block;
-        text-rendering: auto;
-    }
+.fa-brands::before {
+    font: map-get(variables.$fontsBrands, 'brands');
+    display: inline-block;
+    text-rendering: auto;
 }
 
 @each $name, $glyph in icons.$brands {
