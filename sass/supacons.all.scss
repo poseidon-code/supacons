@@ -2,68 +2,46 @@
 @use './functions';
 @use './variables';
 
-// solid
-@font-face {
-    font-family: 'Supacons';
-    src: url('../fonts/supacons-solid-900.woff2') format('woff2');
-    font-weight: 900;
-}
+@use './_fonts/sharp';
+@use './_fonts/brands';
+@use './_fonts/classic';
 
-// regular
-@font-face {
-    font-family: 'Supacons';
-    src: url('../fonts/supacons-regular-400.woff2') format('woff2');
-    font-weight: 400;
-}
-
-// light
-@font-face {
-    font-family: 'Supacons';
-    src: url('../fonts/supacons-light-300.woff2') format('woff2');
-    font-weight: 300;
-}
-
-// thin
-@font-face {
-    font-family: 'Supacons';
-    src: url('../fonts/supacons-thin-100.woff2') format('woff2');
-    font-weight: 100;
-}
-
-// duotone
-@font-face {
-    font-family: 'Supacons Duotone';
-    src: url('../fonts/supacons-duotone-900.woff2') format('woff2');
-    font-weight: 900;
-}
-
-// brands
-@font-face {
-    font-family: 'Supacons Brands';
-    src: url('../fonts/supacons-brands-400.woff2') format('woff2');
-    font-weight: 400;
-}
-
-@each $type in variables.$types {
-    // setting : 'font' CSS property
-    $font: '';
-    @if $type == 'solid' {
-        $font: variables.$fontSolid;
-    } @else if $type == 'regular' {
-        $font: variables.$fontRegular;
-    } @else if $type == 'thin' {
-        $font: variables.$fontThin;
-    } @else if $type == 'light' {
-        $font: variables.$fontLight;
-    } @else if $type == 'duotone' {
-        $font: variables.$fontDuotone;
-    } @else if $type == 'brands' {
-        $font: variables.$fontBrands;
+// all the classes for Brand Icons
+@each $name, $glyph in icons.$brands {
+    .fa-#{$name}::before {
+        content: functions.primary($glyph);
     }
+}
 
+// Brands Icons Font style
+@each $type, $font in variables.$fontsBrands {
+    .fa-#{$type}::before {
+        font: $font;
+        display: inline-block;
+        text-rendering: auto;
+    }
+}
+
+// all the classes for Generic Icons
+@each $name, $glyph in icons.$generic {
+    .fa-#{$name}::before {
+        content: functions.primary($glyph);
+    }
+}
+
+// Sharp Icons Font style
+@each $type, $font in variables.$fontsSharp {
+    .fa-sharp.fa-#{$type}::before {
+        font: $font;
+        display: inline-block;
+        text-rendering: auto;
+    }
+}
+
+// Classic Icons Font style
+@each $type, $font in variables.$fontsClassic {
     @if $type == 'duotone' {
-        // special setting for duotone icons
-        .fa-duotone {
+        .fa-#{$type} {
             position: relative;
             padding-left: 1.25em;
 
@@ -81,39 +59,17 @@
             }
 
             @each $name, $glyph in icons.$generic {
-                &.fa-#{$name} {
-                    &::before {
-                        content: functions.primary($glyph);
-                    }
-                    &::after {
-                        content: functions.secondary($glyph);
-                        opacity: 0.4;
-                    }
+                &.fa-#{$name}::after {
+                    content: functions.secondary($glyph);
+                    opacity: 0.4;
                 }
             }
         }
     } @else {
-        .fa-#{$type} {
-            &::before {
-                font: $font;
-                display: inline-block;
-                text-rendering: auto;
-            }
-
-            @if $type == 'brands' {
-                // special setting for brand icons
-                @each $name, $glyph in icons.$brands {
-                    &.fa-#{$name}::before {
-                        content: functions.primary($glyph);
-                    }
-                }
-            } @else {
-                @each $name, $glyph in icons.$generic {
-                    &.fa-#{$name}::before {
-                        content: functions.primary($glyph);
-                    }
-                }
-            }
+        .fa-#{$type}::before {
+            font: $font;
+            display: inline-block;
+            text-rendering: auto;
         }
     }
 }
