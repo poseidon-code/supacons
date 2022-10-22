@@ -48,8 +48,9 @@ those 16,000+ CSS classes for those icons.
     6. [Thin](#thin)
     7. [Duotone](#duotone)
     8. [Sharp Solid](#sharp-solid)
-4. [Todos](#todo)
-5. [License](#license)
+4. [Future Updates](#future-updates)
+5. [Todos](#todo)
+6. [License](#license)
 
 ## Usage
 
@@ -216,13 +217,23 @@ Contains all the 3,137 sharp solid icons of Font Awesome 6 Pro _(includes Pro ic
 
 ---
 
+## Future Updates
+
+-   A huge refactoring and structuring will happen when Font Awesome 6 releases all its sharp variations _(regular, light, thin, dutone)_
+    which will definately incorporate breaking changes for accessing the all the variations of classic icons & sharp icons seperately.
+
+-   A visual check for testing all the icons in an HTML document needs to be implemented as the scrapper may be incapable
+    of parsing all the unicode glyphs for every icon which will lead to no icons being shown.
+
+---
+
 ## Todos
 
 -   [x] Create Supacons 6 frontend
 -   [ ] Add some tests for Sass
 -   [ ] Implement autoprefixer & postcss and check/fix for compilation errors
--   [ ] Implement best practices for Sass with better modular design
--   [ ] Implement best practices for compilation & building of Sass
+-   [x] Implement best practices for Sass with better modular design
+-   [x] Implement best practices for compilation & building of Sass
 -   [ ] Maybe make a npm package for React same as that of Font Awesome
 
 ---
