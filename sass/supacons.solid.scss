@@ -19,3 +19,21 @@
         content: functions.primary($glyph);
     }
 }
+
+// KNOWN-BUG : using icon with both sharp and solid classes produces solid icons when only solid icons stylesheets are present
+// SOLUTION: adding sharp solid stylesheet will make the icons distinguished as classic & sharp icons
+/* 
+<html lang="en">
+    <head>
+        <!-- ONLY SUPACONS SOLID ICONS STYLESHEET IS INCLUDED (sharp solid icons are not included) -->
+        <link rel="stylesheet" href="css/supacons.solid.css" />
+        <!-- <link rel="stylesheet" href="css/supacons.sharp.solid.css" /> -->
+    </head>
+    <body>
+        <!-- BOTH PRODUCES CLASSIC SOLID ICON (as sharp solid icons are not included) -->
+        <i class="fa-solid fa-toilet-paper-xmark" style="font-size: 4rem"></i>
+        <i class="fa-sharp fa-solid fa-toilet-paper-xmark" style="font-size: 4rem"></i>
+    </body>
+</html>
+
+*/
