@@ -14,12 +14,12 @@ Total Icons                     : 3602
 Total Icons (all combinations)  : 19287
 */
 @font-face {
-  font-family: "Supacons Classic Solid";
-  src: url("../fonts/supacons-solid-900.woff2") format("woff2");
+  font-family: "Supacons Sharp Solid";
+  src: url("../fonts/supacons-sharp-solid-900.woff2") format("woff2");
   font-weight: 900;
 }
-.fa-solid::before {
-  font: 900 1em/1 "Supacons Classic Solid";
+.fa-sharp.fa-solid::before {
+  font: 900 1em/1 "Supacons Sharp Solid";
   display: inline-block;
   text-rendering: auto;
 }
@@ -12571,19 +12571,3 @@ Total Icons (all combinations)  : 19287
 .fa-z::before {
   content: "\5a";
 }
-
-/* 
-<html lang="en">
-    <head>
-        <!-- ONLY SUPACONS SOLID ICONS STYLESHEET IS INCLUDED (sharp solid icons are not included) -->
-        <link rel="stylesheet" href="css/supacons.solid.css" />
-        <!-- <link rel="stylesheet" href="css/supacons.sharp.solid.css" /> -->
-    </head>
-    <body>
-        <!-- BOTH PRODUCES CLASSIC SOLID ICON (as sharp solid icons are not included) -->
-        <i class="fa-solid fa-toilet-paper-xmark" style="font-size: 4rem"></i>
-        <i class="fa-sharp fa-solid fa-toilet-paper-xmark" style="font-size: 4rem"></i>
-    </body>
-</html>
-
-*/
