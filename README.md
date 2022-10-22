@@ -21,23 +21,17 @@ those 16,000+ CSS classes for those icons.
 > The scrapping & automation scripts made of Python with Selenium for Supacons 5 _(Font Awesome 5)_ & Supacons 6 _(Font Awesome 6)_
 > are private repositories at the moment, and may be made public in possible future.
 
-| Fields                        | Status     |
-| ----------------------------- | ---------- |
-| Font Awesome Version          | 6          |
-| Font Awesome Release Version  | 6.1.1      |
-| Supacons Version              | 6          |
-| Supacons Release Version      | 6.1.1      |
-| Supacons Core Version         | 6          |
-| Supacons Core Release Version | 6.1.1      |
-| Scrapper Version              | 6          |
-| Last Scrapped Date            | 07-05-2022 |
+| Fields          | Font Awesome | Supacons Core | Supacons |
+| --------------- | ------------ | ------------- | -------- |
+| Version         | 6            | 6             | 6        |
+| Release Version | 6.2.0        | 6.2.0         | 6.1.1    |
 
 | Fields                         | Icon Status |
 | ------------------------------ | ----------- |
-| Total Generic Icons            | 3,124       |
-| Total Brand Icons              | 463         |
-| Total Icons                    | 3,587       |
-| Total Icons (all combinations) | 16,083      |
+| Total Generic Icons            | 3,137       |
+| Total Brand Icons              | 465         |
+| Total Icons                    | 3,602       |
+| Total Icons (all combinations) | 19,287      |
 
 ---
 
@@ -53,6 +47,7 @@ those 16,000+ CSS classes for those icons.
     5. [Light](#light)
     6. [Thin](#thin)
     7. [Duotone](#duotone)
+    8. [Sharp Solid](#sharp-solid)
 4. [Todos](#todo)
 5. [License](#license)
 
@@ -84,7 +79,7 @@ Awesome icons. _(i.e.; you can actually go to [`Font Awesome 6`](https://fontawe
 ## Styling
 
 All the icons **_(EXCEPT Duotone icons)_** can be styled by selecting the `<i>` tag **OR** selecting the icon classes
-**OR** you can specifically select the `:before` pseudo element, using your own stylesheets.
+**OR** you can specifically select the `::before` pseudo element, using your own stylesheets.
 
 ```css
 /* to set globally for all icons */
@@ -101,8 +96,8 @@ i::before {
 }
 ```
 
-To style duotone icons, you need to select both the `:before` & `:after` pseudo elements of the icon. As per the Font
-Awesome guidelines, there is a `opacity: 0.4` property on `:after` pseudo element which you might want to override,
+To style duotone icons, you need to select both the `::before` & `::after` pseudo elements of the icon. As per the Font
+Awesome guidelines, there is a `opacity: 0.4` property on `::after` pseudo element which you might want to override,
 specific to your likeness.
 
 ```css
@@ -136,8 +131,8 @@ i::after {
 
 ### All
 
-Contains all the 3,587 different types of icons _(includes; solid, regular, light, thin, duotone & brands icons)_ of
-Font Awesome 6 Pro, altogether making a total of 16,083 icons.
+Contains all the 3,602 different types of icons _(includes; solid, regular, light, thin, duotone, brands & sharp-solid icons)_ of
+Font Awesome 6 Pro, altogether making a total of 19,287 icons.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.all.css`
 
@@ -147,7 +142,7 @@ Font Awesome 6 Pro, altogether making a total of 16,083 icons.
 
 ### Brands
 
-Contains all the 463 brand icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 465 brand icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.brands.css`
 
@@ -157,7 +152,7 @@ Contains all the 463 brand icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 ### Solid
 
-Contains all the 3,124 solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,137 solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.solid.css`
 
@@ -167,7 +162,7 @@ Contains all the 3,124 solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 ### Regular
 
-Contains all the 3,124 regular icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,137 regular icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.regular.css`
 
@@ -177,7 +172,7 @@ Contains all the 3,124 regular icons of Font Awesome 6 Pro _(includes Pro icons)
 
 ### Light
 
-Contains all the 3,124 light icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,137 light icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.light.css`
 
@@ -187,7 +182,7 @@ Contains all the 3,124 light icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 ### Thin
 
-Contains all the 3,124 thin icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,137 thin icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.thin.css`
 
@@ -197,12 +192,26 @@ Contains all the 3,124 thin icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 ### Duotone
 
-Contains all the 3,124 duotone icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,137 duotone icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.duotone.css`
 
 ```html
 <link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.duotone.css" />
+```
+
+### Sharp Solid
+
+> Sharp Icons are recent addition to Font Awesome 6 _(released with Font Awesome 6 v6.2.0)_.
+> It currently contains only solid variation of sharp type.
+> It would be updated when Font Awesome 6 releases the entire sharp icons collection.
+
+Contains all the 3,137 sharp solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
+
+`https://poseidon-code.github.io/supacons/dist/supacons.sharp.solid.css`
+
+```html
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.sharp.solid.css" />
 ```
 
 ---
