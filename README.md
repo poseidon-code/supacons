@@ -33,6 +33,8 @@ those 16,000+ CSS classes for those icons.
 | Total Icons                    | 3,602       |
 | Total Icons (all combinations) | 19,287      |
 
+_Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detailed stats of changes from different Supacons Core releases._
+
 ---
 
 ## Table of Contents
@@ -220,7 +222,7 @@ Contains all the 3,137 sharp solid icons of Font Awesome 6 Pro _(includes Pro ic
 ## Future Updates
 
 -   A huge refactoring and structuring will happen when Font Awesome 6 releases all its sharp variations _(regular, light, thin, dutone)_
-    which will definately incorporate breaking changes for accessing the all the variations of classic icons & sharp icons seperately.
+    which will definately incorporate breaking changes for accessing all the variations of classic icons & sharp icons seperately.
 
 -   A visual check for testing all the icons in an HTML document needs to be implemented as the scrapper may be incapable
     of parsing all the unicode glyphs for every icon which will lead to no icons being shown.
