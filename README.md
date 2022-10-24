@@ -50,9 +50,10 @@ _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detail
     6. [Thin](#thin)
     7. [Duotone](#duotone)
     8. [Sharp Solid](#sharp-solid)
-4. [Future Updates](#future-updates)
-5. [Todos](#todo)
-6. [License](#license)
+4. [Testing](#testing)
+5. [Future Updates](#future-updates)
+6. [Todos](#todo)
+7. [License](#license)
 
 ## Usage
 
@@ -216,6 +217,27 @@ Contains all the 3,137 sharp solid icons of Font Awesome 6 Pro _(includes Pro ic
 ```html
 <link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.sharp.solid.css" />
 ```
+
+## Testing
+
+To test & visualise the changes made to the stylesheets inside `css/` and `dist/` folders,
+use a simple HTTP server to host this root directory _(e.g.: inside this project's root directory,
+use the python's simple HTTP server to host the files)_.
+
+```sh
+python3 -m http.server 8000
+```
+
+Open a browser window and goto `http://localhost:8000/test/index.html`
+
+Include and exclude stylesheets just by commenting out the lines in `index.html`
+
+```html
+<!-- <link rel="stylesheet" href="../css/supacons.all.css" /> -->
+<link rel="stylesheet" href="../dist/supacons.all.css" />
+```
+
+_Requires browser refresh everytime there is a change in `index.html` and every file linked with it._
 
 ---
 
