@@ -58,6 +58,10 @@ a {
     background-color: #1e3b8a63;
     font-weight: 700;
 }
+.badge sup {
+    font-weight: 100;
+    font-size: 10px;
+}
 
 .copy-toaster {
     position: fixed;
