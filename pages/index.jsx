@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import styles from '../styles/index.module.css';
 
 import Icon from '../components/Icon';
-import { More } from '../components/Icons';
 
 export const getStaticProps = async () => {
     const getIcons = (await import('../getIcons')).default;
@@ -16,18 +15,12 @@ export const getStaticProps = async () => {
 };
 
 const Home = ({ icons, clipboard }) => {
-    const [count, setCount] = useState();
-    const [load, setLoad] = useState(true);
     const [allIcons, setAllIcons] = useState([]);
 
     const iconTypes = {
         classic: ['solid', 'regular', 'light', 'thin', 'duotone'],
         sharp: ['solid'],
         brands: ['brands'],
-    };
-
-    const handleLoadMore = () => {
-        setCount(p => p + 400);
     };
 
     useEffect(() => {
@@ -64,16 +57,11 @@ const Home = ({ icons, clipboard }) => {
         setAllIcons(flattenIcons);
     }, []);
 
-    useEffect(() => {
-        if (count >= allIcons.length) setLoad(false);
-        else setLoad(true);
-    }, [count]);
-
     return (
         <section className='container' style={{ margin: '3rem 0' }}>
             <div className='wrapper'>
                 <div className={styles.icons}>
-                    {allIcons.slice(0, count).map((icon, i) => (
+                    {allIcons.map((icon, i) => (
                         <Icon
                             key={i}
                             clipboard={clipboard}
@@ -83,14 +71,6 @@ const Home = ({ icons, clipboard }) => {
                         />
                     ))}
                 </div>
-                {load && (
-                    <div className={styles.loadmore}>
-                        <button onClick={handleLoadMore}>
-                            <More />
-                            Load More
-                        </button>
-                    </div>
-                )}
             </div>
             {clipboard.isCopied && <span className='copy-toaster'>Icon Tag Copied !</span>}
         </section>

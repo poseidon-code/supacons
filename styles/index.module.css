@@ -36,39 +36,8 @@
     font-weight: 600;
 }
 
-.loadmore {
-    width: 100%;
-    padding: 2rem 0;
-    display: grid;
-    place-items: center;
-}
-.loadmore button {
-    all: unset;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    padding: 0.7em 4em;
-    gap: 0.5em;
-    border-radius: 0.4rem;
-    border: 0.2rem solid var(--bg-alt);
-    font-size: 1.6rem;
-    background: var(--bg);
-    transition: all var(--time);
-}
-.loadmore button svg {
-    --size: 2rem;
-    min-width: var(--size);
-    height: var(--size);
-}
-.loadmore button:active {
-    filter: drop-shadow(0 1px 5px rgba(255, 215, 0, 0.8));
-}
-
 @media only screen and (max-width: 800px) {
     .icons {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    }
-    .loadmore button {
-        font-size: 1rem;
     }
 }
