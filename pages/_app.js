@@ -8,6 +8,7 @@ import Loading from '../components/Loading';
 
 const App = ({ Component, pageProps }) => {
     const [isCopied, setIsCopied] = useState(false);
+    const [search, setSearch] = useState('');
     const toast = useRef();
 
     const copier = icon => {
@@ -54,8 +55,8 @@ const App = ({ Component, pageProps }) => {
             {loading ? (
                 <Loading />
             ) : (
-                <Layout>
-                    <Component clipboard={clipboard} {...pageProps} />
+                <Layout setSearch={setSearch}>
+                    <Component search={search} clipboard={clipboard} {...pageProps} />
                 </Layout>
             )}
         </>

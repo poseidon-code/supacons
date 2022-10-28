@@ -41,7 +41,7 @@ const Layout = props => {
                 <link rel='stylesheet' href='https://poseidon-code.github.io/supacons/dist/supacons.all.css' />
             </Head>
             <Navbar />
-            <Search />
+            <Search setSearch={props.setSearch} />
             <main>{props.children}</main>
             <Footer />
         </>

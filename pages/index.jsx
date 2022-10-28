@@ -4,28 +4,9 @@ import styles from '../styles/index.module.css';
 import Icon from '../components/Icon';
 import { NotFound } from '../components/Icons';
 
-export const getServerSideProps = async context => {
-    const { query } = context;
+export const getStaticProps = async () => {
     const getIcons = (await import('../getIcons')).default;
     let icons = await getIcons();
-
-    if (query['s'] && query['s'].length != 0) {
-        Object.filter = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(predicate));
-
-        const filteredBrandIcons = Object.filter(
-            icons['brands'],
-            ([name, _]) => name.toLowerCase().replace('-', '').indexOf(query['s'].toLowerCase().replace('-', '')) !== -1
-        );
-        const filteredGenericIcons = Object.filter(
-            icons['generic'],
-            ([name, _]) => name.toLowerCase().replace('-', '').indexOf(query['s'].toLowerCase().replace('-', '')) !== -1
-        );
-
-        icons = {
-            brands: filteredBrandIcons,
-            generic: filteredGenericIcons,
-        };
-    }
 
     return {
         props: {
@@ -34,8 +15,9 @@ export const getServerSideProps = async context => {
     };
 };
 
-const Home = ({ icons, clipboard }) => {
+const Home = ({ icons, clipboard, search }) => {
     const [allIcons, setAllIcons] = useState([]);
+    const [loading, setLoading] = useState(true);
 
     const iconTypes = {
         classic: ['solid', 'regular', 'light', 'thin', 'duotone'],
@@ -44,6 +26,25 @@ const Home = ({ icons, clipboard }) => {
     };
 
     useEffect(() => {
+        setLoading(true);
+
+        if (search != '') {
+            Object.filter = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(predicate));
+            const filteredBrandIcons = Object.filter(
+                icons['brands'],
+                ([name, _]) => name.toLowerCase().replace('-', '').indexOf(search.toLowerCase().replace('-', '')) !== -1
+            );
+            const filteredGenericIcons = Object.filter(
+                icons['generic'],
+                ([name, _]) => name.toLowerCase().replace('-', '').indexOf(search.toLowerCase().replace('-', '')) !== -1
+            );
+
+            icons = {
+                brands: filteredBrandIcons,
+                generic: filteredGenericIcons,
+            };
+        }
+
         let flattenIcons = [];
 
         for (let type in iconTypes) {
@@ -75,12 +76,15 @@ const Home = ({ icons, clipboard }) => {
         });
 
         setAllIcons(flattenIcons);
-    }, []);
+        setLoading(false);
+    }, [search]);
 
     return (
         <section className='container' style={{ margin: '3rem 0' }}>
             <div className='wrapper'>
-                {allIcons.length === 0 ? (
+                {loading ? (
+                    <p>Loading...</p>
+                ) : allIcons.length === 0 ? (
                     <div className={styles.notfound}>
                         <NotFound />
                         <h1>No Icon Found !</h1>

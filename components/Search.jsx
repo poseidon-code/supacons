@@ -1,12 +1,10 @@
-import { useRouter } from 'next/router';
 import { useRef } from 'react';
 
 import styles from '../styles/Search.module.css';
 
 import { MagnifyingGlass } from './Icons';
 
-const Search = () => {
-    const router = useRouter();
+const Search = ({ setSearch }) => {
     const searchRef = useRef();
 
     return (
@@ -28,10 +26,7 @@ const Search = () => {
                         ref={searchRef}
                         onKeyUp={e => {
                             if (e.key === 'Enter') {
-                                router.push({
-                                    pathname: '/',
-                                    query: { s: searchRef.current.value },
-                                });
+                                setSearch(searchRef.current.value);
                             }
                         }}
                     />
