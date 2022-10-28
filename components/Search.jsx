@@ -28,7 +28,10 @@ const Search = () => {
                         ref={searchRef}
                         onKeyUp={e => {
                             if (e.key === 'Enter') {
-                                router.push('/' + searchRef.current.value);
+                                router.push({
+                                    pathname: '/',
+                                    query: { s: searchRef.current.value },
+                                });
                             }
                         }}
                     />
