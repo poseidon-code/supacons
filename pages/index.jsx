@@ -4,14 +4,27 @@ import styles from '../styles/index.module.css';
 import Icon from '../components/Icon';
 import { More } from '../components/Icons';
 
+export const getStaticProps = async () => {
+    const getIcons = (await import('../getIcons')).default;
+    const icons = await getIcons();
+
+    return {
+        props: {
+            icons,
+        },
+    };
+};
+
 const Home = ({ icons, clipboard }) => {
-    const [count, setCount] = useState(400);
+    const [count, setCount] = useState();
     const [load, setLoad] = useState(true);
     const [allIcons, setAllIcons] = useState([]);
 
-    const typeClassic = ['solid', 'regular', 'light', 'thin', 'duotone'];
-    const typeSharp = ['solid'];
-    const typeBrand = ['brands'];
+    const iconTypes = {
+        classic: ['solid', 'regular', 'light', 'thin', 'duotone'],
+        sharp: ['solid'],
+        brands: ['brands'],
+    };
 
     const handleLoadMore = () => {
         setCount(p => p + 400);
@@ -19,29 +32,27 @@ const Home = ({ icons, clipboard }) => {
 
     useEffect(() => {
         let flattenIcons = [];
-        for (let name in icons.brands) {
-            const icon = {
-                name: name,
-                type: 'brands',
-                subtypes: typeBrand,
-            };
-            flattenIcons.push(icon);
-        }
-        for (let name in icons.generic) {
-            const icon = {
-                name: name,
-                type: 'classic',
-                subtypes: typeClassic,
-            };
-            flattenIcons.push(icon);
-        }
-        for (let name in icons.generic) {
-            const icon = {
-                name: name,
-                type: 'sharp',
-                subtypes: typeSharp,
-            };
-            flattenIcons.push(icon);
+
+        for (let type in iconTypes) {
+            if (type === 'brands') {
+                for (let name in icons[type]) {
+                    const icon = {
+                        name: name,
+                        type: type,
+                        subtypes: iconTypes[type],
+                    };
+                    flattenIcons.push(icon);
+                }
+            } else {
+                for (let name in icons['generic']) {
+                    const icon = {
+                        name: name,
+                        type: type,
+                        subtypes: iconTypes[type],
+                    };
+                    flattenIcons.push(icon);
+                }
+            }
         }
 
         flattenIcons.sort((a, b) => {
@@ -51,8 +62,11 @@ const Home = ({ icons, clipboard }) => {
         });
 
         setAllIcons(flattenIcons);
+    }, []);
 
-        if (count > flattenIcons.length) setLoad(false);
+    useEffect(() => {
+        if (count >= allIcons.length) setLoad(false);
+        else setLoad(true);
     }, [count]);
 
     return (
@@ -84,14 +98,3 @@ const Home = ({ icons, clipboard }) => {
 };
 
 export default Home;
-
-export const getStaticProps = async () => {
-    const getIcons = (await import('../getIcons')).default;
-    const icons = await getIcons();
-
-    return {
-        props: {
-            icons,
-        },
-    };
-};
