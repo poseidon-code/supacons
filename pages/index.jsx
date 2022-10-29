@@ -67,7 +67,7 @@ const Home = ({ icons, clipboard, search }) => {
 
     return (
         <section className='container' style={{ margin: '3rem 0' }}>
-            <div className='wrapper'>
+            <div className='wrapper' style={{ minHeight: '100vh' }}>
                 {loading ? (
                     <div style={{ padding: '4rem', display: 'grid', placeContent: 'center' }}>
                         <Spinner />
@@ -80,7 +80,7 @@ const Home = ({ icons, clipboard, search }) => {
                         <br />
                         <span>
                             Try searching on&nbsp;
-                            <a href='http://fontawesome.com' target='_blank' rel='noopener noreferrer'>
+                            <a href='https://fontawesome.com/search' target='_blank' rel='noopener noreferrer'>
                                 Font Awesome
                             </a>
                             &nbsp;& copy the icon tag, as it is 100% compatible with Supacons.
