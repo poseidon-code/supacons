@@ -1,5 +1,4 @@
 import { useRef } from 'react';
-
 import styles from '../styles/Search.module.css';
 
 import { MagnifyingGlass } from './Icons';

@@ -1,10 +1,8 @@
 import '../styles/globals.css';
-import { useState, useRef, useEffect } from 'react';
-import Router from 'next/router';
+import { useState, useRef } from 'react';
 import Clipboard from 'clipboard';
 
 import Layout from '../components/Layout';
-import Loading from '../components/Loading';
 
 const App = ({ Component, pageProps }) => {
     const [isCopied, setIsCopied] = useState(false);
@@ -31,34 +29,11 @@ const App = ({ Component, pageProps }) => {
         isCopied,
     };
 
-    const [loading, setLoading] = useState(false);
-    useEffect(() => {
-        const start = () => {
-            setLoading(true);
-        };
-        const end = () => {
-            setLoading(false);
-        };
-        Router.events.on('routeChangeStart', start);
-        Router.events.on('routeChangeComplete', end);
-        Router.events.on('routeChangeError', end);
-
-        return () => {
-            Router.events.off('routeChangeStart', start);
-            Router.events.off('routeChangeComplete', end);
-            Router.events.off('routeChangeError', end);
-        };
-    }, []);
-
     return (
         <>
-            {loading ? (
-                <Loading />
-            ) : (
-                <Layout setSearch={setSearch}>
-                    <Component search={search} clipboard={clipboard} {...pageProps} />
-                </Layout>
-            )}
+            <Layout setSearch={setSearch}>
+                <Component search={search} clipboard={clipboard} {...pageProps} />
+            </Layout>
         </>
     );
 };

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from '../styles/index.module.css';
 
 import Icon from '../components/Icon';
+import { Spinner } from '../components/Loading';
 import { NotFound } from '../components/Icons';
 
 export const getStaticProps = async () => {
@@ -26,25 +27,6 @@ const Home = ({ icons, clipboard, search }) => {
     };
 
     useEffect(() => {
-        setLoading(true);
-
-        if (search != '') {
-            Object.filter = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(predicate));
-            const filteredBrandIcons = Object.filter(
-                icons['brands'],
-                ([name, _]) => name.toLowerCase().replace('-', '').indexOf(search.toLowerCase().replace('-', '')) !== -1
-            );
-            const filteredGenericIcons = Object.filter(
-                icons['generic'],
-                ([name, _]) => name.toLowerCase().replace('-', '').indexOf(search.toLowerCase().replace('-', '')) !== -1
-            );
-
-            icons = {
-                brands: filteredBrandIcons,
-                generic: filteredGenericIcons,
-            };
-        }
-
         let flattenIcons = [];
 
         for (let type in iconTypes) {
@@ -69,6 +51,10 @@ const Home = ({ icons, clipboard, search }) => {
             }
         }
 
+        flattenIcons = flattenIcons.filter(
+            ({ name }) => name.toLowerCase().replace('-', '').indexOf(search.toLowerCase().replace('-', '')) !== -1
+        );
+
         flattenIcons.sort((a, b) => {
             if (a.name < b.name) return -1;
             if (a.name > b.name) return 1;
@@ -83,8 +69,10 @@ const Home = ({ icons, clipboard, search }) => {
         <section className='container' style={{ margin: '3rem 0' }}>
             <div className='wrapper'>
                 {loading ? (
-                    <p>Loading...</p>
-                ) : allIcons.length === 0 ? (
+                    <div style={{ padding: '4rem', display: 'grid', placeContent: 'center' }}>
+                        <Spinner />
+                    </div>
+                ) : allIcons.length == 0 ? (
                     <div className={styles.notfound}>
                         <NotFound />
                         <h1>No Icon Found !</h1>
