@@ -243,8 +243,8 @@ _Requires browser refresh everytime there is a change in `index.html` and every 
 
 ## Future Updates
 
--   A huge refactoring and structuring will happen when Font Awesome 6 releases all its sharp variations _(regular, light, thin, dutone)_
-    which will definately incorporate breaking changes for accessing all the variations of classic icons & sharp icons seperately.
+-   A huge refactoring and structuring will happen when Font Awesome 6 releases with all its sharp variations _(regular, light, thin, duotone)_
+    which will definitely incorporate breaking changes for accessing all the variations of classic icons & sharp icons seperately.
 
 -   A visual check for testing all the icons in an HTML document needs to be implemented as the scrapper may be incapable
     of parsing all the unicode glyphs for every icon which will lead to no icons being shown.
