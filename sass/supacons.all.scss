@@ -13,19 +13,19 @@
     }
 }
 
+// all the classes for Generic Icons
+@each $name, $glyph in icons.$generic {
+    .fa-#{$name}::before {
+        content: functions.primary($glyph);
+    }
+}
+
 // Brands Icons Font style
 @each $type, $font in variables.$fontsBrands {
     .fa-#{$type}::before {
         font: $font;
         display: inline-block;
         text-rendering: auto;
-    }
-}
-
-// all the classes for Generic Icons
-@each $name, $glyph in icons.$generic {
-    .fa-#{$name}::before {
-        content: functions.primary($glyph);
     }
 }
 

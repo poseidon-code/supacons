@@ -1908,12 +1908,6 @@ Total Icons (all combinations)  : 19287
   content: "\f63f";
 }
 
-.fa-brands::before {
-  font: 400 1em/1 "Supacons Brands";
-  display: inline-block;
-  text-rendering: auto;
-}
-
 .fa-0::before {
   content: "\30";
 }
@@ -14460,6 +14454,12 @@ Total Icons (all combinations)  : 19287
 
 .fa-z::before {
   content: "\5a";
+}
+
+.fa-brands::before {
+  font: 400 1em/1 "Supacons Brands";
+  display: inline-block;
+  text-rendering: auto;
 }
 
 .fa-sharp.fa-solid::before {

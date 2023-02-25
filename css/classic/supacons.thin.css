@@ -15,7 +15,7 @@ Total Icons (all combinations)  : 19287
 */
 @font-face {
   font-family: "Supacons Classic Thin";
-  src: url("../fonts/supacons-thin-100.woff2") format("woff2");
+  src: url("../../../fonts/supacons-thin-100.woff2") format("woff2");
   font-weight: 100;
 }
 .fa-thin::before {

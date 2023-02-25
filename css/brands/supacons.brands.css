@@ -15,7 +15,7 @@ Total Icons (all combinations)  : 19287
 */
 @font-face {
   font-family: "Supacons Brands";
-  src: url("../fonts/supacons-brands-400.woff2") format("woff2");
+  src: url("../../../fonts/supacons-brands-400.woff2") format("woff2");
   font-weight: 400;
 }
 .fa-brands::before {

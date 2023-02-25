@@ -1,10 +1,10 @@
-@use './icons';
-@use './functions';
-@use './variables';
+@use '../icons';
+@use '../functions';
+@use '../variables';
 
 @font-face {
     font-family: 'Supacons Sharp Solid';
-    src: url('../fonts/supacons-sharp-solid-900.woff2') format('woff2');
+    src: url('../../../fonts/supacons-sharp-solid-900.woff2') format('woff2');
     font-weight: 900;
 }
 
