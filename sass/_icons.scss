@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.2.0
+FontAwesome Release Version     : 6.3.0
 Supacons Version                : 6
 Supacons Release Version        : 6.2.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.2.0
+Supacons Core Release Version   : 6.3.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Scrapped Date              : 20-10-2022
-Total Generic Icons             : 3137
-Total Brand Icons               : 465
-Total Icons                     : 3602
-Total Icons (all combinations)  : 19287
+Last Updated Date               : 27-02-2023
+Total Generic Icons             : 3168
+Total Brand Icons               : 467
+Total Icons                     : 3635
+Total Icons (all combinations)  : 22643
 */
 
 $generic: (
@@ -275,6 +275,7 @@ $generic: (
     'bench-tree': 'e2e7',
     'bezier-curve': 'f55b',
     'bicycle': 'f206',
+    'billboard': 'e5cd',
     'binary': 'e33b',
     'binary-circle-check': 'e33c',
     'binary-lock': 'e33d',
@@ -416,6 +417,7 @@ $generic: (
     'broccoli': 'e3e2',
     'broom': 'f51a',
     'broom-ball': 'f458',
+    'broom-wide': 'e5d1',
     'browser': 'f37e',
     'browsers': 'e0cb',
     'brush': 'f55d',
@@ -441,6 +443,8 @@ $generic: (
     'bullseye': 'f140',
     'bullseye-arrow': 'f648',
     'bullseye-pointer': 'f649',
+    'buoy': 'e5b5',
+    'buoy-mooring': 'e5b6',
     'burger': 'f805',
     'burger-cheese': 'f7f1',
     'burger-fries': 'e0cd',
@@ -631,9 +635,9 @@ $generic: (
     'chevrons-right': 'f324',
     'chevrons-up': 'f325',
     'child': 'f1ae',
+    'child-combatant': 'e4e0',
     'child-dress': 'e59c',
     'child-reaching': 'e59d',
-    'child-rifle': 'e4e0',
     'children': 'e4e1',
     'chimney': 'f78b',
     'chopsticks': 'e3f7',
@@ -688,6 +692,7 @@ $generic: (
     'circle-ellipsis': 'e10a',
     'circle-ellipsis-vertical': 'e10b',
     'circle-envelope': 'e10c',
+    'circle-euro': 'e5ce',
     'circle-exclamation': 'f06a',
     'circle-exclamation-check': 'e10d',
     'circle-f': 'e10e',
@@ -721,6 +726,7 @@ $generic: (
     'circle-plus': 'f055',
     'circle-q': 'e11e',
     'circle-quarter': 'e11f',
+    'circle-quarter-stroke': 'e5d3',
     'circle-quarters': 'e3f8',
     'circle-question': 'f059',
     'circle-r': 'e120',
@@ -732,9 +738,11 @@ $generic: (
     'circle-sort-down': 'e031',
     'circle-sort-up': 'e032',
     'circle-star': 'e123',
+    'circle-sterling': 'e5cf',
     'circle-stop': 'f28d',
     'circle-t': 'e124',
     'circle-three-quarters': 'e125',
+    'circle-three-quarters-stroke': 'e5d4',
     'circle-trash': 'e126',
     'circle-u': 'e127',
     'circle-up': 'f35b',
@@ -748,6 +756,7 @@ $generic: (
     'circle-x': 'e12e',
     'circle-xmark': 'f057',
     'circle-y': 'e12f',
+    'circle-yen': 'e5d0',
     'circle-z': 'e130',
     'citrus': 'e2f4',
     'citrus-slice': 'e2f5',
@@ -867,6 +876,7 @@ $generic: (
     'comment-dollar': 'f651',
     'comment-dots': 'f4ad',
     'comment-exclamation': 'f4af',
+    'comment-heart': 'e5c8',
     'comment-image': 'e148',
     'comment-lines': 'f4b0',
     'comment-medical': 'f7f5',
@@ -974,6 +984,8 @@ $generic: (
     'dial-off': 'e162',
     'diamond': 'f219',
     'diamond-exclamation': 'e405',
+    'diamond-half': 'e5b7',
+    'diamond-half-stroke': 'e5b8',
     'diamond-turn-right': 'f5eb',
     'dice': 'f522',
     'dice-d10': 'f6cd',
@@ -1372,6 +1384,7 @@ $generic: (
     'game-board': 'f867',
     'game-board-simple': 'f868',
     'game-console-handheld': 'f8bb',
+    'game-console-handheld-crank': 'e5b9',
     'gamepad': 'f11b',
     'gamepad-modern': 'e5a2',
     'garage': 'e009',
@@ -1674,6 +1687,7 @@ $generic: (
     'input-pipe': 'e1be',
     'input-text': 'e1bf',
     'integral': 'f667',
+    'interrobang': 'e5ba',
     'intersection': 'f668',
     'island-tropical': 'f811',
     'italic': 'f033',
@@ -1829,6 +1843,7 @@ $generic: (
     'magnifying-glass-minus': 'f010',
     'magnifying-glass-plus': 'f00e',
     'mailbox': 'f813',
+    'mailbox-flag-up': 'e5bb',
     'manat-sign': 'e1d5',
     'mandolin': 'f6f9',
     'mango': 'e30f',
@@ -1879,6 +1894,7 @@ $generic: (
     'message-dollar': 'f650',
     'message-dots': 'f4a3',
     'message-exclamation': 'f4a5',
+    'message-heart': 'e5c9',
     'message-image': 'e1e0',
     'message-lines': 'f4a6',
     'message-medical': 'f7f4',
@@ -1973,6 +1989,7 @@ $generic: (
     'music-note': 'f8cf',
     'music-note-slash': 'f8d0',
     'music-slash': 'f8d1',
+    'mustache': 'e5bc',
     'n': '4e',
     'naira-sign': 'e1f6',
     'narwhal': 'f6fe',
@@ -1988,6 +2005,7 @@ $generic: (
     'nfc-slash': 'e1fc',
     'nfc-symbol': 'e531',
     'nfc-trash': 'e1fd',
+    'nose': 'e5bd',
     'not-equal': 'f53e',
     'notdef': 'e1fe',
     'note': 'e1ff',
@@ -2091,6 +2109,7 @@ $generic: (
     'pen-swirl': 'e214',
     'pen-to-square': 'f044',
     'pencil': 'f303',
+    'pencil-mechanical': 'e5ca',
     'pencil-slash': 'e215',
     'people': 'e216',
     'people-arrows': 'e068',
@@ -2176,6 +2195,7 @@ $generic: (
     'peso-sign': 'e222',
     'phone': 'f095',
     'phone-arrow-down-left': 'e223',
+    'phone-arrow-right': 'e5be',
     'phone-arrow-up-right': 'e224',
     'phone-flip': 'f879',
     'phone-hangup': 'e225',
@@ -2192,6 +2212,7 @@ $generic: (
     'pi': 'f67e',
     'piano': 'f8d4',
     'piano-keyboard': 'f8d5',
+    'pickaxe': 'e5bf',
     'pickleball': 'e435',
     'pie': 'f705',
     'pig': 'f706',
@@ -2257,6 +2278,7 @@ $generic: (
     'prescription': 'f5b1',
     'prescription-bottle': 'f485',
     'prescription-bottle-medical': 'f486',
+    'prescription-bottle-pill': 'e5c0',
     'presentation-screen': 'f685',
     'pretzel': 'e441',
     'print': 'f02f',
@@ -2498,6 +2520,7 @@ $generic: (
     'siren-on': 'e02e',
     'sitemap': 'f0e8',
     'skeleton': 'f620',
+    'skeleton-ribs': 'e5cb',
     'ski-boot': 'e3cc',
     'ski-boot-ski': 'e3cd',
     'skull': 'f54c',
@@ -2519,6 +2542,7 @@ $generic: (
     'snooze': 'f880',
     'snow-blowing': 'f761',
     'snowflake': 'f2dc',
+    'snowflake-droplets': 'e5c1',
     'snowflakes': 'f7cf',
     'snowman': 'f7d0',
     'snowman-head': 'f79b',
@@ -2536,6 +2560,7 @@ $generic: (
     'space-station-moon-construction': 'e034',
     'spade': 'f2f4',
     'spaghetti-monster-flying': 'f67b',
+    'sparkle': 'e5d6',
     'sparkles': 'f890',
     'speaker': 'f8df',
     'speakers': 'f8e0',
@@ -2590,6 +2615,7 @@ $generic: (
     'square-code': 'e267',
     'square-d': 'e268',
     'square-dashed': 'e269',
+    'square-dashed-circle-plus': 'e5c2',
     'square-divide': 'e26a',
     'square-dollar': 'f2e9',
     'square-down': 'f350',
@@ -2895,6 +2921,8 @@ $generic: (
     'triangle-exclamation': 'f071',
     'triangle-instrument': 'f8e2',
     'triangle-person-digging': 'f85d',
+    'tricycle': 'e5c3',
+    'tricycle-adult': 'e5c4',
     'trillium': 'e588',
     'trophy': 'f091',
     'trophy-star': 'f2eb',
@@ -2993,6 +3021,7 @@ $generic: (
     'user-large': 'f406',
     'user-large-slash': 'f4fa',
     'user-lock': 'f502',
+    'user-magnifying-glass': 'e5c5',
     'user-minus': 'f503',
     'user-music': 'f8eb',
     'user-ninja': 'f504',
@@ -3104,6 +3133,7 @@ $generic: (
     'wave-triangle': 'f89a',
     'waveform': 'f8f1',
     'waveform-lines': 'f8f2',
+    'webhook': 'e5d5',
     'weight-hanging': 'f5cd',
     'weight-scale': 'f496',
     'whale': 'f72c',
@@ -3140,6 +3170,7 @@ $generic: (
     'won-sign': 'f159',
     'worm': 'e599',
     'wreath': 'f7e2',
+    'wreath-laurel': 'e5d2',
     'wrench': 'f0ad',
     'wrench-simple': 'e2d1',
     'x': '58',
@@ -3425,6 +3456,7 @@ $brands: (
     'nutritionix': 'f3d6',
     'octopus-deploy': 'e082',
     'odnoklassniki': 'f263',
+    'odysee': 'e5c6',
     'old-republic': 'f510',
     'opencart': 'f23d',
     'openid': 'f19b',
@@ -3543,6 +3575,7 @@ $brands: (
     'strava': 'f428',
     'stripe': 'f429',
     'stripe-s': 'f42a',
+    'stubber': 'e5c7',
     'studiovinari': 'f3f8',
     'stumbleupon': 'f1a4',
     'stumbleupon-circle': 'f1a3',
