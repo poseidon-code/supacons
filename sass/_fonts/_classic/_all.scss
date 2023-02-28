@@ -1,5 +1,29 @@
-@import './solid';
-@import './regular';
-@import './light';
-@import './thin';
-@import './duotone';
+@font-face {
+    font-family: 'Supacons Classic Thin';
+    src: url('../fonts/supacons-thin-100.woff2') format('woff2');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Supacons Classic Light';
+    src: url('../fonts/supacons-light-300.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Supacons Classic Regular';
+    src: url('../fonts/supacons-regular-400.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Supacons Classic Solid';
+    src: url('../fonts/supacons-solid-900.woff2') format('woff2');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Supacons Classic Duotone';
+    src: url('../fonts/supacons-duotone-900.woff2') format('woff2');
+    font-weight: 900;
+}
