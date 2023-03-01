@@ -2,11 +2,7 @@
 @use '../functions';
 @use '../variables';
 
-@font-face {
-    font-family: 'Supacons Brands';
-    src: url('../../../fonts/supacons-brands-400.woff2') format('woff2');
-    font-weight: 400;
-}
+@import '../_fonts/_brands/brands';
 
 .fa-brands::before {
     font: map-get(variables.$fontsBrands, 'brands');
