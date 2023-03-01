@@ -2,11 +2,7 @@
 @use '../functions';
 @use '../variables';
 
-@font-face {
-    font-family: 'Supacons Classic Thin';
-    src: url('../../../fonts/supacons-thin-100.woff2') format('woff2');
-    font-weight: 100;
-}
+@import '../_fonts/_classic/thin';
 
 .fa-thin::before {
     font: map-get(variables.$fontsClassic, 'thin');

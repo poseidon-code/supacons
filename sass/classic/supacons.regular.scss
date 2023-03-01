@@ -2,11 +2,7 @@
 @use '../functions';
 @use '../variables';
 
-@font-face {
-    font-family: 'Supacons Classic Regular';
-    src: url('../../../fonts/supacons-regular-400.woff2') format('woff2');
-    font-weight: 400;
-}
+@use '../_fonts/_classic/regular';
 
 .fa-regular::before {
     font: map-get(variables.$fontsClassic, 'regular');

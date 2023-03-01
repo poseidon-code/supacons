@@ -2,11 +2,7 @@
 @use '../functions';
 @use '../variables';
 
-@font-face {
-    font-family: 'Supacons Classic Duotone';
-    src: url('../../../fonts/supacons-duotone-900.woff2') format('woff2');
-    font-weight: 900;
-}
+@use '../_fonts/_classic/duotone';
 
 .fa-duotone {
     position: relative;

@@ -2,11 +2,7 @@
 @use '../functions';
 @use '../variables';
 
-@font-face {
-    font-family: 'Supacons Classic Solid';
-    src: url('../../../fonts/supacons-solid-900.woff2') format('woff2');
-    font-weight: 900;
-}
+@use '../_fonts/_classic/solid';
 
 .fa-solid::before {
     font: map-get(variables.$fontsClassic, 'solid');
