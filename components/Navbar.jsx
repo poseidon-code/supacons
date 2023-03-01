@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from '../styles/Navbar.module.css';
-import { Brand, Code, Count, Github, License } from './Icons';
+import { Brand, Code, Count, Github, License, Info } from './Icons';
 
 const Navbar = () => {
     return (
@@ -8,11 +8,18 @@ const Navbar = () => {
             <div className='wrapper'>
                 <nav className={styles.navbar}>
                     <Link href='/'>
-                        <a title='v6.2.0'>
+                        <a title='v6.3.0'>
                             <Brand /> <span>Supacons 6</span>
                         </a>
                     </Link>
                     <div className={styles.links}>
+                        <a
+                            title='Documentation'
+                            href='https://poseidon-code.github.io/supacons/'
+                            target='_blank'
+                            rel='noopener noreferrer'>
+                            <Info />
+                        </a>
                         <a
                             title='Code'
                             href='https://github.com/poseidon-code/supacons'
@@ -40,9 +47,9 @@ const Navbar = () => {
                         <span>&gt; Pro icons included !</span>
                     </h1>
                     <div className={styles.stats}>
-                        <span title='19,287'>
+                        <span title='22,643'>
                             <Count />
-                            19,000+ Icons
+                            22,000+ Icons
                         </span>
                         <span>
                             <License />

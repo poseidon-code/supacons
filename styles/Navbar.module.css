@@ -44,7 +44,7 @@
     height: var(--size);
     color: var(--text);
 }
-.links a:first-of-type svg {
+.links a:nth-of-type(2) svg {
     fill: none;
 }
 .links a:last-of-type svg {
