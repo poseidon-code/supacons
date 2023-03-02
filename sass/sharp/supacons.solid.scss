@@ -2,11 +2,7 @@
 @use '../functions';
 @use '../variables';
 
-@font-face {
-    font-family: 'Supacons Sharp Solid';
-    src: url('../../../fonts/supacons-sharp-solid-900.woff2') format('woff2');
-    font-weight: 900;
-}
+@import '../_fonts/_sharp/solid';
 
 .fa-sharp.fa-solid::before {
     font: map-get(variables.$fontsSharp, 'solid');
