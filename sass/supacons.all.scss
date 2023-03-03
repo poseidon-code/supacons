@@ -2,9 +2,9 @@
 @use './functions';
 @use './variables';
 
-@use './_fonts/_sharp/sharp';
-@use './_fonts/_brands/brands';
-@use './_fonts/_classic/all';
+@import './_fonts/_brands/all';
+@import './_fonts/_classic/all';
+@import './_fonts/_sharp/all';
 
 // all the classes for Brand Icons
 @each $name, $glyph in icons.$brands {
