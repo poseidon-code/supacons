@@ -1,0 +1,17 @@
+@use '../icons';
+@use '../functions';
+@use '../variables';
+
+@import '../_fonts/_sharp/regular';
+
+.fa-sharp.fa-regular::before {
+    font: map-get(variables.$fontsSharp, 'regular');
+    display: inline-block;
+    text-rendering: auto;
+}
+
+@each $name, $glyph in icons.$generic {
+    .fa-#{$name}::before {
+        content: functions.primary($glyph);
+    }
+}
