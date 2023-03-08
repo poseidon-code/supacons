@@ -38,8 +38,8 @@ _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detail
 ---
 
 > ⚠️ **NOTICE** ⚠️\
-> A huge refactoring and structuring has happened with the release of Font Awesome 6 sharp variations
-> _(solid, regular)_. Users of Supacons 6 needs to change the URLs inside the `<link>` tags as mentioned above.
+> A huge refactoring and structuring of Supacons has happened with the release of Font Awesome 6 sharp variations
+> _(solid, regular)_. Users of Supacons 6 needs to change the URLs inside the `<link>` tags as mentioned below.
 
 ## Table of Contents
 

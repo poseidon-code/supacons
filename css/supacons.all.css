@@ -50,7 +50,7 @@ Total Icons (all combinations)  : 22643
 }
 @font-face {
   font-family: "Supacons Sharp Regular";
-  src: url("../../fonts/sharp/supacons-regular-400.woff2") format("woff2");
+  src: url("../fonts/sharp/supacons-regular-400.woff2") format("woff2");
   font-weight: 400;
 }
 .fa-42-group::before {
