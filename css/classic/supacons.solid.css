@@ -1,21 +1,21 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.2.0
+FontAwesome Release Version     : 6.3.0
 Supacons Version                : 6
 Supacons Release Version        : 6.2.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.2.0
+Supacons Core Release Version   : 6.3.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Scrapped Date              : 20-10-2022
-Total Generic Icons             : 3137
-Total Brand Icons               : 465
-Total Icons                     : 3602
-Total Icons (all combinations)  : 19287
+Last Updated Date               : 27-02-2023
+Total Generic Icons             : 3168
+Total Brand Icons               : 467
+Total Icons                     : 3635
+Total Icons (all combinations)  : 22643
 */
 @font-face {
   font-family: "Supacons Classic Solid";
-  src: url("../../../fonts/supacons-solid-900.woff2") format("woff2");
+  src: url("../../fonts/classic/supacons-solid-900.woff2") format("woff2");
   font-weight: 900;
 }
 .fa-solid::before {
@@ -1064,6 +1064,10 @@ Total Icons (all combinations)  : 19287
   content: "\f206";
 }
 
+.fa-billboard::before {
+  content: "\e5cd";
+}
+
 .fa-binary::before {
   content: "\e33b";
 }
@@ -1628,6 +1632,10 @@ Total Icons (all combinations)  : 19287
   content: "\f458";
 }
 
+.fa-broom-wide::before {
+  content: "\e5d1";
+}
+
 .fa-browser::before {
   content: "\f37e";
 }
@@ -1726,6 +1734,14 @@ Total Icons (all combinations)  : 19287
 
 .fa-bullseye-pointer::before {
   content: "\f649";
+}
+
+.fa-buoy::before {
+  content: "\e5b5";
+}
+
+.fa-buoy-mooring::before {
+  content: "\e5b6";
 }
 
 .fa-burger::before {
@@ -2488,16 +2504,16 @@ Total Icons (all combinations)  : 19287
   content: "\f1ae";
 }
 
+.fa-child-combatant::before {
+  content: "\e4e0";
+}
+
 .fa-child-dress::before {
   content: "\e59c";
 }
 
 .fa-child-reaching::before {
   content: "\e59d";
-}
-
-.fa-child-rifle::before {
-  content: "\e4e0";
 }
 
 .fa-children::before {
@@ -2716,6 +2732,10 @@ Total Icons (all combinations)  : 19287
   content: "\e10c";
 }
 
+.fa-circle-euro::before {
+  content: "\e5ce";
+}
+
 .fa-circle-exclamation::before {
   content: "\f06a";
 }
@@ -2848,6 +2868,10 @@ Total Icons (all combinations)  : 19287
   content: "\e11f";
 }
 
+.fa-circle-quarter-stroke::before {
+  content: "\e5d3";
+}
+
 .fa-circle-quarters::before {
   content: "\e3f8";
 }
@@ -2892,6 +2916,10 @@ Total Icons (all combinations)  : 19287
   content: "\e123";
 }
 
+.fa-circle-sterling::before {
+  content: "\e5cf";
+}
+
 .fa-circle-stop::before {
   content: "\f28d";
 }
@@ -2902,6 +2930,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-circle-three-quarters::before {
   content: "\e125";
+}
+
+.fa-circle-three-quarters-stroke::before {
+  content: "\e5d4";
 }
 
 .fa-circle-trash::before {
@@ -2954,6 +2986,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-circle-y::before {
   content: "\e12f";
+}
+
+.fa-circle-yen::before {
+  content: "\e5d0";
 }
 
 .fa-circle-z::before {
@@ -3432,6 +3468,10 @@ Total Icons (all combinations)  : 19287
   content: "\f4af";
 }
 
+.fa-comment-heart::before {
+  content: "\e5c8";
+}
+
 .fa-comment-image::before {
   content: "\e148";
 }
@@ -3858,6 +3898,14 @@ Total Icons (all combinations)  : 19287
 
 .fa-diamond-exclamation::before {
   content: "\e405";
+}
+
+.fa-diamond-half::before {
+  content: "\e5b7";
+}
+
+.fa-diamond-half-stroke::before {
+  content: "\e5b8";
 }
 
 .fa-diamond-turn-right::before {
@@ -5452,6 +5500,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8bb";
 }
 
+.fa-game-console-handheld-crank::before {
+  content: "\e5b9";
+}
+
 .fa-gamepad::before {
   content: "\f11b";
 }
@@ -6660,6 +6712,10 @@ Total Icons (all combinations)  : 19287
   content: "\f667";
 }
 
+.fa-interrobang::before {
+  content: "\e5ba";
+}
+
 .fa-intersection::before {
   content: "\f668";
 }
@@ -7280,6 +7336,10 @@ Total Icons (all combinations)  : 19287
   content: "\f813";
 }
 
+.fa-mailbox-flag-up::before {
+  content: "\e5bb";
+}
+
 .fa-manat-sign::before {
   content: "\e1d5";
 }
@@ -7478,6 +7538,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-message-exclamation::before {
   content: "\f4a5";
+}
+
+.fa-message-heart::before {
+  content: "\e5c9";
 }
 
 .fa-message-image::before {
@@ -7856,6 +7920,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8d1";
 }
 
+.fa-mustache::before {
+  content: "\e5bc";
+}
+
 .fa-n::before {
   content: "\4e";
 }
@@ -7914,6 +7982,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-nfc-trash::before {
   content: "\e1fd";
+}
+
+.fa-nose::before {
+  content: "\e5bd";
 }
 
 .fa-not-equal::before {
@@ -8328,6 +8400,10 @@ Total Icons (all combinations)  : 19287
   content: "\f303";
 }
 
+.fa-pencil-mechanical::before {
+  content: "\e5ca";
+}
+
 .fa-pencil-slash::before {
   content: "\e215";
 }
@@ -8668,6 +8744,10 @@ Total Icons (all combinations)  : 19287
   content: "\e223";
 }
 
+.fa-phone-arrow-right::before {
+  content: "\e5be";
+}
+
 .fa-phone-arrow-up-right::before {
   content: "\e224";
 }
@@ -8730,6 +8810,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-piano-keyboard::before {
   content: "\f8d5";
+}
+
+.fa-pickaxe::before {
+  content: "\e5bf";
 }
 
 .fa-pickleball::before {
@@ -8990,6 +9074,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-prescription-bottle-medical::before {
   content: "\f486";
+}
+
+.fa-prescription-bottle-pill::before {
+  content: "\e5c0";
 }
 
 .fa-presentation-screen::before {
@@ -9956,6 +10044,10 @@ Total Icons (all combinations)  : 19287
   content: "\f620";
 }
 
+.fa-skeleton-ribs::before {
+  content: "\e5cb";
+}
+
 .fa-ski-boot::before {
   content: "\e3cc";
 }
@@ -10040,6 +10132,10 @@ Total Icons (all combinations)  : 19287
   content: "\f2dc";
 }
 
+.fa-snowflake-droplets::before {
+  content: "\e5c1";
+}
+
 .fa-snowflakes::before {
   content: "\f7cf";
 }
@@ -10106,6 +10202,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-spaghetti-monster-flying::before {
   content: "\f67b";
+}
+
+.fa-sparkle::before {
+  content: "\e5d6";
 }
 
 .fa-sparkles::before {
@@ -10322,6 +10422,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-square-dashed::before {
   content: "\e269";
+}
+
+.fa-square-dashed-circle-plus::before {
+  content: "\e5c2";
 }
 
 .fa-square-divide::before {
@@ -11544,6 +11648,14 @@ Total Icons (all combinations)  : 19287
   content: "\f85d";
 }
 
+.fa-tricycle::before {
+  content: "\e5c3";
+}
+
+.fa-tricycle-adult::before {
+  content: "\e5c4";
+}
+
 .fa-trillium::before {
   content: "\e588";
 }
@@ -11934,6 +12046,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-user-lock::before {
   content: "\f502";
+}
+
+.fa-user-magnifying-glass::before {
+  content: "\e5c5";
 }
 
 .fa-user-minus::before {
@@ -12380,6 +12496,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8f2";
 }
 
+.fa-webhook::before {
+  content: "\e5d5";
+}
+
 .fa-weight-hanging::before {
   content: "\f5cd";
 }
@@ -12522,6 +12642,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-wreath::before {
   content: "\f7e2";
+}
+
+.fa-wreath-laurel::before {
+  content: "\e5d2";
 }
 
 .fa-wrench::before {

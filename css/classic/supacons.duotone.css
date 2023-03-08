@@ -1,21 +1,21 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.2.0
+FontAwesome Release Version     : 6.3.0
 Supacons Version                : 6
 Supacons Release Version        : 6.2.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.2.0
+Supacons Core Release Version   : 6.3.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Scrapped Date              : 20-10-2022
-Total Generic Icons             : 3137
-Total Brand Icons               : 465
-Total Icons                     : 3602
-Total Icons (all combinations)  : 19287
+Last Updated Date               : 27-02-2023
+Total Generic Icons             : 3168
+Total Brand Icons               : 467
+Total Icons                     : 3635
+Total Icons (all combinations)  : 22643
 */
 @font-face {
   font-family: "Supacons Classic Duotone";
-  src: url("../../../fonts/supacons-duotone-900.woff2") format("woff2");
+  src: url("../../fonts/classic/supacons-duotone-900.woff2") format("woff2");
   font-weight: 900;
 }
 .fa-duotone {
@@ -1073,6 +1073,10 @@ Total Icons (all combinations)  : 19287
   content: "\f206\f206";
   opacity: 0.4;
 }
+.fa-duotone.fa-billboard::after {
+  content: "\e5cd\e5cd";
+  opacity: 0.4;
+}
 .fa-duotone.fa-binary::after {
   content: "\e33b\e33b";
   opacity: 0.4;
@@ -1637,6 +1641,10 @@ Total Icons (all combinations)  : 19287
   content: "\f458\f458";
   opacity: 0.4;
 }
+.fa-duotone.fa-broom-wide::after {
+  content: "\e5d1\e5d1";
+  opacity: 0.4;
+}
 .fa-duotone.fa-browser::after {
   content: "\f37e\f37e";
   opacity: 0.4;
@@ -1735,6 +1743,14 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-bullseye-pointer::after {
   content: "\f649\f649";
+  opacity: 0.4;
+}
+.fa-duotone.fa-buoy::after {
+  content: "\e5b5\e5b5";
+  opacity: 0.4;
+}
+.fa-duotone.fa-buoy-mooring::after {
+  content: "\e5b6\e5b6";
   opacity: 0.4;
 }
 .fa-duotone.fa-burger::after {
@@ -2497,16 +2513,16 @@ Total Icons (all combinations)  : 19287
   content: "\f1ae\f1ae";
   opacity: 0.4;
 }
+.fa-duotone.fa-child-combatant::after {
+  content: "\e4e0\e4e0";
+  opacity: 0.4;
+}
 .fa-duotone.fa-child-dress::after {
   content: "\e59c\e59c";
   opacity: 0.4;
 }
 .fa-duotone.fa-child-reaching::after {
   content: "\e59d\e59d";
-  opacity: 0.4;
-}
-.fa-duotone.fa-child-rifle::after {
-  content: "\e4e0\e4e0";
   opacity: 0.4;
 }
 .fa-duotone.fa-children::after {
@@ -2725,6 +2741,10 @@ Total Icons (all combinations)  : 19287
   content: "\e10c\e10c";
   opacity: 0.4;
 }
+.fa-duotone.fa-circle-euro::after {
+  content: "\e5ce\e5ce";
+  opacity: 0.4;
+}
 .fa-duotone.fa-circle-exclamation::after {
   content: "\f06a\f06a";
   opacity: 0.4;
@@ -2857,6 +2877,10 @@ Total Icons (all combinations)  : 19287
   content: "\e11f\e11f";
   opacity: 0.4;
 }
+.fa-duotone.fa-circle-quarter-stroke::after {
+  content: "\e5d3\e5d3";
+  opacity: 0.4;
+}
 .fa-duotone.fa-circle-quarters::after {
   content: "\e3f8\e3f8";
   opacity: 0.4;
@@ -2901,6 +2925,10 @@ Total Icons (all combinations)  : 19287
   content: "\e123\e123";
   opacity: 0.4;
 }
+.fa-duotone.fa-circle-sterling::after {
+  content: "\e5cf\e5cf";
+  opacity: 0.4;
+}
 .fa-duotone.fa-circle-stop::after {
   content: "\f28d\f28d";
   opacity: 0.4;
@@ -2911,6 +2939,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-circle-three-quarters::after {
   content: "\e125\e125";
+  opacity: 0.4;
+}
+.fa-duotone.fa-circle-three-quarters-stroke::after {
+  content: "\e5d4\e5d4";
   opacity: 0.4;
 }
 .fa-duotone.fa-circle-trash::after {
@@ -2963,6 +2995,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-circle-y::after {
   content: "\e12f\e12f";
+  opacity: 0.4;
+}
+.fa-duotone.fa-circle-yen::after {
+  content: "\e5d0\e5d0";
   opacity: 0.4;
 }
 .fa-duotone.fa-circle-z::after {
@@ -3441,6 +3477,10 @@ Total Icons (all combinations)  : 19287
   content: "\f4af\f4af";
   opacity: 0.4;
 }
+.fa-duotone.fa-comment-heart::after {
+  content: "\e5c8\e5c8";
+  opacity: 0.4;
+}
 .fa-duotone.fa-comment-image::after {
   content: "\e148\e148";
   opacity: 0.4;
@@ -3867,6 +3907,14 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-diamond-exclamation::after {
   content: "\e405\e405";
+  opacity: 0.4;
+}
+.fa-duotone.fa-diamond-half::after {
+  content: "\e5b7\e5b7";
+  opacity: 0.4;
+}
+.fa-duotone.fa-diamond-half-stroke::after {
+  content: "\e5b8\e5b8";
   opacity: 0.4;
 }
 .fa-duotone.fa-diamond-turn-right::after {
@@ -5461,6 +5509,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8bb\f8bb";
   opacity: 0.4;
 }
+.fa-duotone.fa-game-console-handheld-crank::after {
+  content: "\e5b9\e5b9";
+  opacity: 0.4;
+}
 .fa-duotone.fa-gamepad::after {
   content: "\f11b\f11b";
   opacity: 0.4;
@@ -6669,6 +6721,10 @@ Total Icons (all combinations)  : 19287
   content: "\f667\f667";
   opacity: 0.4;
 }
+.fa-duotone.fa-interrobang::after {
+  content: "\e5ba\e5ba";
+  opacity: 0.4;
+}
 .fa-duotone.fa-intersection::after {
   content: "\f668\f668";
   opacity: 0.4;
@@ -7289,6 +7345,10 @@ Total Icons (all combinations)  : 19287
   content: "\f813\f813";
   opacity: 0.4;
 }
+.fa-duotone.fa-mailbox-flag-up::after {
+  content: "\e5bb\e5bb";
+  opacity: 0.4;
+}
 .fa-duotone.fa-manat-sign::after {
   content: "\e1d5\e1d5";
   opacity: 0.4;
@@ -7487,6 +7547,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-message-exclamation::after {
   content: "\f4a5\f4a5";
+  opacity: 0.4;
+}
+.fa-duotone.fa-message-heart::after {
+  content: "\e5c9\e5c9";
   opacity: 0.4;
 }
 .fa-duotone.fa-message-image::after {
@@ -7865,6 +7929,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8d1\f8d1";
   opacity: 0.4;
 }
+.fa-duotone.fa-mustache::after {
+  content: "\e5bc\e5bc";
+  opacity: 0.4;
+}
 .fa-duotone.fa-n::after {
   content: "\4e\4e";
   opacity: 0.4;
@@ -7923,6 +7991,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-nfc-trash::after {
   content: "\e1fd\e1fd";
+  opacity: 0.4;
+}
+.fa-duotone.fa-nose::after {
+  content: "\e5bd\e5bd";
   opacity: 0.4;
 }
 .fa-duotone.fa-not-equal::after {
@@ -8337,6 +8409,10 @@ Total Icons (all combinations)  : 19287
   content: "\f303\f303";
   opacity: 0.4;
 }
+.fa-duotone.fa-pencil-mechanical::after {
+  content: "\e5ca\e5ca";
+  opacity: 0.4;
+}
 .fa-duotone.fa-pencil-slash::after {
   content: "\e215\e215";
   opacity: 0.4;
@@ -8677,6 +8753,10 @@ Total Icons (all combinations)  : 19287
   content: "\e223\e223";
   opacity: 0.4;
 }
+.fa-duotone.fa-phone-arrow-right::after {
+  content: "\e5be\e5be";
+  opacity: 0.4;
+}
 .fa-duotone.fa-phone-arrow-up-right::after {
   content: "\e224\e224";
   opacity: 0.4;
@@ -8739,6 +8819,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-piano-keyboard::after {
   content: "\f8d5\f8d5";
+  opacity: 0.4;
+}
+.fa-duotone.fa-pickaxe::after {
+  content: "\e5bf\e5bf";
   opacity: 0.4;
 }
 .fa-duotone.fa-pickleball::after {
@@ -8999,6 +9083,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-prescription-bottle-medical::after {
   content: "\f486\f486";
+  opacity: 0.4;
+}
+.fa-duotone.fa-prescription-bottle-pill::after {
+  content: "\e5c0\e5c0";
   opacity: 0.4;
 }
 .fa-duotone.fa-presentation-screen::after {
@@ -9965,6 +10053,10 @@ Total Icons (all combinations)  : 19287
   content: "\f620\f620";
   opacity: 0.4;
 }
+.fa-duotone.fa-skeleton-ribs::after {
+  content: "\e5cb\e5cb";
+  opacity: 0.4;
+}
 .fa-duotone.fa-ski-boot::after {
   content: "\e3cc\e3cc";
   opacity: 0.4;
@@ -10049,6 +10141,10 @@ Total Icons (all combinations)  : 19287
   content: "\f2dc\f2dc";
   opacity: 0.4;
 }
+.fa-duotone.fa-snowflake-droplets::after {
+  content: "\e5c1\e5c1";
+  opacity: 0.4;
+}
 .fa-duotone.fa-snowflakes::after {
   content: "\f7cf\f7cf";
   opacity: 0.4;
@@ -10115,6 +10211,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-spaghetti-monster-flying::after {
   content: "\f67b\f67b";
+  opacity: 0.4;
+}
+.fa-duotone.fa-sparkle::after {
+  content: "\e5d6\e5d6";
   opacity: 0.4;
 }
 .fa-duotone.fa-sparkles::after {
@@ -10331,6 +10431,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-square-dashed::after {
   content: "\e269\e269";
+  opacity: 0.4;
+}
+.fa-duotone.fa-square-dashed-circle-plus::after {
+  content: "\e5c2\e5c2";
   opacity: 0.4;
 }
 .fa-duotone.fa-square-divide::after {
@@ -11553,6 +11657,14 @@ Total Icons (all combinations)  : 19287
   content: "\f85d\f85d";
   opacity: 0.4;
 }
+.fa-duotone.fa-tricycle::after {
+  content: "\e5c3\e5c3";
+  opacity: 0.4;
+}
+.fa-duotone.fa-tricycle-adult::after {
+  content: "\e5c4\e5c4";
+  opacity: 0.4;
+}
 .fa-duotone.fa-trillium::after {
   content: "\e588\e588";
   opacity: 0.4;
@@ -11943,6 +12055,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-user-lock::after {
   content: "\f502\f502";
+  opacity: 0.4;
+}
+.fa-duotone.fa-user-magnifying-glass::after {
+  content: "\e5c5\e5c5";
   opacity: 0.4;
 }
 .fa-duotone.fa-user-minus::after {
@@ -12389,6 +12505,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8f2\f8f2";
   opacity: 0.4;
 }
+.fa-duotone.fa-webhook::after {
+  content: "\e5d5\e5d5";
+  opacity: 0.4;
+}
 .fa-duotone.fa-weight-hanging::after {
   content: "\f5cd\f5cd";
   opacity: 0.4;
@@ -12531,6 +12651,10 @@ Total Icons (all combinations)  : 19287
 }
 .fa-duotone.fa-wreath::after {
   content: "\f7e2\f7e2";
+  opacity: 0.4;
+}
+.fa-duotone.fa-wreath-laurel::after {
+  content: "\e5d2\e5d2";
   opacity: 0.4;
 }
 .fa-duotone.fa-wrench::after {
@@ -13622,6 +13746,10 @@ Total Icons (all combinations)  : 19287
   content: "\f206";
 }
 
+.fa-billboard::before {
+  content: "\e5cd";
+}
+
 .fa-binary::before {
   content: "\e33b";
 }
@@ -14186,6 +14314,10 @@ Total Icons (all combinations)  : 19287
   content: "\f458";
 }
 
+.fa-broom-wide::before {
+  content: "\e5d1";
+}
+
 .fa-browser::before {
   content: "\f37e";
 }
@@ -14284,6 +14416,14 @@ Total Icons (all combinations)  : 19287
 
 .fa-bullseye-pointer::before {
   content: "\f649";
+}
+
+.fa-buoy::before {
+  content: "\e5b5";
+}
+
+.fa-buoy-mooring::before {
+  content: "\e5b6";
 }
 
 .fa-burger::before {
@@ -15046,16 +15186,16 @@ Total Icons (all combinations)  : 19287
   content: "\f1ae";
 }
 
+.fa-child-combatant::before {
+  content: "\e4e0";
+}
+
 .fa-child-dress::before {
   content: "\e59c";
 }
 
 .fa-child-reaching::before {
   content: "\e59d";
-}
-
-.fa-child-rifle::before {
-  content: "\e4e0";
 }
 
 .fa-children::before {
@@ -15274,6 +15414,10 @@ Total Icons (all combinations)  : 19287
   content: "\e10c";
 }
 
+.fa-circle-euro::before {
+  content: "\e5ce";
+}
+
 .fa-circle-exclamation::before {
   content: "\f06a";
 }
@@ -15406,6 +15550,10 @@ Total Icons (all combinations)  : 19287
   content: "\e11f";
 }
 
+.fa-circle-quarter-stroke::before {
+  content: "\e5d3";
+}
+
 .fa-circle-quarters::before {
   content: "\e3f8";
 }
@@ -15450,6 +15598,10 @@ Total Icons (all combinations)  : 19287
   content: "\e123";
 }
 
+.fa-circle-sterling::before {
+  content: "\e5cf";
+}
+
 .fa-circle-stop::before {
   content: "\f28d";
 }
@@ -15460,6 +15612,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-circle-three-quarters::before {
   content: "\e125";
+}
+
+.fa-circle-three-quarters-stroke::before {
+  content: "\e5d4";
 }
 
 .fa-circle-trash::before {
@@ -15512,6 +15668,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-circle-y::before {
   content: "\e12f";
+}
+
+.fa-circle-yen::before {
+  content: "\e5d0";
 }
 
 .fa-circle-z::before {
@@ -15990,6 +16150,10 @@ Total Icons (all combinations)  : 19287
   content: "\f4af";
 }
 
+.fa-comment-heart::before {
+  content: "\e5c8";
+}
+
 .fa-comment-image::before {
   content: "\e148";
 }
@@ -16416,6 +16580,14 @@ Total Icons (all combinations)  : 19287
 
 .fa-diamond-exclamation::before {
   content: "\e405";
+}
+
+.fa-diamond-half::before {
+  content: "\e5b7";
+}
+
+.fa-diamond-half-stroke::before {
+  content: "\e5b8";
 }
 
 .fa-diamond-turn-right::before {
@@ -18010,6 +18182,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8bb";
 }
 
+.fa-game-console-handheld-crank::before {
+  content: "\e5b9";
+}
+
 .fa-gamepad::before {
   content: "\f11b";
 }
@@ -19218,6 +19394,10 @@ Total Icons (all combinations)  : 19287
   content: "\f667";
 }
 
+.fa-interrobang::before {
+  content: "\e5ba";
+}
+
 .fa-intersection::before {
   content: "\f668";
 }
@@ -19838,6 +20018,10 @@ Total Icons (all combinations)  : 19287
   content: "\f813";
 }
 
+.fa-mailbox-flag-up::before {
+  content: "\e5bb";
+}
+
 .fa-manat-sign::before {
   content: "\e1d5";
 }
@@ -20036,6 +20220,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-message-exclamation::before {
   content: "\f4a5";
+}
+
+.fa-message-heart::before {
+  content: "\e5c9";
 }
 
 .fa-message-image::before {
@@ -20414,6 +20602,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8d1";
 }
 
+.fa-mustache::before {
+  content: "\e5bc";
+}
+
 .fa-n::before {
   content: "\4e";
 }
@@ -20472,6 +20664,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-nfc-trash::before {
   content: "\e1fd";
+}
+
+.fa-nose::before {
+  content: "\e5bd";
 }
 
 .fa-not-equal::before {
@@ -20886,6 +21082,10 @@ Total Icons (all combinations)  : 19287
   content: "\f303";
 }
 
+.fa-pencil-mechanical::before {
+  content: "\e5ca";
+}
+
 .fa-pencil-slash::before {
   content: "\e215";
 }
@@ -21226,6 +21426,10 @@ Total Icons (all combinations)  : 19287
   content: "\e223";
 }
 
+.fa-phone-arrow-right::before {
+  content: "\e5be";
+}
+
 .fa-phone-arrow-up-right::before {
   content: "\e224";
 }
@@ -21288,6 +21492,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-piano-keyboard::before {
   content: "\f8d5";
+}
+
+.fa-pickaxe::before {
+  content: "\e5bf";
 }
 
 .fa-pickleball::before {
@@ -21548,6 +21756,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-prescription-bottle-medical::before {
   content: "\f486";
+}
+
+.fa-prescription-bottle-pill::before {
+  content: "\e5c0";
 }
 
 .fa-presentation-screen::before {
@@ -22514,6 +22726,10 @@ Total Icons (all combinations)  : 19287
   content: "\f620";
 }
 
+.fa-skeleton-ribs::before {
+  content: "\e5cb";
+}
+
 .fa-ski-boot::before {
   content: "\e3cc";
 }
@@ -22598,6 +22814,10 @@ Total Icons (all combinations)  : 19287
   content: "\f2dc";
 }
 
+.fa-snowflake-droplets::before {
+  content: "\e5c1";
+}
+
 .fa-snowflakes::before {
   content: "\f7cf";
 }
@@ -22664,6 +22884,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-spaghetti-monster-flying::before {
   content: "\f67b";
+}
+
+.fa-sparkle::before {
+  content: "\e5d6";
 }
 
 .fa-sparkles::before {
@@ -22880,6 +23104,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-square-dashed::before {
   content: "\e269";
+}
+
+.fa-square-dashed-circle-plus::before {
+  content: "\e5c2";
 }
 
 .fa-square-divide::before {
@@ -24102,6 +24330,14 @@ Total Icons (all combinations)  : 19287
   content: "\f85d";
 }
 
+.fa-tricycle::before {
+  content: "\e5c3";
+}
+
+.fa-tricycle-adult::before {
+  content: "\e5c4";
+}
+
 .fa-trillium::before {
   content: "\e588";
 }
@@ -24492,6 +24728,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-user-lock::before {
   content: "\f502";
+}
+
+.fa-user-magnifying-glass::before {
+  content: "\e5c5";
 }
 
 .fa-user-minus::before {
@@ -24938,6 +25178,10 @@ Total Icons (all combinations)  : 19287
   content: "\f8f2";
 }
 
+.fa-webhook::before {
+  content: "\e5d5";
+}
+
 .fa-weight-hanging::before {
   content: "\f5cd";
 }
@@ -25080,6 +25324,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-wreath::before {
   content: "\f7e2";
+}
+
+.fa-wreath-laurel::before {
+  content: "\e5d2";
 }
 
 .fa-wrench::before {

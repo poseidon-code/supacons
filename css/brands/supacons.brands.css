@@ -1,21 +1,21 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.2.0
+FontAwesome Release Version     : 6.3.0
 Supacons Version                : 6
 Supacons Release Version        : 6.2.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.2.0
+Supacons Core Release Version   : 6.3.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Scrapped Date              : 20-10-2022
-Total Generic Icons             : 3137
-Total Brand Icons               : 465
-Total Icons                     : 3602
-Total Icons (all combinations)  : 19287
+Last Updated Date               : 27-02-2023
+Total Generic Icons             : 3168
+Total Brand Icons               : 467
+Total Icons                     : 3635
+Total Icons (all combinations)  : 22643
 */
 @font-face {
   font-family: "Supacons Brands";
-  src: url("../../../fonts/supacons-brands-400.woff2") format("woff2");
+  src: url("../../fonts/brands/supacons-brands-400.woff2") format("woff2");
   font-weight: 400;
 }
 .fa-brands::before {
@@ -1104,6 +1104,10 @@ Total Icons (all combinations)  : 19287
   content: "\f263";
 }
 
+.fa-odysee::before {
+  content: "\e5c6";
+}
+
 .fa-old-republic::before {
   content: "\f510";
 }
@@ -1574,6 +1578,10 @@ Total Icons (all combinations)  : 19287
 
 .fa-stripe-s::before {
   content: "\f42a";
+}
+
+.fa-stubber::before {
+  content: "\e5c7";
 }
 
 .fa-studiovinari::before {

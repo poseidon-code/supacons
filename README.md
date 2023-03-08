@@ -13,9 +13,9 @@ _(we used Selenium automation with Python for scrapping)_ on their website.
 **Currently**, since they have switched to a font based showcase system for their website, we are downloading all the
 font files available on the website _(anyone can download these, anytime)_ and create a CSS stylesheet as per their
 guidelines/documentation on
-[font icons on the web using CSS pseudo-elements](https://fontawesome.com/docs/web/add-icons/pseudo-elements). We used
-Selenium automation with Python to scrape out those icon names and their unicode equivalent and used SASS to generate
-those 16,000+ CSS classes for those icons.
+[font icons on the web using CSS pseudo-elements](https://fontawesome.com/docs/web/add-icons/pseudo-elements). We are
+using a the FontAwesome public API with Python and read out those icon names and their unicode equivalent and used SASS
+to generate those 22,000+ CSS classes for those icons.
 
 > **NOTE**\
 > The scrapping & automation scripts made of Python with Selenium for Supacons 5 _(Font Awesome 5)_ & Supacons 6 _(Font Awesome 6)_
@@ -24,18 +24,22 @@ those 16,000+ CSS classes for those icons.
 | Fields          | Font Awesome | Supacons Core | Supacons |
 | --------------- | ------------ | ------------- | -------- |
 | Version         | 6            | 6             | 6        |
-| Release Version | 6.2.0        | 6.2.0         | 6.2.0    |
+| Release Version | 6.3.0        | 6.3.0         | 6.2.0    |
 
 | Fields                         | Icon Status |
 | ------------------------------ | ----------- |
-| Total Generic Icons            | 3,137       |
-| Total Brand Icons              | 465         |
-| Total Icons                    | 3,602       |
-| Total Icons (all combinations) | 19,287      |
+| Total Generic Icons            | 3,168       |
+| Total Brand Icons              | 467         |
+| Total Icons                    | 3,635       |
+| Total Icons (all combinations) | 22,643      |
 
 _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detailed stats of changes from different Supacons Core releases._
 
 ---
+
+> ⚠️ **NOTICE** ⚠️\
+> A huge refactoring and structuring has happened with the release of Font Awesome 6 sharp variations
+> _(solid, regular)_. Users of Supacons 6 needs to change the URLs inside the `<link>` tags as mentioned above.
 
 ## Table of Contents
 
@@ -44,12 +48,15 @@ _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detail
 3. [Icons](#icons)
     1. [All](#all)
     2. [Brands](#brands)
-    3. [Solid](#solid)
-    4. [Regular](#regular)
-    5. [Light](#light)
-    6. [Thin](#thin)
-    7. [Duotone](#duotone)
-    8. [Sharp Solid](#sharp-solid)
+    3. [Classic](#classic)
+        1. [Solid](#solid)
+        2. [Regular](#regular)
+        3. [Light](#light)
+        4. [Thin](#thin)
+        5. [Duotone](#duotone)
+    4. [Sharp](#sharp)
+        1. [Solid](#sharp-solid)
+        2. [Regular](#sharp-regular)
 4. [Testing](#testing)
 5. [Future Updates](#future-updates)
 6. [Todos](#todos)
@@ -58,16 +65,16 @@ _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detail
 ## Usage
 
 Include the stylesheets in your website using HTML `<link rel="stylesheet">` tags. All stylesheets are compressed for
-minimal footprint _(provided that you use the minified versions in `dist/` folder)_. Checkout [Icons](#icons) section to
+minimal footprint _(provided that, you use the minified versions in `dist/` folder)_. Checkout [Icons](#icons) section to
 select your preferred icon.
 
 ```html
 <link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.all.css" />
 ```
 
-Use the icons as you use a standard Font Awesome icon. The syntax of using Supacons icons is 100% similar to using Font
-Awesome icons. _(i.e.; you can actually go to [`Font Awesome 6`](https://fontawesome.com/search), pick your icon,
-**COPY** the `<i class="fa-solid fa-abacus"></i>` tag (for instance) and **PASTE** it in your HTML code)_
+Use the icons as you use a standard Font Awesome icons. The syntax of using Supacons icons is 100% similar to using
+Font Awesome icons. _(i.e.; you can actually go to [`Font Awesome 6`](https://fontawesome.com/search), pick your icon,
+<kbd>**COPY**</kbd> the `<i class="fa-solid fa-abacus"></i>` tag (for instance) and <kbd>**PASTE**</kbd> it in your HTML code)_
 
 ```html
 <html>
@@ -135,8 +142,8 @@ i::after {
 
 ### All
 
-Contains all the 3,602 different types of icons _(includes; solid, regular, light, thin, duotone, brands & sharp-solid icons)_ of
-Font Awesome 6 Pro, altogether making a total of 19,287 icons.
+Contains all the 3,635 different types of icons _(includes; classic versions of solid, regular, light, thin, duotone icons,
+brand icons & sharp versions of solid & regular icons)_ of Font Awesome 6 Pro, altogether making a total of 22,643 icons.
 
 `https://poseidon-code.github.io/supacons/dist/supacons.all.css`
 
@@ -146,76 +153,94 @@ Font Awesome 6 Pro, altogether making a total of 19,287 icons.
 
 ### Brands
 
-Contains all the 465 brand icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 467 brand icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
-`https://poseidon-code.github.io/supacons/dist/supacons.brands.css`
-
-```html
-<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.brands.css" />
-```
-
-### Solid
-
-Contains all the 3,137 solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
-
-`https://poseidon-code.github.io/supacons/dist/supacons.solid.css`
+`https://poseidon-code.github.io/supacons/dist/brands/supacons.brands.css`
 
 ```html
-<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.solid.css" />
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/brands/supacons.brands.css" />
 ```
 
-### Regular
+### Classic
 
-Contains all the 3,137 regular icons of Font Awesome 6 Pro _(includes Pro icons)_.
+#### Solid
 
-`https://poseidon-code.github.io/supacons/dist/supacons.regular.css`
+Contains all the 3,168 solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
+
+`https://poseidon-code.github.io/supacons/dist/classic/supacons.solid.css`
 
 ```html
-<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.regular.css" />
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/classic/supacons.solid.css" />
 ```
 
-### Light
+#### Regular
 
-Contains all the 3,137 light icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,168 regular icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
-`https://poseidon-code.github.io/supacons/dist/supacons.light.css`
+`https://poseidon-code.github.io/supacons/dist/classic/supacons.regular.css`
 
 ```html
-<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.light.css" />
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/classic/supacons.regular.css" />
 ```
 
-### Thin
+#### Light
 
-Contains all the 3,137 thin icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,168 light icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
-`https://poseidon-code.github.io/supacons/dist/supacons.thin.css`
+`https://poseidon-code.github.io/supacons/dist/classic/supacons.light.css`
 
 ```html
-<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.thin.css" />
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/classic/supacons.light.css" />
 ```
 
-### Duotone
+#### Thin
 
-Contains all the 3,137 duotone icons of Font Awesome 6 Pro _(includes Pro icons)_.
+Contains all the 3,168 thin icons of Font Awesome 6 Pro _(includes Pro icons)_.
 
-`https://poseidon-code.github.io/supacons/dist/supacons.duotone.css`
+`https://poseidon-code.github.io/supacons/dist/classic/supacons.thin.css`
 
 ```html
-<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.duotone.css" />
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/classic/supacons.thin.css" />
 ```
 
-### Sharp Solid
+#### Duotone
 
-> Sharp Icons are recent addition to Font Awesome 6 _(released with Font Awesome 6 v6.2.0)_.
-> It currently contains only solid variation of sharp type.
+Contains all the 3,168 duotone icons of Font Awesome 6 Pro _(includes Pro icons)_.
+
+`https://poseidon-code.github.io/supacons/dist/classic/supacons.duotone.css`
+
+```html
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/classic/supacons.duotone.css" />
+```
+
+### Sharp
+
+> Sharp Icons are recent addition to Font Awesome 6 _(released with Font Awesome 6 v6.3.0)_.
+> It currently contains only solid & regular variations of sharp type.
 > It would be updated when Font Awesome 6 releases the entire sharp icons collection.
 
-Contains all the 3,137 sharp solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
+<a id="sharp-solid"></a>
 
-`https://poseidon-code.github.io/supacons/dist/supacons.sharp.solid.css`
+#### Solid
+
+Contains all the 3,168 sharp solid icons of Font Awesome 6 Pro _(includes Pro icons)_.
+
+`https://poseidon-code.github.io/supacons/dist/sharp/supacons.solid.css`
 
 ```html
-<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/supacons.sharp.solid.css" />
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/sharp/supacons.solid.css" />
+```
+
+<a id="sharp-regular"></a>
+
+#### Regular
+
+Contains all the 3,168 sharp regular icons of Font Awesome 6 Pro _(includes Pro icons)_.
+
+`https://poseidon-code.github.io/supacons/dist/sharp/supacons.regular.css`
+
+```html
+<link rel="stylesheet" href="https://poseidon-code.github.io/supacons/dist/sharp/supacons.regular.css" />
 ```
 
 ## Testing
@@ -237,17 +262,18 @@ Include and exclude stylesheets just by commenting out the lines in `index.html`
 <link rel="stylesheet" href="../dist/supacons.all.css" />
 ```
 
-_Requires browser refresh everytime there is a change in `index.html` and every file linked with it._
+_Requires browser refresh everytime there is a change in `index.html` and every file linked with it._\
+If the changes are not reflected after simple brower refresh then refresh browser with
+<kbd>Ctrl</kbd> + <kbd>F5</kbd> _(i.e. refreshing with cleared cache)_
 
 ---
 
 ## Future Updates
 
--   A huge refactoring and structuring will happen when Font Awesome 6 releases with all its sharp variations _(regular, light, thin, duotone)_
-    which will definitely incorporate breaking changes for accessing all the variations of classic icons & sharp icons seperately.
+-   A huge refactoring and structuring has happened with the release of Font Awesome 6 sharp variations
+    _(solid, regular)_. Users of Supacons 6 needs to change the URLs inside the `<link>` tags as mentioned above.
 
--   A visual check for testing all the icons in an HTML document needs to be implemented as the scrapper may be incapable
-    of parsing all the unicode glyphs for every icon which will lead to no icons being shown.
+-   Other variations of sharp icons _(light, thin, duotone)_ will be incorporated without any breaking changes, users are rest assured.
 
 ---
 
