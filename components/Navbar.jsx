@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className='wrapper'>
                 <nav className={styles.navbar}>
                     <Link href='/'>
-                        <a title='v6.3.0'>
+                        <a title='v6.4.0'>
                             <Brand /> <span>Supacons 6</span>
                         </a>
                     </Link>
@@ -47,9 +47,9 @@ const Navbar = () => {
                         <span>&gt; Pro icons included !</span>
                     </h1>
                     <div className={styles.stats}>
-                        <span title='22,643'>
+                        <span title='26,107'>
                             <Count />
-                            22,000+ Icons
+                            26,000+ Icons
                         </span>
                         <span>
                             <License />
