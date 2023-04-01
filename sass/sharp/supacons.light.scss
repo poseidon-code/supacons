@@ -1,0 +1,17 @@
+@use '../icons';
+@use '../functions';
+@use '../variables';
+
+@import '../_fonts/_sharp/light';
+
+.fa-sharp.fa-light::before {
+    font: map-get(variables.$fontsSharp, 'light');
+    display: inline-block;
+    text-rendering: auto;
+}
+
+@each $name, $glyph in icons.$generic {
+    .fa-#{$name}::before {
+        content: functions.primary($glyph);
+    }
+}
