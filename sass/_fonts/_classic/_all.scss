@@ -1,13 +1,7 @@
 @font-face {
-    font-family: 'Supacons Classic Thin';
-    src: url('../fonts/classic/supacons-thin-100.woff2') format('woff2');
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: 'Supacons Classic Light';
-    src: url('../fonts/classic/supacons-light-300.woff2') format('woff2');
-    font-weight: 300;
+    font-family: 'Supacons Classic Solid';
+    src: url('../fonts/classic/supacons-solid-900.woff2') format('woff2');
+    font-weight: 900;
 }
 
 @font-face {
@@ -17,9 +11,15 @@
 }
 
 @font-face {
-    font-family: 'Supacons Classic Solid';
-    src: url('../fonts/classic/supacons-solid-900.woff2') format('woff2');
-    font-weight: 900;
+    font-family: 'Supacons Classic Light';
+    src: url('../fonts/classic/supacons-light-300.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Supacons Classic Thin';
+    src: url('../fonts/classic/supacons-thin-100.woff2') format('woff2');
+    font-weight: 100;
 }
 
 @font-face {
