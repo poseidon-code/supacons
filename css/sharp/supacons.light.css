@@ -14,12 +14,12 @@ Total Icons                     : 3699
 Total Icons (all combinations)  : 26107
 */
 @font-face {
-  font-family: "Supacons Classic Light";
-  src: url("../../fonts/classic/supacons-light-300.woff2") format("woff2");
+  font-family: "Supacons Sharp Light";
+  src: url("../../fonts/sharp/supacons-light-300.woff2") format("woff2");
   font-weight: 300;
 }
-.fa-light::before {
-  font: 300 1em/1 "Supacons Classic Light";
+.fa-sharp.fa-light::before {
+  font: 300 1em/1 "Supacons Sharp Light";
   display: inline-block;
   text-rendering: auto;
 }

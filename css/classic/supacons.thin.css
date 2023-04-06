@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.3.0
+FontAwesome Release Version     : 6.4.0
 Supacons Version                : 6
-Supacons Release Version        : 6.2.0
+Supacons Release Version        : 6.4.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.3.0
+Supacons Core Release Version   : 6.4.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 27-02-2023
-Total Generic Icons             : 3168
+Last Updated Date               : 29-06-2023
+Total Generic Icons             : 3205 (incl. 3 mutuals to brands)
 Total Brand Icons               : 467
-Total Icons                     : 3635
-Total Icons (all combinations)  : 22643
+Total Icons                     : 3699
+Total Icons (all combinations)  : 26107
 */
 @font-face {
   font-family: "Supacons Classic Thin";
@@ -402,6 +402,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-arrow-pointer::before {
   content: "\f245";
+}
+
+.fa-arrow-progress::before {
+  content: "\e5df";
 }
 
 .fa-arrow-right::before {
@@ -808,6 +812,10 @@ Total Icons (all combinations)  : 22643
   content: "\e33a";
 }
 
+.fa-bag-seedling::before {
+  content: "\e5f2";
+}
+
 .fa-bag-shopping::before {
   content: "\f290";
 }
@@ -1066,6 +1074,18 @@ Total Icons (all combinations)  : 22643
 
 .fa-billboard::before {
   content: "\e5cd";
+}
+
+.fa-bin-bottles::before {
+  content: "\e5f5";
+}
+
+.fa-bin-bottles-recycle::before {
+  content: "\e5f6";
+}
+
+.fa-bin-recycle::before {
+  content: "\e5f7";
 }
 
 .fa-binary::before {
@@ -1916,6 +1936,10 @@ Total Icons (all combinations)  : 22643
   content: "\f736";
 }
 
+.fa-calendar-users::before {
+  content: "\e5e2";
+}
+
 .fa-calendar-week::before {
   content: "\f784";
 }
@@ -2320,8 +2344,20 @@ Total Icons (all combinations)  : 22643
   content: "\e0e5";
 }
 
+.fa-chart-line-up-down::before {
+  content: "\e5d7";
+}
+
 .fa-chart-mixed::before {
   content: "\f643";
+}
+
+.fa-chart-mixed-up-circle-currency::before {
+  content: "\e5d8";
+}
+
+.fa-chart-mixed-up-circle-dollar::before {
+  content: "\e5d9";
 }
 
 .fa-chart-network::before {
@@ -2334,6 +2370,14 @@ Total Icons (all combinations)  : 22643
 
 .fa-chart-pie-simple::before {
   content: "\f64e";
+}
+
+.fa-chart-pie-simple-circle-currency::before {
+  content: "\e604";
+}
+
+.fa-chart-pie-simple-circle-dollar::before {
+  content: "\e605";
 }
 
 .fa-chart-pyramid::before {
@@ -2498,6 +2542,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-chevrons-up::before {
   content: "\f325";
+}
+
+.fa-chf-sign::before {
+  content: "\e602";
 }
 
 .fa-child::before {
@@ -2996,6 +3044,10 @@ Total Icons (all combinations)  : 22643
   content: "\e130";
 }
 
+.fa-circles-overlap::before {
+  content: "\e600";
+}
+
 .fa-citrus::before {
   content: "\e2f4";
 }
@@ -3186,6 +3238,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-cloud-arrow-up::before {
   content: "\f0ee";
+}
+
+.fa-cloud-binary::before {
+  content: "\e601";
 }
 
 .fa-cloud-bolt::before {
@@ -3604,6 +3660,10 @@ Total Icons (all combinations)  : 22643
   content: "\f46e";
 }
 
+.fa-conveyor-belt-arm::before {
+  content: "\e5f8";
+}
+
 .fa-conveyor-belt-boxes::before {
   content: "\f46f";
 }
@@ -3964,6 +4024,10 @@ Total Icons (all combinations)  : 22643
   content: "\f528";
 }
 
+.fa-dinosaur::before {
+  content: "\e5fe";
+}
+
 .fa-diploma::before {
   content: "\f5ea";
 }
@@ -3982,6 +4046,18 @@ Total Icons (all combinations)  : 22643
 
 .fa-display-arrow-down::before {
   content: "\e164";
+}
+
+.fa-display-chart-up::before {
+  content: "\e5e3";
+}
+
+.fa-display-chart-up-circle-currency::before {
+  content: "\e5e5";
+}
+
+.fa-display-chart-up-circle-dollar::before {
+  content: "\e5e6";
 }
 
 .fa-display-code::before {
@@ -4988,6 +5064,10 @@ Total Icons (all combinations)  : 22643
   content: "\f877";
 }
 
+.fa-file-doc::before {
+  content: "\e5ed";
+}
+
 .fa-file-excel::before {
   content: "\f1c3";
 }
@@ -5102,6 +5182,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-file-xmark::before {
   content: "\f317";
+}
+
+.fa-file-zip::before {
+  content: "\e5ee";
 }
 
 .fa-file-zipper::before {
@@ -5254,6 +5338,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-flask::before {
   content: "\f0c3";
+}
+
+.fa-flask-gear::before {
+  content: "\e5f1";
 }
 
 .fa-flask-round-poison::before {
@@ -5596,6 +5684,18 @@ Total Icons (all combinations)  : 22643
   content: "\f013";
 }
 
+.fa-gear-code::before {
+  content: "\e5e8";
+}
+
+.fa-gear-complex::before {
+  content: "\e5e9";
+}
+
+.fa-gear-complex-code::before {
+  content: "\e5eb";
+}
+
 .fa-gears::before {
   content: "\f085";
 }
@@ -5750,6 +5850,26 @@ Total Icons (all combinations)  : 22643
 
 .fa-grid-horizontal::before {
   content: "\e307";
+}
+
+.fa-grid-round::before {
+  content: "\e5da";
+}
+
+.fa-grid-round-2::before {
+  content: "\e5db";
+}
+
+.fa-grid-round-2-plus::before {
+  content: "\e5dc";
+}
+
+.fa-grid-round-4::before {
+  content: "\e5dd";
+}
+
+.fa-grid-round-5::before {
+  content: "\e5de";
 }
 
 .fa-grill::before {
@@ -6094,6 +6214,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-hashtag-lock::before {
   content: "\e415";
+}
+
+.fa-hat-beach::before {
+  content: "\e606";
 }
 
 .fa-hat-chef::before {
@@ -6768,6 +6892,10 @@ Total Icons (all combinations)  : 22643
   content: "\f8c6";
 }
 
+.fa-jug-bottle::before {
+  content: "\e5fb";
+}
+
 .fa-jug-detergent::before {
   content: "\e519";
 }
@@ -6924,6 +7052,10 @@ Total Icons (all combinations)  : 22643
   content: "\e1c6";
 }
 
+.fa-laptop-binary::before {
+  content: "\e5e7";
+}
+
 .fa-laptop-code::before {
   content: "\f5fc";
 }
@@ -7074,6 +7206,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-lightbulb-exclamation-on::before {
   content: "\e1ca";
+}
+
+.fa-lightbulb-gear::before {
+  content: "\e5fd";
 }
 
 .fa-lightbulb-on::before {
@@ -8636,6 +8772,10 @@ Total Icons (all combinations)  : 22643
   content: "\f70c";
 }
 
+.fa-person-running-fast::before {
+  content: "\e5ff";
+}
+
 .fa-person-seat::before {
   content: "\e21e";
 }
@@ -9354,6 +9494,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-right-left::before {
   content: "\f362";
+}
+
+.fa-right-left-large::before {
+  content: "\e5e1";
 }
 
 .fa-right-long::before {
@@ -12006,6 +12150,10 @@ Total Icons (all combinations)  : 22643
 
 .fa-user-group-crown::before {
   content: "\f6a5";
+}
+
+.fa-user-group-simple::before {
+  content: "\e603";
 }
 
 .fa-user-hair::before {
