@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.4.0
+FontAwesome Release Version     : 6.4.2
 Supacons Version                : 6
-Supacons Release Version        : 6.4.0
+Supacons Release Version        : 6.4.2
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.4.0
+Supacons Core Release Version   : 6.4.2
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 29-06-2023
-Total Generic Icons             : 3205 (incl. 3 mutuals to brands)
-Total Brand Icons               : 467
-Total Icons                     : 3699
-Total Icons (all combinations)  : 26107
+Last Updated Date               : 07-10-2023
+Total Generic Icons             : 3220 (incl. 3 mutuals to brands)
+Total Brand Icons               : 473
+Total Icons                     : 3693
+Total Icons (all combinations)  : 26233
 */
 
 $generic: (
@@ -72,6 +72,7 @@ $generic: (
     "angles-left": "f100",
     "angles-right": "f101",
     "angles-up": "f102",
+    "angles-up-down": "e60d",
     "ankh": "f644",
     "apartment": "e468",
     "aperture": "e2df",
@@ -85,6 +86,7 @@ $generic: (
     "arrow-down-a-z": "f15d",
     "arrow-down-arrow-up": "f883",
     "arrow-down-big-small": "f88c",
+    "arrow-down-from-arc": "e614",
     "arrow-down-from-dotted-line": "e090",
     "arrow-down-from-line": "f345",
     "arrow-down-left": "e091",
@@ -105,9 +107,11 @@ $generic: (
     "arrow-down-wide-short": "f160",
     "arrow-down-z-a": "f881",
     "arrow-left": "f060",
+    "arrow-left-from-arc": "e615",
     "arrow-left-from-line": "f344",
     "arrow-left-long": "f177",
     "arrow-left-long-to-line": "e3d4",
+    "arrow-left-to-arc": "e616",
     "arrow-left-to-line": "f33e",
     "arrow-pointer": "f245",
     "arrow-progress": "e5df",
@@ -153,6 +157,7 @@ $generic: (
     "arrow-up-short-wide": "f885",
     "arrow-up-small-big": "f88f",
     "arrow-up-square-triangle": "f88b",
+    "arrow-up-to-arc": "e617",
     "arrow-up-to-dotted-line": "e0a1",
     "arrow-up-to-line": "f341",
     "arrow-up-triangle-square": "f88a",
@@ -1451,6 +1456,7 @@ $generic: (
     "glasses": "f530",
     "glasses-round": "f5f5",
     "globe": "f0ac",
+    "globe-pointer": "e60e",
     "globe-snow": "f7a3",
     "globe-stand": "f5f6",
     "goal-net": "e3ab",
@@ -1575,6 +1581,7 @@ $generic: (
     "head-side-brain": "f808",
     "head-side-cough": "e061",
     "head-side-cough-slash": "e062",
+    "head-side-gear": "e611",
     "head-side-goggles": "f6ea",
     "head-side-headphones": "f8c2",
     "head-side-heart": "e1aa",
@@ -1814,6 +1821,7 @@ $generic: (
     "lightbulb-gear": "e5fd",
     "lightbulb-on": "f672",
     "lightbulb-slash": "f673",
+    "lighthouse": "e612",
     "lights-holiday": "f7b2",
     "line-columns": "f870",
     "line-height": "f871",
@@ -2185,8 +2193,10 @@ $generic: (
     "person-dots-from-line": "f470",
     "person-dress": "f182",
     "person-dress-burst": "e544",
+    "person-dress-fairy": "e607",
     "person-dress-simple": "e21c",
     "person-drowning": "e545",
+    "person-fairy": "e608",
     "person-falling": "e546",
     "person-falling-burst": "e547",
     "person-from-portal": "e023",
@@ -2336,6 +2346,7 @@ $generic: (
     "r": "52",
     "rabbit": "f708",
     "rabbit-running": "f709",
+    "raccoon": "e613",
     "racquet": "f45a",
     "radar": "e024",
     "radiation": "f7b9",
@@ -2767,6 +2778,8 @@ $generic: (
     "strikethrough": "f0cc",
     "stroopwafel": "f551",
     "subscript": "f12c",
+    "subtitles": "e60f",
+    "subtitles-slash": "e610",
     "suitcase": "f0f2",
     "suitcase-medical": "f0fa",
     "suitcase-rolling": "f5c1",
@@ -2782,6 +2795,8 @@ $generic: (
     "superscript": "f12b",
     "sushi": "e48a",
     "sushi-roll": "e48b",
+    "swap": "e609",
+    "swap-arrows": "e60a",
     "swatchbook": "f5c3",
     "sword": "f71c",
     "sword-laser": "e03b",
@@ -3323,6 +3338,7 @@ $brands: (
     "d-and-d-beyond": "f6ca",
     "dailymotion": "e052",
     "dashcube": "f210",
+    "debian": "e60b",
     "deezer": "e077",
     "delicious": "f1a5",
     "deploydog": "f38e",
@@ -3557,6 +3573,7 @@ $brands: (
     "sellsy": "f213",
     "servicestack": "f3ec",
     "shirtsinbulk": "f214",
+    "shoelace": "e60c",
     "shopify": "e057",
     "shopware": "f5b5",
     "simplybuilt": "f215",
@@ -3594,11 +3611,13 @@ $brands: (
     "square-reddit": "f1a2",
     "square-snapchat": "f2ad",
     "square-steam": "f1b7",
+    "square-threads": "e619",
     "square-tumblr": "f174",
     "square-twitter": "f081",
     "square-viadeo": "f2aa",
     "square-vimeo": "f194",
     "square-whatsapp": "f40c",
+    "square-x-twitter": "e61a",
     "square-xing": "f169",
     "square-youtube": "f431",
     "squarespace": "f5be",
@@ -3628,6 +3647,7 @@ $brands: (
     "themeco": "f5c6",
     "themeisle": "f2b2",
     "think-peaks": "f731",
+    "threads": "e618",
     "tiktok": "e07b",
     "trade-federation": "f513",
     "trello": "f181",
@@ -3678,6 +3698,7 @@ $brands: (
     "wpexplorer": "f2de",
     "wpforms": "f298",
     "wpressr": "f3e4",
+    "x-twitter": "e61b",
     "xbox": "f412",
     "xing": "f168",
     "y-combinator": "f23b",
