@@ -7,10 +7,8 @@ const Navbar = () => {
         <div className='container' style={{ background: 'var(--bg)' }}>
             <div className='wrapper'>
                 <nav className={styles.navbar}>
-                    <Link href='/'>
-                        <a title='v6.4.0'>
-                            <Brand /> <span>Supacons 6</span>
-                        </a>
+                    <Link href='/' title='v6.4.2'>
+                        <Brand /> <span>Supacons 6</span>
                     </Link>
                     <div className={styles.links}>
                         <a
@@ -47,7 +45,7 @@ const Navbar = () => {
                         <span>&gt; Pro icons included !</span>
                     </h1>
                     <div className={styles.stats}>
-                        <span title='26,107'>
+                        <span title='26,233'>
                             <Count />
                             26,000+ Icons
                         </span>

@@ -9,13 +9,12 @@ const Footer = () => {
             <div className='wrapper'>
                 <footer className={styles.footer}>
                     <span>
-                        <Link href='/'>
-                            <a
-                                className={styles.brand}
-                                title='Font Icons ripped from popular Font Awesome 6 icon pack including all Pro icons !'>
-                                <Brand />
-                                <p>supacons</p>
-                            </a>
+                        <Link
+                            href='/'
+                            className={styles.brand}
+                            title='Font Icons ripped from popular Font Awesome 6 icon pack including all Pro icons !'>
+                            <Brand />
+                            <p>supacons</p>
                         </Link>
                         <div className='rule' />
                         <a href='https://github.com/poseidon-code' target='_blank' rel='noopener noreferrer'>
