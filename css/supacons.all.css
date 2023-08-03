@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.4.0
+FontAwesome Release Version     : 6.4.2
 Supacons Version                : 6
-Supacons Release Version        : 6.4.0
+Supacons Release Version        : 6.4.2
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.4.0
+Supacons Core Release Version   : 6.4.2
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 29-06-2023
-Total Generic Icons             : 3205 (incl. 3 mutuals to brands)
-Total Brand Icons               : 467
-Total Icons                     : 3699
-Total Icons (all combinations)  : 26107
+Last Updated Date               : 07-10-2023
+Total Generic Icons             : 3220 (incl. 3 mutuals to brands)
+Total Brand Icons               : 473
+Total Icons                     : 3693
+Total Icons (all combinations)  : 26233
 */
 @font-face {
   font-family: "Supacons Brands";
@@ -456,6 +456,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-dashcube::before {
   content: "\f210";
+}
+
+.fa-debian::before {
+  content: "\e60b";
 }
 
 .fa-deezer::before {
@@ -1394,6 +1398,10 @@ Total Icons (all combinations)  : 26107
   content: "\f214";
 }
 
+.fa-shoelace::before {
+  content: "\e60c";
+}
+
 .fa-shopify::before {
   content: "\e057";
 }
@@ -1542,6 +1550,10 @@ Total Icons (all combinations)  : 26107
   content: "\f1b7";
 }
 
+.fa-square-threads::before {
+  content: "\e619";
+}
+
 .fa-square-tumblr::before {
   content: "\f174";
 }
@@ -1560,6 +1572,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-square-whatsapp::before {
   content: "\f40c";
+}
+
+.fa-square-x-twitter::before {
+  content: "\e61a";
 }
 
 .fa-square-xing::before {
@@ -1676,6 +1692,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-think-peaks::before {
   content: "\f731";
+}
+
+.fa-threads::before {
+  content: "\e618";
 }
 
 .fa-tiktok::before {
@@ -1876,6 +1896,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-wpressr::before {
   content: "\f3e4";
+}
+
+.fa-x-twitter::before {
+  content: "\e61b";
 }
 
 .fa-xbox::before {
@@ -2154,6 +2178,10 @@ Total Icons (all combinations)  : 26107
   content: "\f102";
 }
 
+.fa-angles-up-down::before {
+  content: "\e60d";
+}
+
 .fa-ankh::before {
   content: "\f644";
 }
@@ -2204,6 +2232,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-arrow-down-big-small::before {
   content: "\f88c";
+}
+
+.fa-arrow-down-from-arc::before {
+  content: "\e614";
 }
 
 .fa-arrow-down-from-dotted-line::before {
@@ -2286,6 +2318,10 @@ Total Icons (all combinations)  : 26107
   content: "\f060";
 }
 
+.fa-arrow-left-from-arc::before {
+  content: "\e615";
+}
+
 .fa-arrow-left-from-line::before {
   content: "\f344";
 }
@@ -2296,6 +2332,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-arrow-left-long-to-line::before {
   content: "\e3d4";
+}
+
+.fa-arrow-left-to-arc::before {
+  content: "\e616";
 }
 
 .fa-arrow-left-to-line::before {
@@ -2476,6 +2516,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-arrow-up-square-triangle::before {
   content: "\f88b";
+}
+
+.fa-arrow-up-to-arc::before {
+  content: "\e617";
 }
 
 .fa-arrow-up-to-dotted-line::before {
@@ -7670,6 +7714,10 @@ Total Icons (all combinations)  : 26107
   content: "\f0ac";
 }
 
+.fa-globe-pointer::before {
+  content: "\e60e";
+}
+
 .fa-globe-snow::before {
   content: "\f7a3";
 }
@@ -8164,6 +8212,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-head-side-cough-slash::before {
   content: "\e062";
+}
+
+.fa-head-side-gear::before {
+  content: "\e611";
 }
 
 .fa-head-side-goggles::before {
@@ -9120,6 +9172,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-lightbulb-slash::before {
   content: "\f673";
+}
+
+.fa-lighthouse::before {
+  content: "\e612";
 }
 
 .fa-lights-holiday::before {
@@ -10606,12 +10662,20 @@ Total Icons (all combinations)  : 26107
   content: "\e544";
 }
 
+.fa-person-dress-fairy::before {
+  content: "\e607";
+}
+
 .fa-person-dress-simple::before {
   content: "\e21c";
 }
 
 .fa-person-drowning::before {
   content: "\e545";
+}
+
+.fa-person-fairy::before {
+  content: "\e608";
 }
 
 .fa-person-falling::before {
@@ -11208,6 +11272,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-rabbit-running::before {
   content: "\f709";
+}
+
+.fa-raccoon::before {
+  content: "\e613";
 }
 
 .fa-racquet::before {
@@ -12934,6 +13002,14 @@ Total Icons (all combinations)  : 26107
   content: "\f12c";
 }
 
+.fa-subtitles::before {
+  content: "\e60f";
+}
+
+.fa-subtitles-slash::before {
+  content: "\e610";
+}
+
 .fa-suitcase::before {
   content: "\f0f2";
 }
@@ -12992,6 +13068,14 @@ Total Icons (all combinations)  : 26107
 
 .fa-sushi-roll::before {
   content: "\e48b";
+}
+
+.fa-swap::before {
+  content: "\e609";
+}
+
+.fa-swap-arrows::before {
+  content: "\e60a";
 }
 
 .fa-swatchbook::before {
@@ -15037,6 +15121,10 @@ Total Icons (all combinations)  : 26107
   content: "\f102\f102";
   opacity: 0.4;
 }
+.fa-duotone.fa-angles-up-down::after {
+  content: "\e60d\e60d";
+  opacity: 0.4;
+}
 .fa-duotone.fa-ankh::after {
   content: "\f644\f644";
   opacity: 0.4;
@@ -15087,6 +15175,10 @@ Total Icons (all combinations)  : 26107
 }
 .fa-duotone.fa-arrow-down-big-small::after {
   content: "\f88c\f88c";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-down-from-arc::after {
+  content: "\e614\e614";
   opacity: 0.4;
 }
 .fa-duotone.fa-arrow-down-from-dotted-line::after {
@@ -15169,6 +15261,10 @@ Total Icons (all combinations)  : 26107
   content: "\f060\f060";
   opacity: 0.4;
 }
+.fa-duotone.fa-arrow-left-from-arc::after {
+  content: "\e615\e615";
+  opacity: 0.4;
+}
 .fa-duotone.fa-arrow-left-from-line::after {
   content: "\f344\f344";
   opacity: 0.4;
@@ -15179,6 +15275,10 @@ Total Icons (all combinations)  : 26107
 }
 .fa-duotone.fa-arrow-left-long-to-line::after {
   content: "\e3d4\e3d4";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-left-to-arc::after {
+  content: "\e616\e616";
   opacity: 0.4;
 }
 .fa-duotone.fa-arrow-left-to-line::after {
@@ -15359,6 +15459,10 @@ Total Icons (all combinations)  : 26107
 }
 .fa-duotone.fa-arrow-up-square-triangle::after {
   content: "\f88b\f88b";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-up-to-arc::after {
+  content: "\e617\e617";
   opacity: 0.4;
 }
 .fa-duotone.fa-arrow-up-to-dotted-line::after {
@@ -20553,6 +20657,10 @@ Total Icons (all combinations)  : 26107
   content: "\f0ac\f0ac";
   opacity: 0.4;
 }
+.fa-duotone.fa-globe-pointer::after {
+  content: "\e60e\e60e";
+  opacity: 0.4;
+}
 .fa-duotone.fa-globe-snow::after {
   content: "\f7a3\f7a3";
   opacity: 0.4;
@@ -21047,6 +21155,10 @@ Total Icons (all combinations)  : 26107
 }
 .fa-duotone.fa-head-side-cough-slash::after {
   content: "\e062\e062";
+  opacity: 0.4;
+}
+.fa-duotone.fa-head-side-gear::after {
+  content: "\e611\e611";
   opacity: 0.4;
 }
 .fa-duotone.fa-head-side-goggles::after {
@@ -22003,6 +22115,10 @@ Total Icons (all combinations)  : 26107
 }
 .fa-duotone.fa-lightbulb-slash::after {
   content: "\f673\f673";
+  opacity: 0.4;
+}
+.fa-duotone.fa-lighthouse::after {
+  content: "\e612\e612";
   opacity: 0.4;
 }
 .fa-duotone.fa-lights-holiday::after {
@@ -23489,12 +23605,20 @@ Total Icons (all combinations)  : 26107
   content: "\e544\e544";
   opacity: 0.4;
 }
+.fa-duotone.fa-person-dress-fairy::after {
+  content: "\e607\e607";
+  opacity: 0.4;
+}
 .fa-duotone.fa-person-dress-simple::after {
   content: "\e21c\e21c";
   opacity: 0.4;
 }
 .fa-duotone.fa-person-drowning::after {
   content: "\e545\e545";
+  opacity: 0.4;
+}
+.fa-duotone.fa-person-fairy::after {
+  content: "\e608\e608";
   opacity: 0.4;
 }
 .fa-duotone.fa-person-falling::after {
@@ -24091,6 +24215,10 @@ Total Icons (all combinations)  : 26107
 }
 .fa-duotone.fa-rabbit-running::after {
   content: "\f709\f709";
+  opacity: 0.4;
+}
+.fa-duotone.fa-raccoon::after {
+  content: "\e613\e613";
   opacity: 0.4;
 }
 .fa-duotone.fa-racquet::after {
@@ -25817,6 +25945,14 @@ Total Icons (all combinations)  : 26107
   content: "\f12c\f12c";
   opacity: 0.4;
 }
+.fa-duotone.fa-subtitles::after {
+  content: "\e60f\e60f";
+  opacity: 0.4;
+}
+.fa-duotone.fa-subtitles-slash::after {
+  content: "\e610\e610";
+  opacity: 0.4;
+}
 .fa-duotone.fa-suitcase::after {
   content: "\f0f2\f0f2";
   opacity: 0.4;
@@ -25875,6 +26011,14 @@ Total Icons (all combinations)  : 26107
 }
 .fa-duotone.fa-sushi-roll::after {
   content: "\e48b\e48b";
+  opacity: 0.4;
+}
+.fa-duotone.fa-swap::after {
+  content: "\e609\e609";
+  opacity: 0.4;
+}
+.fa-duotone.fa-swap-arrows::after {
+  content: "\e60a\e60a";
   opacity: 0.4;
 }
 .fa-duotone.fa-swatchbook::after {

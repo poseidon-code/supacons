@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.4.0
+FontAwesome Release Version     : 6.4.2
 Supacons Version                : 6
-Supacons Release Version        : 6.4.0
+Supacons Release Version        : 6.4.2
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.4.0
+Supacons Core Release Version   : 6.4.2
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 29-06-2023
-Total Generic Icons             : 3205 (incl. 3 mutuals to brands)
-Total Brand Icons               : 467
-Total Icons                     : 3699
-Total Icons (all combinations)  : 26107
+Last Updated Date               : 07-10-2023
+Total Generic Icons             : 3220 (incl. 3 mutuals to brands)
+Total Brand Icons               : 473
+Total Icons                     : 3693
+Total Icons (all combinations)  : 26233
 */
 @font-face {
   font-family: "Supacons Sharp Regular";
@@ -252,6 +252,10 @@ Total Icons (all combinations)  : 26107
   content: "\f102";
 }
 
+.fa-angles-up-down::before {
+  content: "\e60d";
+}
+
 .fa-ankh::before {
   content: "\f644";
 }
@@ -302,6 +306,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-arrow-down-big-small::before {
   content: "\f88c";
+}
+
+.fa-arrow-down-from-arc::before {
+  content: "\e614";
 }
 
 .fa-arrow-down-from-dotted-line::before {
@@ -384,6 +392,10 @@ Total Icons (all combinations)  : 26107
   content: "\f060";
 }
 
+.fa-arrow-left-from-arc::before {
+  content: "\e615";
+}
+
 .fa-arrow-left-from-line::before {
   content: "\f344";
 }
@@ -394,6 +406,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-arrow-left-long-to-line::before {
   content: "\e3d4";
+}
+
+.fa-arrow-left-to-arc::before {
+  content: "\e616";
 }
 
 .fa-arrow-left-to-line::before {
@@ -574,6 +590,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-arrow-up-square-triangle::before {
   content: "\f88b";
+}
+
+.fa-arrow-up-to-arc::before {
+  content: "\e617";
 }
 
 .fa-arrow-up-to-dotted-line::before {
@@ -5768,6 +5788,10 @@ Total Icons (all combinations)  : 26107
   content: "\f0ac";
 }
 
+.fa-globe-pointer::before {
+  content: "\e60e";
+}
+
 .fa-globe-snow::before {
   content: "\f7a3";
 }
@@ -6262,6 +6286,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-head-side-cough-slash::before {
   content: "\e062";
+}
+
+.fa-head-side-gear::before {
+  content: "\e611";
 }
 
 .fa-head-side-goggles::before {
@@ -7218,6 +7246,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-lightbulb-slash::before {
   content: "\f673";
+}
+
+.fa-lighthouse::before {
+  content: "\e612";
 }
 
 .fa-lights-holiday::before {
@@ -8704,12 +8736,20 @@ Total Icons (all combinations)  : 26107
   content: "\e544";
 }
 
+.fa-person-dress-fairy::before {
+  content: "\e607";
+}
+
 .fa-person-dress-simple::before {
   content: "\e21c";
 }
 
 .fa-person-drowning::before {
   content: "\e545";
+}
+
+.fa-person-fairy::before {
+  content: "\e608";
 }
 
 .fa-person-falling::before {
@@ -9306,6 +9346,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-rabbit-running::before {
   content: "\f709";
+}
+
+.fa-raccoon::before {
+  content: "\e613";
 }
 
 .fa-racquet::before {
@@ -11032,6 +11076,14 @@ Total Icons (all combinations)  : 26107
   content: "\f12c";
 }
 
+.fa-subtitles::before {
+  content: "\e60f";
+}
+
+.fa-subtitles-slash::before {
+  content: "\e610";
+}
+
 .fa-suitcase::before {
   content: "\f0f2";
 }
@@ -11090,6 +11142,14 @@ Total Icons (all combinations)  : 26107
 
 .fa-sushi-roll::before {
   content: "\e48b";
+}
+
+.fa-swap::before {
+  content: "\e609";
+}
+
+.fa-swap-arrows::before {
+  content: "\e60a";
 }
 
 .fa-swatchbook::before {

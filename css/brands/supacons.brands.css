@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.4.0
+FontAwesome Release Version     : 6.4.2
 Supacons Version                : 6
-Supacons Release Version        : 6.4.0
+Supacons Release Version        : 6.4.2
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.4.0
+Supacons Core Release Version   : 6.4.2
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 29-06-2023
-Total Generic Icons             : 3205 (incl. 3 mutuals to brands)
-Total Brand Icons               : 467
-Total Icons                     : 3699
-Total Icons (all combinations)  : 26107
+Last Updated Date               : 07-10-2023
+Total Generic Icons             : 3220 (incl. 3 mutuals to brands)
+Total Brand Icons               : 473
+Total Icons                     : 3693
+Total Icons (all combinations)  : 26233
 */
 @font-face {
   font-family: "Supacons Brands";
@@ -422,6 +422,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-dashcube::before {
   content: "\f210";
+}
+
+.fa-debian::before {
+  content: "\e60b";
 }
 
 .fa-deezer::before {
@@ -1360,6 +1364,10 @@ Total Icons (all combinations)  : 26107
   content: "\f214";
 }
 
+.fa-shoelace::before {
+  content: "\e60c";
+}
+
 .fa-shopify::before {
   content: "\e057";
 }
@@ -1508,6 +1516,10 @@ Total Icons (all combinations)  : 26107
   content: "\f1b7";
 }
 
+.fa-square-threads::before {
+  content: "\e619";
+}
+
 .fa-square-tumblr::before {
   content: "\f174";
 }
@@ -1526,6 +1538,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-square-whatsapp::before {
   content: "\f40c";
+}
+
+.fa-square-x-twitter::before {
+  content: "\e61a";
 }
 
 .fa-square-xing::before {
@@ -1642,6 +1658,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-think-peaks::before {
   content: "\f731";
+}
+
+.fa-threads::before {
+  content: "\e618";
 }
 
 .fa-tiktok::before {
@@ -1842,6 +1862,10 @@ Total Icons (all combinations)  : 26107
 
 .fa-wpressr::before {
   content: "\f3e4";
+}
+
+.fa-x-twitter::before {
+  content: "\e61b";
 }
 
 .fa-xbox::before {
