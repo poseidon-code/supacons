@@ -24,14 +24,14 @@ to generate those 26,000+ CSS classes for those icons.
 | Fields          | Font Awesome | Supacons Core | Supacons |
 | --------------- | ------------ | ------------- | -------- |
 | Version         | 6            | 6             | 6        |
-| Release Version | 6.4.0        | 6.4.0         | 6.4.0    |
+| Release Version | 6.4.2        | 6.4.2         | 6.4.2    |
 
 | Fields                         | Icon Status |
 | ------------------------------ | ----------- |
-| Total Generic Icons            | 3,205       |
-| Total Brand Icons              | 467         |
-| Total Icons                    | 3,669       |
-| Total Icons (all combinations) | 26,107      |
+| Total Generic Icons            | 3,223       |
+| Total Brand Icons              | 473         |
+| Total Icons                    | 3,690       |
+| Total Icons (all combinations) | 26,233      |
 
 _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detailed stats of changes from different Supacons Core releases._
 
