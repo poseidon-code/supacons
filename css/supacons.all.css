@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.4.2
+FontAwesome Release Version     : 6.5.1
 Supacons Version                : 6
-Supacons Release Version        : 6.4.2
+Supacons Release Version        : 6.5.1
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.4.2
+Supacons Core Release Version   : 6.5.1
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 07-10-2023
-Total Generic Icons             : 3220 (incl. 3 mutuals to brands)
-Total Brand Icons               : 473
-Total Icons                     : 3693
-Total Icons (all combinations)  : 26233
+Last Updated Date               : 04-12-2023
+Total Generic Icons             : 3281 (incl. 3 mutuals to brands)
+Total Brand Icons               : 484
+Total Icons                     : 3765
+Total Icons (all combinations)  : 30013
 */
 @font-face {
   font-family: "Supacons Brands";
@@ -57,6 +57,11 @@ Total Icons (all combinations)  : 26233
   font-family: "Supacons Sharp Light";
   src: url("../fonts/sharp/supacons-light-300.woff2") format("woff2");
   font-weight: 300;
+}
+@font-face {
+  font-family: "Supacons Sharp Thin";
+  src: url("../fonts/sharp/supacons-thin-100.woff2") format("woff2");
+  font-weight: 100;
 }
 .fa-42-group::before {
   content: "\e080";
@@ -240,6 +245,14 @@ Total Icons (all combinations)  : 26233
 
 .fa-bots::before {
   content: "\e340";
+}
+
+.fa-brave::before {
+  content: "\e63c";
+}
+
+.fa-brave-reverse::before {
+  content: "\e63d";
 }
 
 .fa-btc::before {
@@ -790,6 +803,10 @@ Total Icons (all combinations)  : 26233
   content: "\f0d5";
 }
 
+.fa-google-scholar::before {
+  content: "\e63b";
+}
+
 .fa-google-wallet::before {
   content: "\f1ee";
 }
@@ -982,6 +999,10 @@ Total Icons (all combinations)  : 26233
   content: "\f41d";
 }
 
+.fa-letterboxd::before {
+  content: "\e62d";
+}
+
 .fa-line::before {
   content: "\f3c0";
 }
@@ -1070,6 +1091,10 @@ Total Icons (all combinations)  : 26233
   content: "\f3ca";
 }
 
+.fa-mintbit::before {
+  content: "\e62f";
+}
+
 .fa-mix::before {
   content: "\f3cb";
 }
@@ -1156,6 +1181,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-openid::before {
   content: "\f19b";
+}
+
+.fa-opensuse::before {
+  content: "\e62b";
 }
 
 .fa-opera::before {
@@ -1248,6 +1277,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-pix::before {
   content: "\e43a";
+}
+
+.fa-pixiv::before {
+  content: "\e640";
 }
 
 .fa-playstation::before {
@@ -1410,6 +1443,10 @@ Total Icons (all combinations)  : 26233
   content: "\f5b5";
 }
 
+.fa-signal-messenger::before {
+  content: "\e663";
+}
+
 .fa-simplybuilt::before {
   content: "\f215";
 }
@@ -1524,6 +1561,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-square-lastfm::before {
   content: "\f203";
+}
+
+.fa-square-letterboxd::before {
+  content: "\e62e";
 }
 
 .fa-square-odnoklassniki::before {
@@ -1766,6 +1807,10 @@ Total Icons (all combinations)  : 26233
   content: "\f7e0";
 }
 
+.fa-upwork::before {
+  content: "\e641";
+}
+
 .fa-usb::before {
   content: "\f287";
 }
@@ -1824,6 +1869,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-waze::before {
   content: "\f83f";
+}
+
+.fa-webflow::before {
+  content: "\e65c";
 }
 
 .fa-weebly::before {
@@ -2422,6 +2471,22 @@ Total Icons (all combinations)  : 26233
   content: "\e3d6";
 }
 
+.fa-arrow-turn-left::before {
+  content: "\e632";
+}
+
+.fa-arrow-turn-left-down::before {
+  content: "\e633";
+}
+
+.fa-arrow-turn-left-up::before {
+  content: "\e634";
+}
+
+.fa-arrow-turn-right::before {
+  content: "\e635";
+}
+
 .fa-arrow-turn-up::before {
   content: "\f148";
 }
@@ -2592,6 +2657,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-arrows-rotate::before {
   content: "\f021";
+}
+
+.fa-arrows-rotate-reverse::before {
+  content: "\e630";
 }
 
 .fa-arrows-spin::before {
@@ -2766,6 +2835,14 @@ Total Icons (all combinations)  : 26233
   content: "\f290";
 }
 
+.fa-bag-shopping-minus::before {
+  content: "\e650";
+}
+
+.fa-bag-shopping-plus::before {
+  content: "\e651";
+}
+
 .fa-bagel::before {
   content: "\e3d7";
 }
@@ -2882,6 +2959,14 @@ Total Icons (all combinations)  : 26233
   content: "\f291";
 }
 
+.fa-basket-shopping-minus::before {
+  content: "\e652";
+}
+
+.fa-basket-shopping-plus::before {
+  content: "\e653";
+}
+
 .fa-basket-shopping-simple::before {
   content: "\e0af";
 }
@@ -2988,6 +3073,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-bell-plus::before {
   content: "\f849";
+}
+
+.fa-bell-ring::before {
+  content: "\e62c";
 }
 
 .fa-bell-school::before {
@@ -3662,6 +3751,14 @@ Total Icons (all combinations)  : 26233
   content: "\e4d6";
 }
 
+.fa-building-magnifying-glass::before {
+  content: "\e61c";
+}
+
+.fa-building-memo::before {
+  content: "\e61e";
+}
+
 .fa-building-ngo::before {
   content: "\e4d7";
 }
@@ -3684,6 +3781,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-buildings::before {
   content: "\e0cc";
+}
+
+.fa-bulldozer::before {
+  content: "\e655";
 }
 
 .fa-bullhorn::before {
@@ -3982,6 +4083,10 @@ Total Icons (all combinations)  : 26233
   content: "\f55f";
 }
 
+.fa-cannon::before {
+  content: "\e642";
+}
+
 .fa-capsules::before {
   content: "\f46b";
 }
@@ -4276,6 +4381,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-chart-gantt::before {
   content: "\e0e4";
+}
+
+.fa-chart-kanban::before {
+  content: "\e64f";
 }
 
 .fa-chart-line::before {
@@ -5646,6 +5755,10 @@ Total Icons (all combinations)  : 26233
   content: "\f4b8";
 }
 
+.fa-court-sport::before {
+  content: "\e643";
+}
+
 .fa-cow::before {
   content: "\f6c8";
 }
@@ -6366,6 +6479,10 @@ Total Icons (all combinations)  : 26233
   content: "\f153";
 }
 
+.fa-excavator::before {
+  content: "\e656";
+}
+
 .fa-exclamation::before {
   content: "\21";
 }
@@ -7014,6 +7131,10 @@ Total Icons (all combinations)  : 26233
   content: "\e5ed";
 }
 
+.fa-file-eps::before {
+  content: "\e644";
+}
+
 .fa-file-excel::before {
   content: "\f1c3";
 }
@@ -7024,6 +7145,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-file-export::before {
   content: "\f56e";
+}
+
+.fa-file-gif::before {
+  content: "\e645";
 }
 
 .fa-file-heart::before {
@@ -7046,6 +7171,10 @@ Total Icons (all combinations)  : 26233
   content: "\f571";
 }
 
+.fa-file-jpg::before {
+  content: "\e646";
+}
+
 .fa-file-lines::before {
   content: "\f15c";
 }
@@ -7064,6 +7193,18 @@ Total Icons (all combinations)  : 26233
 
 .fa-file-minus::before {
   content: "\f318";
+}
+
+.fa-file-mov::before {
+  content: "\e647";
+}
+
+.fa-file-mp3::before {
+  content: "\e648";
+}
+
+.fa-file-mp4::before {
+  content: "\e649";
 }
 
 .fa-file-music::before {
@@ -7086,8 +7227,16 @@ Total Icons (all combinations)  : 26233
   content: "\e177";
 }
 
+.fa-file-png::before {
+  content: "\e666";
+}
+
 .fa-file-powerpoint::before {
   content: "\f1c4";
+}
+
+.fa-file-ppt::before {
+  content: "\e64a";
 }
 
 .fa-file-prescription::before {
@@ -7110,8 +7259,16 @@ Total Icons (all combinations)  : 26233
   content: "\f65b";
 }
 
+.fa-file-svg::before {
+  content: "\e64b";
+}
+
 .fa-file-user::before {
   content: "\f65c";
+}
+
+.fa-file-vector::before {
+  content: "\e64c";
 }
 
 .fa-file-video::before {
@@ -7126,8 +7283,16 @@ Total Icons (all combinations)  : 26233
   content: "\f1c2";
 }
 
+.fa-file-xls::before {
+  content: "\e64d";
+}
+
 .fa-file-xmark::before {
   content: "\f317";
+}
+
+.fa-file-xml::before {
+  content: "\e654";
 }
 
 .fa-file-zip::before {
@@ -7372,6 +7537,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-folder-bookmark::before {
   content: "\e186";
+}
+
+.fa-folder-check::before {
+  content: "\e64e";
 }
 
 .fa-folder-closed::before {
@@ -7922,6 +8091,10 @@ Total Icons (all combinations)  : 26233
   content: "\f6e3";
 }
 
+.fa-hammer-brush::before {
+  content: "\e620";
+}
+
 .fa-hammer-crash::before {
   content: "\e414";
 }
@@ -7984,6 +8157,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-hand-holding-box::before {
   content: "\f47b";
+}
+
+.fa-hand-holding-circle-dollar::before {
+  content: "\e621";
 }
 
 .fa-hand-holding-dollar::before {
@@ -8994,6 +9171,10 @@ Total Icons (all combinations)  : 26233
   content: "\e51c";
 }
 
+.fa-landmark-magnifying-glass::before {
+  content: "\e622";
+}
+
 .fa-language::before {
   content: "\f1ab";
 }
@@ -9278,6 +9459,10 @@ Total Icons (all combinations)  : 26233
   content: "\f124";
 }
 
+.fa-location-arrow-up::before {
+  content: "\e63a";
+}
+
 .fa-location-check::before {
   content: "\f606";
 }
@@ -9406,6 +9591,10 @@ Total Icons (all combinations)  : 26233
   content: "\e521";
 }
 
+.fa-magnifying-glass-arrows-rotate::before {
+  content: "\e65e";
+}
+
 .fa-magnifying-glass-chart::before {
   content: "\e522";
 }
@@ -9422,8 +9611,20 @@ Total Icons (all combinations)  : 26233
   content: "\f010";
 }
 
+.fa-magnifying-glass-music::before {
+  content: "\e65f";
+}
+
+.fa-magnifying-glass-play::before {
+  content: "\e660";
+}
+
 .fa-magnifying-glass-plus::before {
   content: "\f00e";
+}
+
+.fa-magnifying-glass-waveform::before {
+  content: "\e661";
 }
 
 .fa-mailbox::before {
@@ -10000,6 +10201,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-music::before {
   content: "\f001";
+}
+
+.fa-music-magnifying-glass::before {
+  content: "\e662";
 }
 
 .fa-music-note::before {
@@ -11398,6 +11603,14 @@ Total Icons (all combinations)  : 26233
   content: "\e238";
 }
 
+.fa-reflect-horizontal::before {
+  content: "\e664";
+}
+
+.fa-reflect-vertical::before {
+  content: "\e665";
+}
+
 .fa-refrigerator::before {
   content: "\e026";
 }
@@ -11560,6 +11773,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-rotate-left::before {
   content: "\f2ea";
+}
+
+.fa-rotate-reverse::before {
+  content: "\e631";
 }
 
 .fa-rotate-right::before {
@@ -12062,6 +12279,18 @@ Total Icons (all combinations)  : 26233
   content: "\f4d9";
 }
 
+.fa-sign-post::before {
+  content: "\e624";
+}
+
+.fa-sign-posts::before {
+  content: "\e625";
+}
+
+.fa-sign-posts-wrench::before {
+  content: "\e626";
+}
+
 .fa-signal::before {
   content: "\f012";
 }
@@ -12352,6 +12581,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-spinner::before {
   content: "\f110";
+}
+
+.fa-spinner-scale::before {
+  content: "\e62a";
 }
 
 .fa-spinner-third::before {
@@ -13118,6 +13351,10 @@ Total Icons (all combinations)  : 26233
   content: "\54";
 }
 
+.fa-t-rex::before {
+  content: "\e629";
+}
+
 .fa-table::before {
   content: "\f0ce";
 }
@@ -13342,6 +13579,10 @@ Total Icons (all combinations)  : 26233
   content: "\e581";
 }
 
+.fa-tent-double-peak::before {
+  content: "\e627";
+}
+
 .fa-tents::before {
   content: "\e582";
 }
@@ -13406,12 +13647,28 @@ Total Icons (all combinations)  : 26233
   content: "\e29a";
 }
 
+.fa-ticket-perforated::before {
+  content: "\e63e";
+}
+
 .fa-ticket-simple::before {
   content: "\f3ff";
 }
 
+.fa-tickets::before {
+  content: "\e658";
+}
+
 .fa-tickets-airline::before {
   content: "\e29b";
+}
+
+.fa-tickets-perforated::before {
+  content: "\e63f";
+}
+
+.fa-tickets-simple::before {
+  content: "\e659";
 }
 
 .fa-tilde::before {
@@ -13846,12 +14103,20 @@ Total Icons (all combinations)  : 26233
   content: "\e58e";
 }
 
+.fa-truck-fire::before {
+  content: "\e65a";
+}
+
 .fa-truck-flatbed::before {
   content: "\e2b6";
 }
 
 .fa-truck-front::before {
   content: "\e2b7";
+}
+
+.fa-truck-ladder::before {
+  content: "\e657";
 }
 
 .fa-truck-medical::before {
@@ -13894,6 +14159,10 @@ Total Icons (all combinations)  : 26233
   content: "\e2b8";
 }
 
+.fa-truck-utensils::before {
+  content: "\e628";
+}
+
 .fa-trumpet::before {
   content: "\f8e3";
 }
@@ -13928,6 +14197,22 @@ Total Icons (all combinations)  : 26233
 
 .fa-turn-down-right::before {
   content: "\e455";
+}
+
+.fa-turn-left::before {
+  content: "\e636";
+}
+
+.fa-turn-left-down::before {
+  content: "\e637";
+}
+
+.fa-turn-left-up::before {
+  content: "\e638";
+}
+
+.fa-turn-right::before {
+  content: "\e639";
 }
 
 .fa-turn-up::before {
@@ -14606,6 +14891,10 @@ Total Icons (all combinations)  : 26233
   content: "\e337";
 }
 
+.fa-wave::before {
+  content: "\e65b";
+}
+
 .fa-wave-pulse::before {
   content: "\f5f8";
 }
@@ -14628,6 +14917,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-waveform-lines::before {
   content: "\f8f2";
+}
+
+.fa-waves-sine::before {
+  content: "\e65d";
 }
 
 .fa-webhook::before {
@@ -14850,6 +15143,12 @@ Total Icons (all combinations)  : 26233
 
 .fa-sharp.fa-light::before {
   font: 300 1em/1 "Supacons Sharp Light";
+  display: inline-block;
+  text-rendering: auto;
+}
+
+.fa-sharp.fa-thin::before {
+  font: 100 1em/1 "Supacons Sharp Thin";
   display: inline-block;
   text-rendering: auto;
 }
@@ -15365,6 +15664,22 @@ Total Icons (all combinations)  : 26233
   content: "\e3d6\e3d6";
   opacity: 0.4;
 }
+.fa-duotone.fa-arrow-turn-left::after {
+  content: "\e632\e632";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-turn-left-down::after {
+  content: "\e633\e633";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-turn-left-up::after {
+  content: "\e634\e634";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-turn-right::after {
+  content: "\e635\e635";
+  opacity: 0.4;
+}
 .fa-duotone.fa-arrow-turn-up::after {
   content: "\f148\f148";
   opacity: 0.4;
@@ -15535,6 +15850,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-arrows-rotate::after {
   content: "\f021\f021";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrows-rotate-reverse::after {
+  content: "\e630\e630";
   opacity: 0.4;
 }
 .fa-duotone.fa-arrows-spin::after {
@@ -15709,6 +16028,14 @@ Total Icons (all combinations)  : 26233
   content: "\f290\f290";
   opacity: 0.4;
 }
+.fa-duotone.fa-bag-shopping-minus::after {
+  content: "\e650\e650";
+  opacity: 0.4;
+}
+.fa-duotone.fa-bag-shopping-plus::after {
+  content: "\e651\e651";
+  opacity: 0.4;
+}
 .fa-duotone.fa-bagel::after {
   content: "\e3d7\e3d7";
   opacity: 0.4;
@@ -15825,6 +16152,14 @@ Total Icons (all combinations)  : 26233
   content: "\f291\f291";
   opacity: 0.4;
 }
+.fa-duotone.fa-basket-shopping-minus::after {
+  content: "\e652\e652";
+  opacity: 0.4;
+}
+.fa-duotone.fa-basket-shopping-plus::after {
+  content: "\e653\e653";
+  opacity: 0.4;
+}
 .fa-duotone.fa-basket-shopping-simple::after {
   content: "\e0af\e0af";
   opacity: 0.4;
@@ -15931,6 +16266,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-bell-plus::after {
   content: "\f849\f849";
+  opacity: 0.4;
+}
+.fa-duotone.fa-bell-ring::after {
+  content: "\e62c\e62c";
   opacity: 0.4;
 }
 .fa-duotone.fa-bell-school::after {
@@ -16605,6 +16944,14 @@ Total Icons (all combinations)  : 26233
   content: "\e4d6\e4d6";
   opacity: 0.4;
 }
+.fa-duotone.fa-building-magnifying-glass::after {
+  content: "\e61c\e61c";
+  opacity: 0.4;
+}
+.fa-duotone.fa-building-memo::after {
+  content: "\e61e\e61e";
+  opacity: 0.4;
+}
 .fa-duotone.fa-building-ngo::after {
   content: "\e4d7\e4d7";
   opacity: 0.4;
@@ -16627,6 +16974,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-buildings::after {
   content: "\e0cc\e0cc";
+  opacity: 0.4;
+}
+.fa-duotone.fa-bulldozer::after {
+  content: "\e655\e655";
   opacity: 0.4;
 }
 .fa-duotone.fa-bullhorn::after {
@@ -16925,6 +17276,10 @@ Total Icons (all combinations)  : 26233
   content: "\f55f\f55f";
   opacity: 0.4;
 }
+.fa-duotone.fa-cannon::after {
+  content: "\e642\e642";
+  opacity: 0.4;
+}
 .fa-duotone.fa-capsules::after {
   content: "\f46b\f46b";
   opacity: 0.4;
@@ -17219,6 +17574,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-chart-gantt::after {
   content: "\e0e4\e0e4";
+  opacity: 0.4;
+}
+.fa-duotone.fa-chart-kanban::after {
+  content: "\e64f\e64f";
   opacity: 0.4;
 }
 .fa-duotone.fa-chart-line::after {
@@ -18589,6 +18948,10 @@ Total Icons (all combinations)  : 26233
   content: "\f4b8\f4b8";
   opacity: 0.4;
 }
+.fa-duotone.fa-court-sport::after {
+  content: "\e643\e643";
+  opacity: 0.4;
+}
 .fa-duotone.fa-cow::after {
   content: "\f6c8\f6c8";
   opacity: 0.4;
@@ -19309,6 +19672,10 @@ Total Icons (all combinations)  : 26233
   content: "\f153\f153";
   opacity: 0.4;
 }
+.fa-duotone.fa-excavator::after {
+  content: "\e656\e656";
+  opacity: 0.4;
+}
 .fa-duotone.fa-exclamation::after {
   content: "\21\21";
   opacity: 0.4;
@@ -19957,6 +20324,10 @@ Total Icons (all combinations)  : 26233
   content: "\e5ed\e5ed";
   opacity: 0.4;
 }
+.fa-duotone.fa-file-eps::after {
+  content: "\e644\e644";
+  opacity: 0.4;
+}
 .fa-duotone.fa-file-excel::after {
   content: "\f1c3\f1c3";
   opacity: 0.4;
@@ -19967,6 +20338,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-file-export::after {
   content: "\f56e\f56e";
+  opacity: 0.4;
+}
+.fa-duotone.fa-file-gif::after {
+  content: "\e645\e645";
   opacity: 0.4;
 }
 .fa-duotone.fa-file-heart::after {
@@ -19989,6 +20364,10 @@ Total Icons (all combinations)  : 26233
   content: "\f571\f571";
   opacity: 0.4;
 }
+.fa-duotone.fa-file-jpg::after {
+  content: "\e646\e646";
+  opacity: 0.4;
+}
 .fa-duotone.fa-file-lines::after {
   content: "\f15c\f15c";
   opacity: 0.4;
@@ -20007,6 +20386,18 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-file-minus::after {
   content: "\f318\f318";
+  opacity: 0.4;
+}
+.fa-duotone.fa-file-mov::after {
+  content: "\e647\e647";
+  opacity: 0.4;
+}
+.fa-duotone.fa-file-mp3::after {
+  content: "\e648\e648";
+  opacity: 0.4;
+}
+.fa-duotone.fa-file-mp4::after {
+  content: "\e649\e649";
   opacity: 0.4;
 }
 .fa-duotone.fa-file-music::after {
@@ -20029,8 +20420,16 @@ Total Icons (all combinations)  : 26233
   content: "\e177\e177";
   opacity: 0.4;
 }
+.fa-duotone.fa-file-png::after {
+  content: "\e666\e666";
+  opacity: 0.4;
+}
 .fa-duotone.fa-file-powerpoint::after {
   content: "\f1c4\f1c4";
+  opacity: 0.4;
+}
+.fa-duotone.fa-file-ppt::after {
+  content: "\e64a\e64a";
   opacity: 0.4;
 }
 .fa-duotone.fa-file-prescription::after {
@@ -20053,8 +20452,16 @@ Total Icons (all combinations)  : 26233
   content: "\f65b\f65b";
   opacity: 0.4;
 }
+.fa-duotone.fa-file-svg::after {
+  content: "\e64b\e64b";
+  opacity: 0.4;
+}
 .fa-duotone.fa-file-user::after {
   content: "\f65c\f65c";
+  opacity: 0.4;
+}
+.fa-duotone.fa-file-vector::after {
+  content: "\e64c\e64c";
   opacity: 0.4;
 }
 .fa-duotone.fa-file-video::after {
@@ -20069,8 +20476,16 @@ Total Icons (all combinations)  : 26233
   content: "\f1c2\f1c2";
   opacity: 0.4;
 }
+.fa-duotone.fa-file-xls::after {
+  content: "\e64d\e64d";
+  opacity: 0.4;
+}
 .fa-duotone.fa-file-xmark::after {
   content: "\f317\f317";
+  opacity: 0.4;
+}
+.fa-duotone.fa-file-xml::after {
+  content: "\e654\e654";
   opacity: 0.4;
 }
 .fa-duotone.fa-file-zip::after {
@@ -20315,6 +20730,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-folder-bookmark::after {
   content: "\e186\e186";
+  opacity: 0.4;
+}
+.fa-duotone.fa-folder-check::after {
+  content: "\e64e\e64e";
   opacity: 0.4;
 }
 .fa-duotone.fa-folder-closed::after {
@@ -20865,6 +21284,10 @@ Total Icons (all combinations)  : 26233
   content: "\f6e3\f6e3";
   opacity: 0.4;
 }
+.fa-duotone.fa-hammer-brush::after {
+  content: "\e620\e620";
+  opacity: 0.4;
+}
 .fa-duotone.fa-hammer-crash::after {
   content: "\e414\e414";
   opacity: 0.4;
@@ -20927,6 +21350,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-hand-holding-box::after {
   content: "\f47b\f47b";
+  opacity: 0.4;
+}
+.fa-duotone.fa-hand-holding-circle-dollar::after {
+  content: "\e621\e621";
   opacity: 0.4;
 }
 .fa-duotone.fa-hand-holding-dollar::after {
@@ -21937,6 +22364,10 @@ Total Icons (all combinations)  : 26233
   content: "\e51c\e51c";
   opacity: 0.4;
 }
+.fa-duotone.fa-landmark-magnifying-glass::after {
+  content: "\e622\e622";
+  opacity: 0.4;
+}
 .fa-duotone.fa-language::after {
   content: "\f1ab\f1ab";
   opacity: 0.4;
@@ -22221,6 +22652,10 @@ Total Icons (all combinations)  : 26233
   content: "\f124\f124";
   opacity: 0.4;
 }
+.fa-duotone.fa-location-arrow-up::after {
+  content: "\e63a\e63a";
+  opacity: 0.4;
+}
 .fa-duotone.fa-location-check::after {
   content: "\f606\f606";
   opacity: 0.4;
@@ -22349,6 +22784,10 @@ Total Icons (all combinations)  : 26233
   content: "\e521\e521";
   opacity: 0.4;
 }
+.fa-duotone.fa-magnifying-glass-arrows-rotate::after {
+  content: "\e65e\e65e";
+  opacity: 0.4;
+}
 .fa-duotone.fa-magnifying-glass-chart::after {
   content: "\e522\e522";
   opacity: 0.4;
@@ -22365,8 +22804,20 @@ Total Icons (all combinations)  : 26233
   content: "\f010\f010";
   opacity: 0.4;
 }
+.fa-duotone.fa-magnifying-glass-music::after {
+  content: "\e65f\e65f";
+  opacity: 0.4;
+}
+.fa-duotone.fa-magnifying-glass-play::after {
+  content: "\e660\e660";
+  opacity: 0.4;
+}
 .fa-duotone.fa-magnifying-glass-plus::after {
   content: "\f00e\f00e";
+  opacity: 0.4;
+}
+.fa-duotone.fa-magnifying-glass-waveform::after {
+  content: "\e661\e661";
   opacity: 0.4;
 }
 .fa-duotone.fa-mailbox::after {
@@ -22943,6 +23394,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-music::after {
   content: "\f001\f001";
+  opacity: 0.4;
+}
+.fa-duotone.fa-music-magnifying-glass::after {
+  content: "\e662\e662";
   opacity: 0.4;
 }
 .fa-duotone.fa-music-note::after {
@@ -24341,6 +24796,14 @@ Total Icons (all combinations)  : 26233
   content: "\e238\e238";
   opacity: 0.4;
 }
+.fa-duotone.fa-reflect-horizontal::after {
+  content: "\e664\e664";
+  opacity: 0.4;
+}
+.fa-duotone.fa-reflect-vertical::after {
+  content: "\e665\e665";
+  opacity: 0.4;
+}
 .fa-duotone.fa-refrigerator::after {
   content: "\e026\e026";
   opacity: 0.4;
@@ -24503,6 +24966,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-rotate-left::after {
   content: "\f2ea\f2ea";
+  opacity: 0.4;
+}
+.fa-duotone.fa-rotate-reverse::after {
+  content: "\e631\e631";
   opacity: 0.4;
 }
 .fa-duotone.fa-rotate-right::after {
@@ -25005,6 +25472,18 @@ Total Icons (all combinations)  : 26233
   content: "\f4d9\f4d9";
   opacity: 0.4;
 }
+.fa-duotone.fa-sign-post::after {
+  content: "\e624\e624";
+  opacity: 0.4;
+}
+.fa-duotone.fa-sign-posts::after {
+  content: "\e625\e625";
+  opacity: 0.4;
+}
+.fa-duotone.fa-sign-posts-wrench::after {
+  content: "\e626\e626";
+  opacity: 0.4;
+}
 .fa-duotone.fa-signal::after {
   content: "\f012\f012";
   opacity: 0.4;
@@ -25295,6 +25774,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-spinner::after {
   content: "\f110\f110";
+  opacity: 0.4;
+}
+.fa-duotone.fa-spinner-scale::after {
+  content: "\e62a\e62a";
   opacity: 0.4;
 }
 .fa-duotone.fa-spinner-third::after {
@@ -26061,6 +26544,10 @@ Total Icons (all combinations)  : 26233
   content: "\54\54";
   opacity: 0.4;
 }
+.fa-duotone.fa-t-rex::after {
+  content: "\e629\e629";
+  opacity: 0.4;
+}
 .fa-duotone.fa-table::after {
   content: "\f0ce\f0ce";
   opacity: 0.4;
@@ -26285,6 +26772,10 @@ Total Icons (all combinations)  : 26233
   content: "\e581\e581";
   opacity: 0.4;
 }
+.fa-duotone.fa-tent-double-peak::after {
+  content: "\e627\e627";
+  opacity: 0.4;
+}
 .fa-duotone.fa-tents::after {
   content: "\e582\e582";
   opacity: 0.4;
@@ -26349,12 +26840,28 @@ Total Icons (all combinations)  : 26233
   content: "\e29a\e29a";
   opacity: 0.4;
 }
+.fa-duotone.fa-ticket-perforated::after {
+  content: "\e63e\e63e";
+  opacity: 0.4;
+}
 .fa-duotone.fa-ticket-simple::after {
   content: "\f3ff\f3ff";
   opacity: 0.4;
 }
+.fa-duotone.fa-tickets::after {
+  content: "\e658\e658";
+  opacity: 0.4;
+}
 .fa-duotone.fa-tickets-airline::after {
   content: "\e29b\e29b";
+  opacity: 0.4;
+}
+.fa-duotone.fa-tickets-perforated::after {
+  content: "\e63f\e63f";
+  opacity: 0.4;
+}
+.fa-duotone.fa-tickets-simple::after {
+  content: "\e659\e659";
   opacity: 0.4;
 }
 .fa-duotone.fa-tilde::after {
@@ -26789,12 +27296,20 @@ Total Icons (all combinations)  : 26233
   content: "\e58e\e58e";
   opacity: 0.4;
 }
+.fa-duotone.fa-truck-fire::after {
+  content: "\e65a\e65a";
+  opacity: 0.4;
+}
 .fa-duotone.fa-truck-flatbed::after {
   content: "\e2b6\e2b6";
   opacity: 0.4;
 }
 .fa-duotone.fa-truck-front::after {
   content: "\e2b7\e2b7";
+  opacity: 0.4;
+}
+.fa-duotone.fa-truck-ladder::after {
+  content: "\e657\e657";
   opacity: 0.4;
 }
 .fa-duotone.fa-truck-medical::after {
@@ -26837,6 +27352,10 @@ Total Icons (all combinations)  : 26233
   content: "\e2b8\e2b8";
   opacity: 0.4;
 }
+.fa-duotone.fa-truck-utensils::after {
+  content: "\e628\e628";
+  opacity: 0.4;
+}
 .fa-duotone.fa-trumpet::after {
   content: "\f8e3\f8e3";
   opacity: 0.4;
@@ -26871,6 +27390,22 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-turn-down-right::after {
   content: "\e455\e455";
+  opacity: 0.4;
+}
+.fa-duotone.fa-turn-left::after {
+  content: "\e636\e636";
+  opacity: 0.4;
+}
+.fa-duotone.fa-turn-left-down::after {
+  content: "\e637\e637";
+  opacity: 0.4;
+}
+.fa-duotone.fa-turn-left-up::after {
+  content: "\e638\e638";
+  opacity: 0.4;
+}
+.fa-duotone.fa-turn-right::after {
+  content: "\e639\e639";
   opacity: 0.4;
 }
 .fa-duotone.fa-turn-up::after {
@@ -27549,6 +28084,10 @@ Total Icons (all combinations)  : 26233
   content: "\e337\e337";
   opacity: 0.4;
 }
+.fa-duotone.fa-wave::after {
+  content: "\e65b\e65b";
+  opacity: 0.4;
+}
 .fa-duotone.fa-wave-pulse::after {
   content: "\f5f8\f5f8";
   opacity: 0.4;
@@ -27571,6 +28110,10 @@ Total Icons (all combinations)  : 26233
 }
 .fa-duotone.fa-waveform-lines::after {
   content: "\f8f2\f8f2";
+  opacity: 0.4;
+}
+.fa-duotone.fa-waves-sine::after {
+  content: "\e65d\e65d";
   opacity: 0.4;
 }
 .fa-duotone.fa-webhook::after {

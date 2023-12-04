@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.4.2
+FontAwesome Release Version     : 6.5.1
 Supacons Version                : 6
-Supacons Release Version        : 6.4.2
+Supacons Release Version        : 6.5.1
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.4.2
+Supacons Core Release Version   : 6.5.1
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 07-10-2023
-Total Generic Icons             : 3220 (incl. 3 mutuals to brands)
-Total Brand Icons               : 473
-Total Icons                     : 3693
-Total Icons (all combinations)  : 26233
+Last Updated Date               : 04-12-2023
+Total Generic Icons             : 3281 (incl. 3 mutuals to brands)
+Total Brand Icons               : 484
+Total Icons                     : 3765
+Total Icons (all combinations)  : 30013
 */
 @font-face {
   font-family: "Supacons Brands";
@@ -206,6 +206,14 @@ Total Icons (all combinations)  : 26233
 
 .fa-bots::before {
   content: "\e340";
+}
+
+.fa-brave::before {
+  content: "\e63c";
+}
+
+.fa-brave-reverse::before {
+  content: "\e63d";
 }
 
 .fa-btc::before {
@@ -756,6 +764,10 @@ Total Icons (all combinations)  : 26233
   content: "\f0d5";
 }
 
+.fa-google-scholar::before {
+  content: "\e63b";
+}
+
 .fa-google-wallet::before {
   content: "\f1ee";
 }
@@ -948,6 +960,10 @@ Total Icons (all combinations)  : 26233
   content: "\f41d";
 }
 
+.fa-letterboxd::before {
+  content: "\e62d";
+}
+
 .fa-line::before {
   content: "\f3c0";
 }
@@ -1036,6 +1052,10 @@ Total Icons (all combinations)  : 26233
   content: "\f3ca";
 }
 
+.fa-mintbit::before {
+  content: "\e62f";
+}
+
 .fa-mix::before {
   content: "\f3cb";
 }
@@ -1122,6 +1142,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-openid::before {
   content: "\f19b";
+}
+
+.fa-opensuse::before {
+  content: "\e62b";
 }
 
 .fa-opera::before {
@@ -1214,6 +1238,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-pix::before {
   content: "\e43a";
+}
+
+.fa-pixiv::before {
+  content: "\e640";
 }
 
 .fa-playstation::before {
@@ -1376,6 +1404,10 @@ Total Icons (all combinations)  : 26233
   content: "\f5b5";
 }
 
+.fa-signal-messenger::before {
+  content: "\e663";
+}
+
 .fa-simplybuilt::before {
   content: "\f215";
 }
@@ -1490,6 +1522,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-square-lastfm::before {
   content: "\f203";
+}
+
+.fa-square-letterboxd::before {
+  content: "\e62e";
 }
 
 .fa-square-odnoklassniki::before {
@@ -1732,6 +1768,10 @@ Total Icons (all combinations)  : 26233
   content: "\f7e0";
 }
 
+.fa-upwork::before {
+  content: "\e641";
+}
+
 .fa-usb::before {
   content: "\f287";
 }
@@ -1790,6 +1830,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-waze::before {
   content: "\f83f";
+}
+
+.fa-webflow::before {
+  content: "\e65c";
 }
 
 .fa-weebly::before {

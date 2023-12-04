@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.4.2
+FontAwesome Release Version     : 6.5.1
 Supacons Version                : 6
-Supacons Release Version        : 6.4.2
+Supacons Release Version        : 6.5.1
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.4.2
+Supacons Core Release Version   : 6.5.1
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 07-10-2023
-Total Generic Icons             : 3220 (incl. 3 mutuals to brands)
-Total Brand Icons               : 473
-Total Icons                     : 3693
-Total Icons (all combinations)  : 26233
+Last Updated Date               : 04-12-2023
+Total Generic Icons             : 3281 (incl. 3 mutuals to brands)
+Total Brand Icons               : 484
+Total Icons                     : 3765
+Total Icons (all combinations)  : 30013
 */
 @font-face {
   font-family: "Supacons Classic Solid";
@@ -496,6 +496,22 @@ Total Icons (all combinations)  : 26233
   content: "\e3d6";
 }
 
+.fa-arrow-turn-left::before {
+  content: "\e632";
+}
+
+.fa-arrow-turn-left-down::before {
+  content: "\e633";
+}
+
+.fa-arrow-turn-left-up::before {
+  content: "\e634";
+}
+
+.fa-arrow-turn-right::before {
+  content: "\e635";
+}
+
 .fa-arrow-turn-up::before {
   content: "\f148";
 }
@@ -666,6 +682,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-arrows-rotate::before {
   content: "\f021";
+}
+
+.fa-arrows-rotate-reverse::before {
+  content: "\e630";
 }
 
 .fa-arrows-spin::before {
@@ -840,6 +860,14 @@ Total Icons (all combinations)  : 26233
   content: "\f290";
 }
 
+.fa-bag-shopping-minus::before {
+  content: "\e650";
+}
+
+.fa-bag-shopping-plus::before {
+  content: "\e651";
+}
+
 .fa-bagel::before {
   content: "\e3d7";
 }
@@ -956,6 +984,14 @@ Total Icons (all combinations)  : 26233
   content: "\f291";
 }
 
+.fa-basket-shopping-minus::before {
+  content: "\e652";
+}
+
+.fa-basket-shopping-plus::before {
+  content: "\e653";
+}
+
 .fa-basket-shopping-simple::before {
   content: "\e0af";
 }
@@ -1062,6 +1098,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-bell-plus::before {
   content: "\f849";
+}
+
+.fa-bell-ring::before {
+  content: "\e62c";
 }
 
 .fa-bell-school::before {
@@ -1736,6 +1776,14 @@ Total Icons (all combinations)  : 26233
   content: "\e4d6";
 }
 
+.fa-building-magnifying-glass::before {
+  content: "\e61c";
+}
+
+.fa-building-memo::before {
+  content: "\e61e";
+}
+
 .fa-building-ngo::before {
   content: "\e4d7";
 }
@@ -1758,6 +1806,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-buildings::before {
   content: "\e0cc";
+}
+
+.fa-bulldozer::before {
+  content: "\e655";
 }
 
 .fa-bullhorn::before {
@@ -2056,6 +2108,10 @@ Total Icons (all combinations)  : 26233
   content: "\f55f";
 }
 
+.fa-cannon::before {
+  content: "\e642";
+}
+
 .fa-capsules::before {
   content: "\f46b";
 }
@@ -2350,6 +2406,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-chart-gantt::before {
   content: "\e0e4";
+}
+
+.fa-chart-kanban::before {
+  content: "\e64f";
 }
 
 .fa-chart-line::before {
@@ -3720,6 +3780,10 @@ Total Icons (all combinations)  : 26233
   content: "\f4b8";
 }
 
+.fa-court-sport::before {
+  content: "\e643";
+}
+
 .fa-cow::before {
   content: "\f6c8";
 }
@@ -4440,6 +4504,10 @@ Total Icons (all combinations)  : 26233
   content: "\f153";
 }
 
+.fa-excavator::before {
+  content: "\e656";
+}
+
 .fa-exclamation::before {
   content: "\21";
 }
@@ -5088,6 +5156,10 @@ Total Icons (all combinations)  : 26233
   content: "\e5ed";
 }
 
+.fa-file-eps::before {
+  content: "\e644";
+}
+
 .fa-file-excel::before {
   content: "\f1c3";
 }
@@ -5098,6 +5170,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-file-export::before {
   content: "\f56e";
+}
+
+.fa-file-gif::before {
+  content: "\e645";
 }
 
 .fa-file-heart::before {
@@ -5120,6 +5196,10 @@ Total Icons (all combinations)  : 26233
   content: "\f571";
 }
 
+.fa-file-jpg::before {
+  content: "\e646";
+}
+
 .fa-file-lines::before {
   content: "\f15c";
 }
@@ -5138,6 +5218,18 @@ Total Icons (all combinations)  : 26233
 
 .fa-file-minus::before {
   content: "\f318";
+}
+
+.fa-file-mov::before {
+  content: "\e647";
+}
+
+.fa-file-mp3::before {
+  content: "\e648";
+}
+
+.fa-file-mp4::before {
+  content: "\e649";
 }
 
 .fa-file-music::before {
@@ -5160,8 +5252,16 @@ Total Icons (all combinations)  : 26233
   content: "\e177";
 }
 
+.fa-file-png::before {
+  content: "\e666";
+}
+
 .fa-file-powerpoint::before {
   content: "\f1c4";
+}
+
+.fa-file-ppt::before {
+  content: "\e64a";
 }
 
 .fa-file-prescription::before {
@@ -5184,8 +5284,16 @@ Total Icons (all combinations)  : 26233
   content: "\f65b";
 }
 
+.fa-file-svg::before {
+  content: "\e64b";
+}
+
 .fa-file-user::before {
   content: "\f65c";
+}
+
+.fa-file-vector::before {
+  content: "\e64c";
 }
 
 .fa-file-video::before {
@@ -5200,8 +5308,16 @@ Total Icons (all combinations)  : 26233
   content: "\f1c2";
 }
 
+.fa-file-xls::before {
+  content: "\e64d";
+}
+
 .fa-file-xmark::before {
   content: "\f317";
+}
+
+.fa-file-xml::before {
+  content: "\e654";
 }
 
 .fa-file-zip::before {
@@ -5446,6 +5562,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-folder-bookmark::before {
   content: "\e186";
+}
+
+.fa-folder-check::before {
+  content: "\e64e";
 }
 
 .fa-folder-closed::before {
@@ -5996,6 +6116,10 @@ Total Icons (all combinations)  : 26233
   content: "\f6e3";
 }
 
+.fa-hammer-brush::before {
+  content: "\e620";
+}
+
 .fa-hammer-crash::before {
   content: "\e414";
 }
@@ -6058,6 +6182,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-hand-holding-box::before {
   content: "\f47b";
+}
+
+.fa-hand-holding-circle-dollar::before {
+  content: "\e621";
 }
 
 .fa-hand-holding-dollar::before {
@@ -7068,6 +7196,10 @@ Total Icons (all combinations)  : 26233
   content: "\e51c";
 }
 
+.fa-landmark-magnifying-glass::before {
+  content: "\e622";
+}
+
 .fa-language::before {
   content: "\f1ab";
 }
@@ -7352,6 +7484,10 @@ Total Icons (all combinations)  : 26233
   content: "\f124";
 }
 
+.fa-location-arrow-up::before {
+  content: "\e63a";
+}
+
 .fa-location-check::before {
   content: "\f606";
 }
@@ -7480,6 +7616,10 @@ Total Icons (all combinations)  : 26233
   content: "\e521";
 }
 
+.fa-magnifying-glass-arrows-rotate::before {
+  content: "\e65e";
+}
+
 .fa-magnifying-glass-chart::before {
   content: "\e522";
 }
@@ -7496,8 +7636,20 @@ Total Icons (all combinations)  : 26233
   content: "\f010";
 }
 
+.fa-magnifying-glass-music::before {
+  content: "\e65f";
+}
+
+.fa-magnifying-glass-play::before {
+  content: "\e660";
+}
+
 .fa-magnifying-glass-plus::before {
   content: "\f00e";
+}
+
+.fa-magnifying-glass-waveform::before {
+  content: "\e661";
 }
 
 .fa-mailbox::before {
@@ -8074,6 +8226,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-music::before {
   content: "\f001";
+}
+
+.fa-music-magnifying-glass::before {
+  content: "\e662";
 }
 
 .fa-music-note::before {
@@ -9472,6 +9628,14 @@ Total Icons (all combinations)  : 26233
   content: "\e238";
 }
 
+.fa-reflect-horizontal::before {
+  content: "\e664";
+}
+
+.fa-reflect-vertical::before {
+  content: "\e665";
+}
+
 .fa-refrigerator::before {
   content: "\e026";
 }
@@ -9634,6 +9798,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-rotate-left::before {
   content: "\f2ea";
+}
+
+.fa-rotate-reverse::before {
+  content: "\e631";
 }
 
 .fa-rotate-right::before {
@@ -10136,6 +10304,18 @@ Total Icons (all combinations)  : 26233
   content: "\f4d9";
 }
 
+.fa-sign-post::before {
+  content: "\e624";
+}
+
+.fa-sign-posts::before {
+  content: "\e625";
+}
+
+.fa-sign-posts-wrench::before {
+  content: "\e626";
+}
+
 .fa-signal::before {
   content: "\f012";
 }
@@ -10426,6 +10606,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-spinner::before {
   content: "\f110";
+}
+
+.fa-spinner-scale::before {
+  content: "\e62a";
 }
 
 .fa-spinner-third::before {
@@ -11192,6 +11376,10 @@ Total Icons (all combinations)  : 26233
   content: "\54";
 }
 
+.fa-t-rex::before {
+  content: "\e629";
+}
+
 .fa-table::before {
   content: "\f0ce";
 }
@@ -11416,6 +11604,10 @@ Total Icons (all combinations)  : 26233
   content: "\e581";
 }
 
+.fa-tent-double-peak::before {
+  content: "\e627";
+}
+
 .fa-tents::before {
   content: "\e582";
 }
@@ -11480,12 +11672,28 @@ Total Icons (all combinations)  : 26233
   content: "\e29a";
 }
 
+.fa-ticket-perforated::before {
+  content: "\e63e";
+}
+
 .fa-ticket-simple::before {
   content: "\f3ff";
 }
 
+.fa-tickets::before {
+  content: "\e658";
+}
+
 .fa-tickets-airline::before {
   content: "\e29b";
+}
+
+.fa-tickets-perforated::before {
+  content: "\e63f";
+}
+
+.fa-tickets-simple::before {
+  content: "\e659";
 }
 
 .fa-tilde::before {
@@ -11920,12 +12128,20 @@ Total Icons (all combinations)  : 26233
   content: "\e58e";
 }
 
+.fa-truck-fire::before {
+  content: "\e65a";
+}
+
 .fa-truck-flatbed::before {
   content: "\e2b6";
 }
 
 .fa-truck-front::before {
   content: "\e2b7";
+}
+
+.fa-truck-ladder::before {
+  content: "\e657";
 }
 
 .fa-truck-medical::before {
@@ -11968,6 +12184,10 @@ Total Icons (all combinations)  : 26233
   content: "\e2b8";
 }
 
+.fa-truck-utensils::before {
+  content: "\e628";
+}
+
 .fa-trumpet::before {
   content: "\f8e3";
 }
@@ -12002,6 +12222,22 @@ Total Icons (all combinations)  : 26233
 
 .fa-turn-down-right::before {
   content: "\e455";
+}
+
+.fa-turn-left::before {
+  content: "\e636";
+}
+
+.fa-turn-left-down::before {
+  content: "\e637";
+}
+
+.fa-turn-left-up::before {
+  content: "\e638";
+}
+
+.fa-turn-right::before {
+  content: "\e639";
 }
 
 .fa-turn-up::before {
@@ -12680,6 +12916,10 @@ Total Icons (all combinations)  : 26233
   content: "\e337";
 }
 
+.fa-wave::before {
+  content: "\e65b";
+}
+
 .fa-wave-pulse::before {
   content: "\f5f8";
 }
@@ -12702,6 +12942,10 @@ Total Icons (all combinations)  : 26233
 
 .fa-waveform-lines::before {
   content: "\f8f2";
+}
+
+.fa-waves-sine::before {
+  content: "\e65d";
 }
 
 .fa-webhook::before {
