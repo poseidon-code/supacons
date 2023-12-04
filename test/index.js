@@ -24,7 +24,7 @@ for (let name in generic) {
     newRow.insertCell(2).innerHTML = `<i class="fa-sharp fa-solid fa-${name}"></i>`;
     newRow.insertCell(3).innerHTML = `<i class="fa-sharp fa-regular fa-${name}"></i>`;
     newRow.insertCell(4).innerHTML = `<i class="fa-sharp fa-light fa-${name}"></i>`
-    // newRow.insertCell(5).innerHTML = `<i class="fa-sharp fa-thin fa-${name}"></i>`
+    newRow.insertCell(5).innerHTML = `<i class="fa-sharp fa-thin fa-${name}"></i>`
     // newRow.insertCell(6).innerHTML = `<i class="fa-sharp fa-duotone fa-${name}"></i>`
 }
 
