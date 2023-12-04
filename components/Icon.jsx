@@ -12,7 +12,7 @@ const Icon = ({ name, type, subtypes, clipboard: { copier } }) => {
                 key={`${type}-${subtype}-${name}-${i}`}
                 id='copy'
                 onClick={() => copyIconTag(type, subtype, name)}
-                title={`<i className='${type === 'sharp' ? 'fa-sharp ' : ''}fa-${subtype} fa-${name}'></i>`}>
+                title={`<i class='${type === 'sharp' ? 'fa-sharp ' : ''}fa-${subtype} fa-${name}'></i>`}>
                 <span className='badge'>
                     <sup>{type === 'brands' ? 'B' : type === 'classic' ? 'C' : type === 'sharp' ? 'S' : null}</sup>
                     {subtype === 'brands'
