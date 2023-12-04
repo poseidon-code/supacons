@@ -21,7 +21,7 @@ const Search = ({ setSearch }) => {
                     <MagnifyingGlass />
                     <input
                         type='text'
-                        placeholder='Search all 26,000+ icons...'
+                        placeholder='Search all 30,000+ icons...'
                         ref={searchRef}
                         onKeyUp={e => {
                             if (e.key === 'Enter') {
