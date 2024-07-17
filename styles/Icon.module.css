@@ -6,7 +6,7 @@
     width: clamp(150px, 10vw, 200px);
     cursor: pointer;
     background-position: center;
-    transition: background 0.8s;
+    transition: background 0.5s;
 }
 .icon:hover {
     background: #eef2fc radial-gradient(circle, transparent 1%, #eef2fc 1%) center/15000%;

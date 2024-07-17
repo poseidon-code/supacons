@@ -22,7 +22,7 @@ const Home = ({ icons, clipboard, search }) => {
 
     const iconTypes = {
         classic: ['solid', 'regular', 'light', 'thin', 'duotone'],
-        sharp: ['solid', 'regular', 'light', 'thin'],
+        sharp: ['solid', 'regular', 'light', 'thin', 'duotone'],
         brands: ['brands'],
     };
 
