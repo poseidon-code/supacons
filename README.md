@@ -33,8 +33,6 @@ to generate those 30,000+ CSS classes for those icons.
 | Total Icons                    | 3,804       |
 | Total Icons (all combinations) | 33,612      |
 
-_Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detailed stats of changes from different Supacons Core releases._
-
 ---
 
 ## Table of Contents
