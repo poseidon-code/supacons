@@ -37,10 +37,6 @@ _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detail
 
 ---
 
-> [!IMPORTANT]
-> A huge refactoring and structuring of Supacons has happened with the release of Font Awesome 6 sharp variations
-> _(solid, regular, light, thin, duotone)_. Users of Supacons 6 needs to change the URLs inside the `<link>` tags as mentioned below.
-
 ## Table of Contents
 
 -   [Supacons Core](#supacons-core)
@@ -64,7 +60,6 @@ _Check [Supacons Core Statistics](./Supacons%20Core%20Statistics.ods) for detail
             -   [Thin](#thin-1)
             -   [Duotone](#duotone-1)
     -   [Testing](#testing)
-    -   [Future Updates](#future-updates)
     -   [Todos](#todos)
     -   [MIT License](#mit-license)
 
@@ -305,13 +300,6 @@ Include and exclude stylesheets just by commenting out the lines in `index.html`
 _Requires browser refresh everytime there is a change in `index.html` and every file linked with it._\
 If the changes are not reflected after simple brower refresh then refresh browser with
 <kbd>Ctrl</kbd> + <kbd>F5</kbd> _(i.e. refreshing with cleared cache)_
-
----
-
-## Future Updates
-
--   A huge refactoring and structuring has happened with the release of Font Awesome 6 sharp variations
-    _(solid, regular, light, thin, duotone)_. Users of Supacons 6 needs to change the URLs inside the `<link>` tags as mentioned above.
 
 ---
 
