@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.5.1
+FontAwesome Release Version     : 6.6.0
 Supacons Version                : 6
-Supacons Release Version        : 6.5.1
+Supacons Release Version        : 6.6.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.5.1
+Supacons Core Release Version   : 6.6.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 04-12-2023
-Total Generic Icons             : 3281 (incl. 3 mutuals to brands)
-Total Brand Icons               : 484
-Total Icons                     : 3765
-Total Icons (all combinations)  : 30013
+Last Updated Date               : 20-07-2024
+Total Generic Icons             : 3312 (incl. 4 mutuals to brands)
+Total Brand Icons               : 492
+Total Icons                     : 3804
+Total Icons (all combinations)  : 33612
 */
 @font-face {
   font-family: "Supacons Classic Light";
@@ -260,6 +260,10 @@ Total Icons (all combinations)  : 30013
   content: "\f644";
 }
 
+.fa-ant::before {
+  content: "\e680";
+}
+
 .fa-apartment::before {
   content: "\e468";
 }
@@ -310,6 +314,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-arrow-down-from-arc::before {
   content: "\e614";
+}
+
+.fa-arrow-down-from-bracket::before {
+  content: "\e667";
 }
 
 .fa-arrow-down-from-dotted-line::before {
@@ -396,6 +404,10 @@ Total Icons (all combinations)  : 30013
   content: "\e615";
 }
 
+.fa-arrow-left-from-bracket::before {
+  content: "\e668";
+}
+
 .fa-arrow-left-from-line::before {
   content: "\f344";
 }
@@ -410,6 +422,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-arrow-left-to-arc::before {
   content: "\e616";
+}
+
+.fa-arrow-left-to-bracket::before {
+  content: "\e669";
 }
 
 .fa-arrow-left-to-line::before {
@@ -610,6 +626,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-arrow-up-to-arc::before {
   content: "\e617";
+}
+
+.fa-arrow-up-to-bracket::before {
+  content: "\e66a";
 }
 
 .fa-arrow-up-to-dotted-line::before {
@@ -1452,6 +1472,10 @@ Total Icons (all combinations)  : 30013
   content: "\e4c3";
 }
 
+.fa-bottle-baby::before {
+  content: "\e673";
+}
+
 .fa-bottle-droplet::before {
   content: "\e4c4";
 }
@@ -1906,6 +1930,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-cactus::before {
   content: "\f8a7";
+}
+
+.fa-caduceus::before {
+  content: "\e681";
 }
 
 .fa-cake-candles::before {
@@ -2880,6 +2908,10 @@ Total Icons (all combinations)  : 30013
   content: "\e10f";
 }
 
+.fa-circle-gf::before {
+  content: "\e67f";
+}
+
 .fa-circle-h::before {
   content: "\f47e";
 }
@@ -3102,6 +3134,14 @@ Total Icons (all combinations)  : 30013
 
 .fa-circle-waveform-lines::before {
   content: "\e12d";
+}
+
+.fa-circle-wifi::before {
+  content: "\e67d";
+}
+
+.fa-circle-wifi-circle-wifi::before {
+  content: "\e67e";
 }
 
 .fa-circle-x::before {
@@ -4056,6 +4096,10 @@ Total Icons (all combinations)  : 30013
   content: "\f5eb";
 }
 
+.fa-diamonds-4::before {
+  content: "\e68b";
+}
+
 .fa-dice::before {
   content: "\f522";
 }
@@ -4226,6 +4270,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-down::before {
   content: "\f354";
+}
+
+.fa-down-from-bracket::before {
+  content: "\e66b";
 }
 
 .fa-down-from-dotted-line::before {
@@ -5092,6 +5140,10 @@ Total Icons (all combinations)  : 30013
   content: "\e175";
 }
 
+.fa-file-cad::before {
+  content: "\e672";
+}
+
 .fa-file-certificate::before {
   content: "\f5f3";
 }
@@ -5918,6 +5970,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-globe-stand::before {
   content: "\f5f6";
+}
+
+.fa-globe-wifi::before {
+  content: "\e685";
 }
 
 .fa-goal-net::before {
@@ -6848,6 +6904,10 @@ Total Icons (all combinations)  : 30013
   content: "\f751";
 }
 
+.fa-hydra::before {
+  content: "\e686";
+}
+
 .fa-hyphen::before {
   content: "\2d";
 }
@@ -7284,6 +7344,10 @@ Total Icons (all combinations)  : 30013
   content: "\f355";
 }
 
+.fa-left-from-bracket::before {
+  content: "\e66c";
+}
+
 .fa-left-from-line::before {
   content: "\f348";
 }
@@ -7298,6 +7362,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-left-right::before {
   content: "\f337";
+}
+
+.fa-left-to-bracket::before {
+  content: "\e66d";
 }
 
 .fa-left-to-line::before {
@@ -7370,6 +7438,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-lightbulb-gear::before {
   content: "\e5fd";
+}
+
+.fa-lightbulb-message::before {
+  content: "\e687";
 }
 
 .fa-lightbulb-on::before {
@@ -8426,6 +8498,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-octagon-xmark::before {
   content: "\f2f0";
+}
+
+.fa-octopus::before {
+  content: "\e688";
 }
 
 .fa-oil-can::before {
@@ -9626,6 +9702,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-reel::before {
   content: "\e238";
+}
+
+.fa-reflect-both::before {
+  content: "\e66f";
 }
 
 .fa-reflect-horizontal::before {
@@ -11388,8 +11468,32 @@ Total Icons (all combinations)  : 30013
   content: "\f00a";
 }
 
+.fa-table-cells-column-lock::before {
+  content: "\e678";
+}
+
+.fa-table-cells-column-unlock::before {
+  content: "\e690";
+}
+
 .fa-table-cells-large::before {
   content: "\f009";
+}
+
+.fa-table-cells-lock::before {
+  content: "\e679";
+}
+
+.fa-table-cells-row-lock::before {
+  content: "\e67a";
+}
+
+.fa-table-cells-row-unlock::before {
+  content: "\e691";
+}
+
+.fa-table-cells-unlock::before {
+  content: "\e692";
 }
 
 .fa-table-columns::before {
@@ -11658,6 +11762,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-thumbtack::before {
   content: "\f08d";
+}
+
+.fa-thumbtack-slash::before {
+  content: "\e68f";
 }
 
 .fa-tick::before {
@@ -12364,6 +12472,10 @@ Total Icons (all combinations)  : 30013
   content: "\f35d";
 }
 
+.fa-up-to-bracket::before {
+  content: "\e66e";
+}
+
 .fa-up-to-dotted-line::before {
   content: "\e457";
 }
@@ -12390,6 +12502,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-user-astronaut::before {
   content: "\f4fb";
+}
+
+.fa-user-beard-bolt::before {
+  content: "\e689";
 }
 
 .fa-user-bounty-hunter::before {
@@ -12474,6 +12590,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-user-helmet-safety::before {
   content: "\f82c";
+}
+
+.fa-user-hoodie::before {
+  content: "\e68a";
 }
 
 .fa-user-injured::before {
@@ -12946,6 +13066,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-waves-sine::before {
   content: "\e65d";
+}
+
+.fa-web-awesome::before {
+  content: "\e682";
 }
 
 .fa-webhook::before {

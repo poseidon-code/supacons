@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.5.1
+FontAwesome Release Version     : 6.6.0
 Supacons Version                : 6
-Supacons Release Version        : 6.5.1
+Supacons Release Version        : 6.6.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.5.1
+Supacons Core Release Version   : 6.6.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 04-12-2023
-Total Generic Icons             : 3281 (incl. 3 mutuals to brands)
-Total Brand Icons               : 484
-Total Icons                     : 3765
-Total Icons (all combinations)  : 30013
+Last Updated Date               : 20-07-2024
+Total Generic Icons             : 3312 (incl. 4 mutuals to brands)
+Total Brand Icons               : 492
+Total Icons                     : 3804
+Total Icons (all combinations)  : 33612
 */
 
 $generic: (
@@ -74,6 +74,7 @@ $generic: (
     "angles-up": "f102",
     "angles-up-down": "e60d",
     "ankh": "f644",
+    "ant": "e680",
     "apartment": "e468",
     "aperture": "e2df",
     "apostrophe": "27",
@@ -87,6 +88,7 @@ $generic: (
     "arrow-down-arrow-up": "f883",
     "arrow-down-big-small": "f88c",
     "arrow-down-from-arc": "e614",
+    "arrow-down-from-bracket": "e667",
     "arrow-down-from-dotted-line": "e090",
     "arrow-down-from-line": "f345",
     "arrow-down-left": "e091",
@@ -108,10 +110,12 @@ $generic: (
     "arrow-down-z-a": "f881",
     "arrow-left": "f060",
     "arrow-left-from-arc": "e615",
+    "arrow-left-from-bracket": "e668",
     "arrow-left-from-line": "f344",
     "arrow-left-long": "f177",
     "arrow-left-long-to-line": "e3d4",
     "arrow-left-to-arc": "e616",
+    "arrow-left-to-bracket": "e669",
     "arrow-left-to-line": "f33e",
     "arrow-pointer": "f245",
     "arrow-progress": "e5df",
@@ -162,6 +166,7 @@ $generic: (
     "arrow-up-small-big": "f88f",
     "arrow-up-square-triangle": "f88b",
     "arrow-up-to-arc": "e617",
+    "arrow-up-to-bracket": "e66a",
     "arrow-up-to-dotted-line": "e0a1",
     "arrow-up-to-line": "f341",
     "arrow-up-triangle-square": "f88a",
@@ -372,6 +377,7 @@ $generic: (
     "border-top": "f855",
     "border-top-left": "f853",
     "bore-hole": "e4c3",
+    "bottle-baby": "e673",
     "bottle-droplet": "e4c4",
     "bottle-water": "e4c5",
     "bow-arrow": "f6b9",
@@ -486,6 +492,7 @@ $generic: (
     "cabinet-filing": "f64b",
     "cable-car": "f7da",
     "cactus": "f8a7",
+    "caduceus": "e681",
     "cake-candles": "f1fd",
     "cake-slice": "e3e5",
     "calculator": "f1ec",
@@ -729,6 +736,7 @@ $generic: (
     "circle-exclamation-check": "e10d",
     "circle-f": "e10e",
     "circle-g": "e10f",
+    "circle-gf": "e67f",
     "circle-h": "f47e",
     "circle-half": "e110",
     "circle-half-stroke": "f042",
@@ -785,6 +793,8 @@ $generic: (
     "circle-video": "e12b",
     "circle-w": "e12c",
     "circle-waveform-lines": "e12d",
+    "circle-wifi": "e67d",
+    "circle-wifi-circle-wifi": "e67e",
     "circle-x": "e12e",
     "circle-xmark": "f057",
     "circle-y": "e12f",
@@ -1023,6 +1033,7 @@ $generic: (
     "diamond-half": "e5b7",
     "diamond-half-stroke": "e5b8",
     "diamond-turn-right": "f5eb",
+    "diamonds-4": "e68b",
     "dice": "f522",
     "dice-d10": "f6cd",
     "dice-d12": "f6ce",
@@ -1066,6 +1077,7 @@ $generic: (
     "door-open": "f52b",
     "dove": "f4ba",
     "down": "f354",
+    "down-from-bracket": "e66b",
     "down-from-dotted-line": "e407",
     "down-from-line": "f349",
     "down-left": "e16a",
@@ -1282,6 +1294,7 @@ $generic: (
     "file-arrow-up": "f574",
     "file-audio": "f1c7",
     "file-binary": "e175",
+    "file-cad": "e672",
     "file-certificate": "f5f3",
     "file-chart-column": "f659",
     "file-chart-pie": "f65a",
@@ -1489,6 +1502,7 @@ $generic: (
     "globe-pointer": "e60e",
     "globe-snow": "f7a3",
     "globe-stand": "f5f6",
+    "globe-wifi": "e685",
     "goal-net": "e3ab",
     "golf-ball-tee": "f450",
     "golf-club": "f451",
@@ -1721,6 +1735,7 @@ $generic: (
     "hryvnia-sign": "f6f2",
     "hundred-points": "e41c",
     "hurricane": "f751",
+    "hydra": "e686",
     "hyphen": "2d",
     "i": "49",
     "i-cursor": "f246",
@@ -1830,10 +1845,12 @@ $generic: (
     "leaf-oak": "f6f7",
     "leafy-green": "e41d",
     "left": "f355",
+    "left-from-bracket": "e66c",
     "left-from-line": "f348",
     "left-long": "f30a",
     "left-long-to-line": "e41e",
     "left-right": "f337",
+    "left-to-bracket": "e66d",
     "left-to-line": "f34b",
     "lemon": "f094",
     "less-than": "3c",
@@ -1852,6 +1869,7 @@ $generic: (
     "lightbulb-exclamation": "f671",
     "lightbulb-exclamation-on": "e1ca",
     "lightbulb-gear": "e5fd",
+    "lightbulb-message": "e687",
     "lightbulb-on": "f672",
     "lightbulb-slash": "f673",
     "lighthouse": "e612",
@@ -2116,6 +2134,7 @@ $generic: (
     "octagon-minus": "f308",
     "octagon-plus": "f301",
     "octagon-xmark": "f2f0",
+    "octopus": "e688",
     "oil-can": "f613",
     "oil-can-drip": "e205",
     "oil-temperature": "f614",
@@ -2416,6 +2435,7 @@ $generic: (
     "rectangles-mixed": "e323",
     "recycle": "f1b8",
     "reel": "e238",
+    "reflect-both": "e66f",
     "reflect-horizontal": "e664",
     "reflect-vertical": "e665",
     "refrigerator": "e026",
@@ -2856,7 +2876,13 @@ $generic: (
     "t-rex": "e629",
     "table": "f0ce",
     "table-cells": "f00a",
+    "table-cells-column-lock": "e678",
+    "table-cells-column-unlock": "e690",
     "table-cells-large": "f009",
+    "table-cells-lock": "e679",
+    "table-cells-row-lock": "e67a",
+    "table-cells-row-unlock": "e691",
+    "table-cells-unlock": "e692",
     "table-columns": "f0db",
     "table-layout": "e290",
     "table-list": "f00b",
@@ -2924,6 +2950,7 @@ $generic: (
     "thumbs-down": "f165",
     "thumbs-up": "f164",
     "thumbtack": "f08d",
+    "thumbtack-slash": "e68f",
     "tick": "e32f",
     "ticket": "f145",
     "ticket-airline": "e29a",
@@ -3100,6 +3127,7 @@ $generic: (
     "up-right": "e2be",
     "up-right-and-down-left-from-center": "f424",
     "up-right-from-square": "f35d",
+    "up-to-bracket": "e66e",
     "up-to-dotted-line": "e457",
     "up-to-line": "f34d",
     "upload": "f093",
@@ -3107,6 +3135,7 @@ $generic: (
     "user": "f007",
     "user-alien": "e04a",
     "user-astronaut": "f4fb",
+    "user-beard-bolt": "e689",
     "user-bounty-hunter": "e2bf",
     "user-check": "f4fc",
     "user-chef": "e3d2",
@@ -3128,6 +3157,7 @@ $generic: (
     "user-hair-mullet": "e45c",
     "user-headset": "f82d",
     "user-helmet-safety": "f82c",
+    "user-hoodie": "e68a",
     "user-injured": "f728",
     "user-large": "f406",
     "user-large-slash": "f4fa",
@@ -3246,6 +3276,7 @@ $generic: (
     "waveform": "f8f1",
     "waveform-lines": "f8f2",
     "waves-sine": "e65d",
+    "web-awesome": "e682",
     "webhook": "e5d5",
     "weight-hanging": "f5cd",
     "weight-scale": "f496",
@@ -3295,7 +3326,7 @@ $generic: (
     "y": "59",
     "yen-sign": "f157",
     "yin-yang": "f6ad",
-    "z": "5a"
+    "z": "5a",
 );
 
 $brands: (
@@ -3341,6 +3372,7 @@ $brands: (
     "blackberry": "f37b",
     "blogger": "f37c",
     "blogger-b": "f37d",
+    "bluesky": "e671",
     "bluetooth": "f293",
     "bluetooth-b": "f294",
     "bootstrap": "f836",
@@ -3400,6 +3432,7 @@ $brands: (
     "d-and-d": "f38d",
     "d-and-d-beyond": "f6ca",
     "dailymotion": "e052",
+    "dart-lang": "e693",
     "dashcube": "f210",
     "debian": "e60b",
     "deezer": "e077",
@@ -3449,6 +3482,7 @@ $brands: (
     "firstdraft": "f3a1",
     "flickr": "f16e",
     "flipboard": "f44d",
+    "flutter": "e694",
     "fly": "f417",
     "font-awesome": "f2b4",
     "fonticons": "f280",
@@ -3523,6 +3557,7 @@ $brands: (
     "joomla": "f1aa",
     "js": "f3b8",
     "jsfiddle": "f1cc",
+    "jxl": "e67b",
     "kaggle": "f5fa",
     "keybase": "f4f5",
     "keycdn": "f3ba",
@@ -3684,8 +3719,11 @@ $brands: (
     "square-threads": "e619",
     "square-tumblr": "f174",
     "square-twitter": "f081",
+    "square-upwork": "e67c",
     "square-viadeo": "f2aa",
     "square-vimeo": "f194",
+    "square-web-awesome": "e683",
+    "square-web-awesome-stroke": "e684",
     "square-whatsapp": "f40c",
     "square-x-twitter": "e61a",
     "square-xing": "f169",
@@ -3751,6 +3789,7 @@ $brands: (
     "vuejs": "f41f",
     "watchman-monitoring": "e087",
     "waze": "f83f",
+    "web-awesome": "e682",
     "webflow": "e65c",
     "weebly": "f5cc",
     "weibo": "f18a",
@@ -3782,5 +3821,5 @@ $brands: (
     "yelp": "f1e9",
     "yoast": "f2b1",
     "youtube": "f167",
-    "zhihu": "f63f"
+    "zhihu": "f63f",
 );

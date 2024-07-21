@@ -1,11 +1,11 @@
-@use '../icons';
-@use '../functions';
-@use '../variables';
+@use "../icons";
+@use "../functions";
+@use "../variables";
 
-@import '../_fonts/_classic/thin';
+@import "../_fonts/_classic/thin";
 
 .fa-thin::before {
-    font: map-get(variables.$fontsClassic, 'thin');
+    font: map-get(variables.$fontsClassic, "thin");
     display: inline-block;
     text-rendering: auto;
 }

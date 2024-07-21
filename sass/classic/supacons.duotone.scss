@@ -1,8 +1,8 @@
-@use '../icons';
-@use '../functions';
-@use '../variables';
+@use "../icons";
+@use "../functions";
+@use "../variables";
 
-@use '../_fonts/_classic/duotone';
+@use "../_fonts/_classic/duotone";
 
 .fa-duotone {
     position: relative;
@@ -10,7 +10,7 @@
 
     &::before,
     &::after {
-        font: map-get(variables.$fontsClassic, 'duotone');
+        font: map-get(variables.$fontsClassic, "duotone");
         display: inline-block;
         text-rendering: auto;
         position: absolute;

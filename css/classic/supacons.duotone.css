@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.5.1
+FontAwesome Release Version     : 6.6.0
 Supacons Version                : 6
-Supacons Release Version        : 6.5.1
+Supacons Release Version        : 6.6.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.5.1
+Supacons Core Release Version   : 6.6.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 04-12-2023
-Total Generic Icons             : 3281 (incl. 3 mutuals to brands)
-Total Brand Icons               : 484
-Total Icons                     : 3765
-Total Icons (all combinations)  : 30013
+Last Updated Date               : 20-07-2024
+Total Generic Icons             : 3312 (incl. 4 mutuals to brands)
+Total Brand Icons               : 492
+Total Icons                     : 3804
+Total Icons (all combinations)  : 33612
 */
 @font-face {
   font-family: "Supacons Classic Duotone";
@@ -269,6 +269,10 @@ Total Icons (all combinations)  : 30013
   content: "\f644\f644";
   opacity: 0.4;
 }
+.fa-duotone.fa-ant::after {
+  content: "\e680\e680";
+  opacity: 0.4;
+}
 .fa-duotone.fa-apartment::after {
   content: "\e468\e468";
   opacity: 0.4;
@@ -319,6 +323,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-arrow-down-from-arc::after {
   content: "\e614\e614";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-down-from-bracket::after {
+  content: "\e667\e667";
   opacity: 0.4;
 }
 .fa-duotone.fa-arrow-down-from-dotted-line::after {
@@ -405,6 +413,10 @@ Total Icons (all combinations)  : 30013
   content: "\e615\e615";
   opacity: 0.4;
 }
+.fa-duotone.fa-arrow-left-from-bracket::after {
+  content: "\e668\e668";
+  opacity: 0.4;
+}
 .fa-duotone.fa-arrow-left-from-line::after {
   content: "\f344\f344";
   opacity: 0.4;
@@ -419,6 +431,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-arrow-left-to-arc::after {
   content: "\e616\e616";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-left-to-bracket::after {
+  content: "\e669\e669";
   opacity: 0.4;
 }
 .fa-duotone.fa-arrow-left-to-line::after {
@@ -619,6 +635,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-arrow-up-to-arc::after {
   content: "\e617\e617";
+  opacity: 0.4;
+}
+.fa-duotone.fa-arrow-up-to-bracket::after {
+  content: "\e66a\e66a";
   opacity: 0.4;
 }
 .fa-duotone.fa-arrow-up-to-dotted-line::after {
@@ -1461,6 +1481,10 @@ Total Icons (all combinations)  : 30013
   content: "\e4c3\e4c3";
   opacity: 0.4;
 }
+.fa-duotone.fa-bottle-baby::after {
+  content: "\e673\e673";
+  opacity: 0.4;
+}
 .fa-duotone.fa-bottle-droplet::after {
   content: "\e4c4\e4c4";
   opacity: 0.4;
@@ -1915,6 +1939,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-cactus::after {
   content: "\f8a7\f8a7";
+  opacity: 0.4;
+}
+.fa-duotone.fa-caduceus::after {
+  content: "\e681\e681";
   opacity: 0.4;
 }
 .fa-duotone.fa-cake-candles::after {
@@ -2889,6 +2917,10 @@ Total Icons (all combinations)  : 30013
   content: "\e10f\e10f";
   opacity: 0.4;
 }
+.fa-duotone.fa-circle-gf::after {
+  content: "\e67f\e67f";
+  opacity: 0.4;
+}
 .fa-duotone.fa-circle-h::after {
   content: "\f47e\f47e";
   opacity: 0.4;
@@ -3111,6 +3143,14 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-circle-waveform-lines::after {
   content: "\e12d\e12d";
+  opacity: 0.4;
+}
+.fa-duotone.fa-circle-wifi::after {
+  content: "\e67d\e67d";
+  opacity: 0.4;
+}
+.fa-duotone.fa-circle-wifi-circle-wifi::after {
+  content: "\e67e\e67e";
   opacity: 0.4;
 }
 .fa-duotone.fa-circle-x::after {
@@ -4065,6 +4105,10 @@ Total Icons (all combinations)  : 30013
   content: "\f5eb\f5eb";
   opacity: 0.4;
 }
+.fa-duotone.fa-diamonds-4::after {
+  content: "\e68b\e68b";
+  opacity: 0.4;
+}
 .fa-duotone.fa-dice::after {
   content: "\f522\f522";
   opacity: 0.4;
@@ -4235,6 +4279,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-down::after {
   content: "\f354\f354";
+  opacity: 0.4;
+}
+.fa-duotone.fa-down-from-bracket::after {
+  content: "\e66b\e66b";
   opacity: 0.4;
 }
 .fa-duotone.fa-down-from-dotted-line::after {
@@ -5101,6 +5149,10 @@ Total Icons (all combinations)  : 30013
   content: "\e175\e175";
   opacity: 0.4;
 }
+.fa-duotone.fa-file-cad::after {
+  content: "\e672\e672";
+  opacity: 0.4;
+}
 .fa-duotone.fa-file-certificate::after {
   content: "\f5f3\f5f3";
   opacity: 0.4;
@@ -5927,6 +5979,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-globe-stand::after {
   content: "\f5f6\f5f6";
+  opacity: 0.4;
+}
+.fa-duotone.fa-globe-wifi::after {
+  content: "\e685\e685";
   opacity: 0.4;
 }
 .fa-duotone.fa-goal-net::after {
@@ -6857,6 +6913,10 @@ Total Icons (all combinations)  : 30013
   content: "\f751\f751";
   opacity: 0.4;
 }
+.fa-duotone.fa-hydra::after {
+  content: "\e686\e686";
+  opacity: 0.4;
+}
 .fa-duotone.fa-hyphen::after {
   content: "\2d\2d";
   opacity: 0.4;
@@ -7293,6 +7353,10 @@ Total Icons (all combinations)  : 30013
   content: "\f355\f355";
   opacity: 0.4;
 }
+.fa-duotone.fa-left-from-bracket::after {
+  content: "\e66c\e66c";
+  opacity: 0.4;
+}
 .fa-duotone.fa-left-from-line::after {
   content: "\f348\f348";
   opacity: 0.4;
@@ -7307,6 +7371,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-left-right::after {
   content: "\f337\f337";
+  opacity: 0.4;
+}
+.fa-duotone.fa-left-to-bracket::after {
+  content: "\e66d\e66d";
   opacity: 0.4;
 }
 .fa-duotone.fa-left-to-line::after {
@@ -7379,6 +7447,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-lightbulb-gear::after {
   content: "\e5fd\e5fd";
+  opacity: 0.4;
+}
+.fa-duotone.fa-lightbulb-message::after {
+  content: "\e687\e687";
   opacity: 0.4;
 }
 .fa-duotone.fa-lightbulb-on::after {
@@ -8435,6 +8507,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-octagon-xmark::after {
   content: "\f2f0\f2f0";
+  opacity: 0.4;
+}
+.fa-duotone.fa-octopus::after {
+  content: "\e688\e688";
   opacity: 0.4;
 }
 .fa-duotone.fa-oil-can::after {
@@ -9635,6 +9711,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-reel::after {
   content: "\e238\e238";
+  opacity: 0.4;
+}
+.fa-duotone.fa-reflect-both::after {
+  content: "\e66f\e66f";
   opacity: 0.4;
 }
 .fa-duotone.fa-reflect-horizontal::after {
@@ -11397,8 +11477,32 @@ Total Icons (all combinations)  : 30013
   content: "\f00a\f00a";
   opacity: 0.4;
 }
+.fa-duotone.fa-table-cells-column-lock::after {
+  content: "\e678\e678";
+  opacity: 0.4;
+}
+.fa-duotone.fa-table-cells-column-unlock::after {
+  content: "\e690\e690";
+  opacity: 0.4;
+}
 .fa-duotone.fa-table-cells-large::after {
   content: "\f009\f009";
+  opacity: 0.4;
+}
+.fa-duotone.fa-table-cells-lock::after {
+  content: "\e679\e679";
+  opacity: 0.4;
+}
+.fa-duotone.fa-table-cells-row-lock::after {
+  content: "\e67a\e67a";
+  opacity: 0.4;
+}
+.fa-duotone.fa-table-cells-row-unlock::after {
+  content: "\e691\e691";
+  opacity: 0.4;
+}
+.fa-duotone.fa-table-cells-unlock::after {
+  content: "\e692\e692";
   opacity: 0.4;
 }
 .fa-duotone.fa-table-columns::after {
@@ -11667,6 +11771,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-thumbtack::after {
   content: "\f08d\f08d";
+  opacity: 0.4;
+}
+.fa-duotone.fa-thumbtack-slash::after {
+  content: "\e68f\e68f";
   opacity: 0.4;
 }
 .fa-duotone.fa-tick::after {
@@ -12373,6 +12481,10 @@ Total Icons (all combinations)  : 30013
   content: "\f35d\f35d";
   opacity: 0.4;
 }
+.fa-duotone.fa-up-to-bracket::after {
+  content: "\e66e\e66e";
+  opacity: 0.4;
+}
 .fa-duotone.fa-up-to-dotted-line::after {
   content: "\e457\e457";
   opacity: 0.4;
@@ -12399,6 +12511,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-user-astronaut::after {
   content: "\f4fb\f4fb";
+  opacity: 0.4;
+}
+.fa-duotone.fa-user-beard-bolt::after {
+  content: "\e689\e689";
   opacity: 0.4;
 }
 .fa-duotone.fa-user-bounty-hunter::after {
@@ -12483,6 +12599,10 @@ Total Icons (all combinations)  : 30013
 }
 .fa-duotone.fa-user-helmet-safety::after {
   content: "\f82c\f82c";
+  opacity: 0.4;
+}
+.fa-duotone.fa-user-hoodie::after {
+  content: "\e68a\e68a";
   opacity: 0.4;
 }
 .fa-duotone.fa-user-injured::after {
@@ -12957,6 +13077,10 @@ Total Icons (all combinations)  : 30013
   content: "\e65d\e65d";
   opacity: 0.4;
 }
+.fa-duotone.fa-web-awesome::after {
+  content: "\e682\e682";
+  opacity: 0.4;
+}
 .fa-duotone.fa-webhook::after {
   content: "\e5d5\e5d5";
   opacity: 0.4;
@@ -13394,6 +13518,10 @@ Total Icons (all combinations)  : 30013
   content: "\f644";
 }
 
+.fa-ant::before {
+  content: "\e680";
+}
+
 .fa-apartment::before {
   content: "\e468";
 }
@@ -13444,6 +13572,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-arrow-down-from-arc::before {
   content: "\e614";
+}
+
+.fa-arrow-down-from-bracket::before {
+  content: "\e667";
 }
 
 .fa-arrow-down-from-dotted-line::before {
@@ -13530,6 +13662,10 @@ Total Icons (all combinations)  : 30013
   content: "\e615";
 }
 
+.fa-arrow-left-from-bracket::before {
+  content: "\e668";
+}
+
 .fa-arrow-left-from-line::before {
   content: "\f344";
 }
@@ -13544,6 +13680,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-arrow-left-to-arc::before {
   content: "\e616";
+}
+
+.fa-arrow-left-to-bracket::before {
+  content: "\e669";
 }
 
 .fa-arrow-left-to-line::before {
@@ -13744,6 +13884,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-arrow-up-to-arc::before {
   content: "\e617";
+}
+
+.fa-arrow-up-to-bracket::before {
+  content: "\e66a";
 }
 
 .fa-arrow-up-to-dotted-line::before {
@@ -14586,6 +14730,10 @@ Total Icons (all combinations)  : 30013
   content: "\e4c3";
 }
 
+.fa-bottle-baby::before {
+  content: "\e673";
+}
+
 .fa-bottle-droplet::before {
   content: "\e4c4";
 }
@@ -15040,6 +15188,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-cactus::before {
   content: "\f8a7";
+}
+
+.fa-caduceus::before {
+  content: "\e681";
 }
 
 .fa-cake-candles::before {
@@ -16014,6 +16166,10 @@ Total Icons (all combinations)  : 30013
   content: "\e10f";
 }
 
+.fa-circle-gf::before {
+  content: "\e67f";
+}
+
 .fa-circle-h::before {
   content: "\f47e";
 }
@@ -16236,6 +16392,14 @@ Total Icons (all combinations)  : 30013
 
 .fa-circle-waveform-lines::before {
   content: "\e12d";
+}
+
+.fa-circle-wifi::before {
+  content: "\e67d";
+}
+
+.fa-circle-wifi-circle-wifi::before {
+  content: "\e67e";
 }
 
 .fa-circle-x::before {
@@ -17190,6 +17354,10 @@ Total Icons (all combinations)  : 30013
   content: "\f5eb";
 }
 
+.fa-diamonds-4::before {
+  content: "\e68b";
+}
+
 .fa-dice::before {
   content: "\f522";
 }
@@ -17360,6 +17528,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-down::before {
   content: "\f354";
+}
+
+.fa-down-from-bracket::before {
+  content: "\e66b";
 }
 
 .fa-down-from-dotted-line::before {
@@ -18226,6 +18398,10 @@ Total Icons (all combinations)  : 30013
   content: "\e175";
 }
 
+.fa-file-cad::before {
+  content: "\e672";
+}
+
 .fa-file-certificate::before {
   content: "\f5f3";
 }
@@ -19052,6 +19228,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-globe-stand::before {
   content: "\f5f6";
+}
+
+.fa-globe-wifi::before {
+  content: "\e685";
 }
 
 .fa-goal-net::before {
@@ -19982,6 +20162,10 @@ Total Icons (all combinations)  : 30013
   content: "\f751";
 }
 
+.fa-hydra::before {
+  content: "\e686";
+}
+
 .fa-hyphen::before {
   content: "\2d";
 }
@@ -20418,6 +20602,10 @@ Total Icons (all combinations)  : 30013
   content: "\f355";
 }
 
+.fa-left-from-bracket::before {
+  content: "\e66c";
+}
+
 .fa-left-from-line::before {
   content: "\f348";
 }
@@ -20432,6 +20620,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-left-right::before {
   content: "\f337";
+}
+
+.fa-left-to-bracket::before {
+  content: "\e66d";
 }
 
 .fa-left-to-line::before {
@@ -20504,6 +20696,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-lightbulb-gear::before {
   content: "\e5fd";
+}
+
+.fa-lightbulb-message::before {
+  content: "\e687";
 }
 
 .fa-lightbulb-on::before {
@@ -21560,6 +21756,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-octagon-xmark::before {
   content: "\f2f0";
+}
+
+.fa-octopus::before {
+  content: "\e688";
 }
 
 .fa-oil-can::before {
@@ -22760,6 +22960,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-reel::before {
   content: "\e238";
+}
+
+.fa-reflect-both::before {
+  content: "\e66f";
 }
 
 .fa-reflect-horizontal::before {
@@ -24522,8 +24726,32 @@ Total Icons (all combinations)  : 30013
   content: "\f00a";
 }
 
+.fa-table-cells-column-lock::before {
+  content: "\e678";
+}
+
+.fa-table-cells-column-unlock::before {
+  content: "\e690";
+}
+
 .fa-table-cells-large::before {
   content: "\f009";
+}
+
+.fa-table-cells-lock::before {
+  content: "\e679";
+}
+
+.fa-table-cells-row-lock::before {
+  content: "\e67a";
+}
+
+.fa-table-cells-row-unlock::before {
+  content: "\e691";
+}
+
+.fa-table-cells-unlock::before {
+  content: "\e692";
 }
 
 .fa-table-columns::before {
@@ -24792,6 +25020,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-thumbtack::before {
   content: "\f08d";
+}
+
+.fa-thumbtack-slash::before {
+  content: "\e68f";
 }
 
 .fa-tick::before {
@@ -25498,6 +25730,10 @@ Total Icons (all combinations)  : 30013
   content: "\f35d";
 }
 
+.fa-up-to-bracket::before {
+  content: "\e66e";
+}
+
 .fa-up-to-dotted-line::before {
   content: "\e457";
 }
@@ -25524,6 +25760,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-user-astronaut::before {
   content: "\f4fb";
+}
+
+.fa-user-beard-bolt::before {
+  content: "\e689";
 }
 
 .fa-user-bounty-hunter::before {
@@ -25608,6 +25848,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-user-helmet-safety::before {
   content: "\f82c";
+}
+
+.fa-user-hoodie::before {
+  content: "\e68a";
 }
 
 .fa-user-injured::before {
@@ -26080,6 +26324,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-waves-sine::before {
   content: "\e65d";
+}
+
+.fa-web-awesome::before {
+  content: "\e682";
 }
 
 .fa-webhook::before {

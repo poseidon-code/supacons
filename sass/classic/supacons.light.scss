@@ -1,11 +1,11 @@
-@use '../icons';
-@use '../functions';
-@use '../variables';
+@use "../icons";
+@use "../functions";
+@use "../variables";
 
-@use '../_fonts/_classic/light';
+@use "../_fonts/_classic/light";
 
 .fa-light::before {
-    font: map-get(variables.$fontsClassic, 'light');
+    font: map-get(variables.$fontsClassic, "light");
     display: inline-block;
     text-rendering: auto;
 }

@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.5.1
+FontAwesome Release Version     : 6.6.0
 Supacons Version                : 6
-Supacons Release Version        : 6.5.1
+Supacons Release Version        : 6.6.0
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.5.1
+Supacons Core Release Version   : 6.6.0
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 04-12-2023
-Total Generic Icons             : 3281 (incl. 3 mutuals to brands)
-Total Brand Icons               : 484
-Total Icons                     : 3765
-Total Icons (all combinations)  : 30013
+Last Updated Date               : 20-07-2024
+Total Generic Icons             : 3312 (incl. 4 mutuals to brands)
+Total Brand Icons               : 492
+Total Icons                     : 3804
+Total Icons (all combinations)  : 33612
 */
 @font-face {
   font-family: "Supacons Brands";
@@ -190,6 +190,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-blogger-b::before {
   content: "\f37d";
+}
+
+.fa-bluesky::before {
+  content: "\e671";
 }
 
 .fa-bluetooth::before {
@@ -428,6 +432,10 @@ Total Icons (all combinations)  : 30013
   content: "\e052";
 }
 
+.fa-dart-lang::before {
+  content: "\e693";
+}
+
 .fa-dashcube::before {
   content: "\f210";
 }
@@ -622,6 +630,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-flipboard::before {
   content: "\f44d";
+}
+
+.fa-flutter::before {
+  content: "\e694";
 }
 
 .fa-fly::before {
@@ -918,6 +930,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-jsfiddle::before {
   content: "\f1cc";
+}
+
+.fa-jxl::before {
+  content: "\e67b";
 }
 
 .fa-kaggle::before {
@@ -1564,12 +1580,24 @@ Total Icons (all combinations)  : 30013
   content: "\f081";
 }
 
+.fa-square-upwork::before {
+  content: "\e67c";
+}
+
 .fa-square-viadeo::before {
   content: "\f2aa";
 }
 
 .fa-square-vimeo::before {
   content: "\f194";
+}
+
+.fa-square-web-awesome::before {
+  content: "\e683";
+}
+
+.fa-square-web-awesome-stroke::before {
+  content: "\e684";
 }
 
 .fa-square-whatsapp::before {
@@ -1830,6 +1858,10 @@ Total Icons (all combinations)  : 30013
 
 .fa-waze::before {
   content: "\f83f";
+}
+
+.fa-web-awesome::before {
+  content: "\e682";
 }
 
 .fa-webflow::before {

@@ -1,11 +1,11 @@
-@use '../icons';
-@use '../functions';
-@use '../variables';
+@use "../icons";
+@use "../functions";
+@use "../variables";
 
-@import '../_fonts/_sharp/solid';
+@import "../_fonts/_sharp/solid";
 
 .fa-sharp.fa-solid::before {
-    font: map-get(variables.$fontsSharp, 'solid');
+    font: map-get(variables.$fontsSharp, "solid");
     display: inline-block;
     text-rendering: auto;
 }

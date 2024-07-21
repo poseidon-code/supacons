@@ -1,11 +1,11 @@
-@use '../icons';
-@use '../functions';
-@use '../variables';
+@use "../icons";
+@use "../functions";
+@use "../variables";
 
-@use '../_fonts/_classic/regular';
+@use "../_fonts/_classic/regular";
 
 .fa-regular::before {
-    font: map-get(variables.$fontsClassic, 'regular');
+    font: map-get(variables.$fontsClassic, "regular");
     display: inline-block;
     text-rendering: auto;
 }
