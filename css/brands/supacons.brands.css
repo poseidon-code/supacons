@@ -1,17 +1,17 @@
 /*
 FontAwesome Version             : 6
-FontAwesome Release Version     : 6.6.0
+FontAwesome Release Version     : 6.7.2
 Supacons Version                : 6
-Supacons Release Version        : 6.6.0
+Supacons Release Version        : 6.7.2
 Supacons Core Version           : 6
-Supacons Core Release Version   : 6.6.0
+Supacons Core Release Version   : 6.7.2
 Scrapper Version                : 6
 ------------------------------------------
-Last Updated Date               : 20-07-2024
-Total Generic Icons             : 3312 (incl. 4 mutuals to brands)
-Total Brand Icons               : 492
-Total Icons                     : 3804
-Total Icons (all combinations)  : 33612
+Last Updated Date               : 06-07-2025
+Total Generic Icons             : 3323 (incl. 4 mutuals to brands)
+Total Brand Icons               : 495
+Total Icons                     : 3814
+Total Icons (all combinations)  : 53663 ((3323 * 4 * 4) + 495)
 */
 @font-face {
   font-family: "Supacons Brands";
@@ -408,6 +408,10 @@ Total Icons (all combinations)  : 33612
   content: "\f6c9";
 }
 
+.fa-css::before {
+  content: "\e6a2";
+}
+
 .fa-css3::before {
   content: "\f13c";
 }
@@ -602,6 +606,10 @@ Total Icons (all combinations)  : 33612
 
 .fa-figma::before {
   content: "\f799";
+}
+
+.fa-files-pinwheel::before {
+  content: "\e69f";
 }
 
 .fa-firefox::before {
@@ -1490,6 +1498,10 @@ Total Icons (all combinations)  : 33612
 
 .fa-square-behance::before {
   content: "\f1b5";
+}
+
+.fa-square-bluesky::before {
+  content: "\e6a3";
 }
 
 .fa-square-dribbble::before {
