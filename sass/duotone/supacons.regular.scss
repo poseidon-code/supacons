@@ -2,15 +2,15 @@
 @use "../functions";
 @use "../variables";
 
-@use "../_fonts/_sharp/duotone";
+@import "../_fonts/_duotone/regular";
 
-.fa-sharp.fa-duotone {
+.fa-duotone.fa-regular {
     position: relative;
     padding-left: 1.25em;
 
     &::before,
     &::after {
-        font: map-get(variables.$fontsSharp, "duotone");
+        font: map-get(variables.$fontsDuotone, "regular");
         display: inline-block;
         text-rendering: auto;
         position: absolute;

@@ -2,15 +2,15 @@
 @use "../functions";
 @use "../variables";
 
-@use "../_fonts/_classic/duotone";
+@import "../_fonts/_sharp-duotone/light";
 
-.fa-duotone {
+.fa-sharp-duotone.fa-light {
     position: relative;
     padding-left: 1.25em;
 
     &::before,
     &::after {
-        font: map-get(variables.$fontsClassic, "duotone");
+        font: map-get(variables.$fontsSharpDuotone, "light");
         display: inline-block;
         text-rendering: auto;
         position: absolute;

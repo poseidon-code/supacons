@@ -1,15 +1,30 @@
+// Brands Icons
+$fontsBrands: (
+    "brands": 400 1em/1 "Supacons Brands",
+);
+
 // Classic Icons
 $fontsClassic: (
     "solid": 900 1em/1 "Supacons Classic Solid",
     "regular": 400 1em/1 "Supacons Classic Regular",
     "light": 300 1em/1 "Supacons Classic Light",
     "thin": 100 1em/1 "Supacons Classic Thin",
-    "duotone": 900 1em/1 "Supacons Classic Duotone",
 );
 
-// Brands Icons
-$fontsBrands: (
-    "brands": 400 1em/1 "Supacons Brands",
+// Duotone Icons
+$fontsDuotone: (
+    "solid": 900 1em/1 "Supacons Duotone Solid",
+    "regular": 400 1em/1 "Supacons Duotone Regular",
+    "light": 300 1em/1 "Supacons Duotone Light",
+    "thin": 100 1em/1 "Supacons Duotone Thin",
+);
+
+// Sharp Duotone Icons
+$fontsSharpDuotone: (
+    "solid": 900 1em/1 "Supacons Sharp Duotone Solid",
+    "regular": 400 1em/1 "Supacons Sharp Duotone Regular",
+    "light": 300 1em/1 "Supacons Sharp Duotone Light",
+    "thin": 100 1em/1 "Supacons Sharp Duotone Thin",
 );
 
 // Sharp Icons
@@ -18,5 +33,4 @@ $fontsSharp: (
     "regular": 400 1em/1 "Supacons Sharp Regular",
     "light": 300 1em/1 "Supacons Sharp Light",
     "thin": 100 1em/1 "Supacons Sharp Thin",
-    "duotone": 900 1em/1 "Supacons Sharp Duotone",
 );
