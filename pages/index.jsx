@@ -21,9 +21,11 @@ const Home = ({ icons, clipboard, search }) => {
     const [loading, setLoading] = useState(true);
 
     const iconTypes = {
-        classic: ['solid', 'regular', 'light', 'thin', 'duotone'],
-        sharp: ['solid', 'regular', 'light', 'thin', 'duotone'],
-        brands: ['brands'],
+        "classic": ['solid', 'regular', 'light', 'thin'],
+        "duotone": ['solid', 'regular', 'light', 'thin'],
+        "sharp-duotone": ['solid', 'regular', 'light', 'thin'],
+        "sharp": ['solid', 'regular', 'light', 'thin'],
+        "brands": ['brands'],
     };
 
     useEffect(() => {
@@ -31,11 +33,11 @@ const Home = ({ icons, clipboard, search }) => {
 
         for (let type in iconTypes) {
             if (type === 'brands') {
-                for (let name in icons[type]) {
+                for (let name in icons['brands']) {
                     const icon = {
                         name: name,
                         type: type,
-                        subtypes: iconTypes[type],
+                        subtypes: iconTypes['brands'],
                     };
                     flattenIcons.push(icon);
                 }
